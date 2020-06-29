@@ -24,11 +24,14 @@
 + Bitcoin es una innovación transformadora sobre las monedas tradicionales, pero carece de una gobernanza clara.
 + Decred se basa en el diseño de Bitcoin con un enfoque más inclusivo sobre lo que es el dinero duradero.
 + Decred todavía es incipiente: debilidades, ideas falsas y oportunidades para el futuro.
+---
 
+![a-img00](https://user-images.githubusercontent.com/52989055/86049492-de9bfb80-ba17-11ea-887e-126abe5285a1.PNG)
 
 ---
 
 ### La moneda es una forma de soberanía
+![a-img01](https://user-images.githubusercontent.com/52989055/86049494-de9bfb80-ba17-11ea-8a21-e86171ec206d.PNG)
 
 Después de todo, ¿qué es el dinero? Nuestros antepasados utilizaban piedras preciosas y metales como dinero, y hasta hace unas pocas generaciones, el dinero de nuestro gobierno tenía que estar respaldado por oro. Al día de hoy y desde la década de 1970, el mundo ha utilizado un sistema de monedas fiduciarias (conocido también como dinero fiat) respaldado por promesas del gobierno, en lugar de un producto intrínsecamente valioso (el oro).
 
@@ -55,13 +58,17 @@ Si los keynesianos son gastadores, los economistas austriacos son ahorradores. L
 
 > *El premio Nobel Friedrich Hayek comparó la creación monetaria del gobierno con el efecto de la miel vertida en una taza. La miel tiende a aglomerarse en el centro y gotea de manera desigual hacia las crestas exteriores.*
 
+![a-img02](https://user-images.githubusercontent.com/52989055/86049495-dfcd2880-ba17-11ea-826f-7e8b141a10b2.jpg)
+
 Cuando los bancos centrales pueden aumentar la oferta monetaria a voluntad, el valor de la moneda pierde inherentemente el poder adquisitivo. No nos damos cuenta de esto de inmediato, pero con el tiempo, esto lleva a una inflación de precios en todo lo que compramos. El aumento de los precios de los activos beneficia a las personas que poseen inversiones de capital, pero la vida se vuelve más costosa para quienes viven con ahorros en efectivo.
 
-La inflación distorsiona nuestra capacidad de medir los precios a lo largo del tiempo y perjudica desproporcionadamente a los pobres. Pero nuestro dinero no siempre tiene que perder valor con el tiempo. Los defensores del dinero duradero creen que una moneda estable conduciría a la prosperidad social, ya que nuestros ahorros estarían protegidos de la degradación y pérdida de valor. Con el paso del tiempo, el cambio en los precios no vendría de los aumentos de la oferta monetaria (y por lo tanto de la inflación), sino de las ganancias de productividad obtenidas por la tecnología.
+La inflación distorsiona nuestra capacidad de medir los precios a lo largo del tiempo y perjudica desproporcionadamente a los pobres. Pero nuestro dinero no siempre tiene que perder valor con el tiempo. Los promotores del dinero duradero creen que una moneda estable conduciría a la prosperidad social, ya que nuestros ahorros estarían protegidos de la degradación y pérdida de valor. Con el paso del tiempo, el cambio en los precios no vendría de los aumentos de la oferta monetaria (y por lo tanto de la inflación), sino de las ganancias de productividad obtenidas por la tecnología.
 
 El concepto de dinero duradero puede ser nuevo para muchas personas, porque hemos vivido toda nuestra vida bajo un sistema de moneda fiduciaria bajo la supervisión de un banco central. 
 
 Pero la vida no siempre fue así. Visto desde una perspectiva económica histórica, la supervisión del banco central con monedas fiduciarias es un fenómeno relativamente reciente, que también ha coincidido con los episodios más grandes de hiperinflación de la historia:
+
+![a-img03](https://user-images.githubusercontent.com/52989055/86049497-dfcd2880-ba17-11ea-9c6a-22c28ad23673.png)
 
 Durante el siglo pasado, incluso el dólar estadounidense (la moneda nacional más fuerte del mundo) ha perdido más del 95 por ciento de su valor debido a la inflación. 
 
@@ -80,6 +87,8 @@ Comprender los marcos de coordinación de las principales monedas del mundo pued
 
 **El euro:**
 
+![a-img04](https://user-images.githubusercontent.com/52989055/86049498-e065bf00-ba17-11ea-8811-d6546426576a.jpg)
+
 El euro es la moneda supranacional moderna más conocida, donde una sola unidad de cuenta es la moneda de curso legal para varias naciones. El concepto de una unión monetaria entre los países europeos ha sido explorado desde la década de 1960. A principios de la década de 1990, una alianza de países europeos propuso formalmente medidas para adoptar una moneda común, reconociendo que esto eliminaría las barreras cambiarias y permitiría un comercio más fluido. El Banco Central Europeo fue creado en 1999, que formalizó la creación del euro como moneda única, y que ahora es la moneda de curso legal para 19 países.
 
 Cuando los países de la eurozona cedieron la política monetaria al BCE, lo hicieron con la implementación de un medio de gobernanza. El Consejo de Gobierno del BCE es el principal órgano de decisión del euro. Consiste en:
@@ -91,7 +100,9 @@ El poder de voto en el Banco Central Europeo refleja a aquellos que arriesgan m�
 
 Si bien el euro es la moneda adoptada de 19 países, el poder de voto del BCE no sigue el marco de "una persona, un voto". Los poderes de gobierno de los países del BCE se dividen en grupos de acuerdo al tamaño de sus economías y sectores financieros.
 
-El poder de voto en el Consejo de Gobierno del BCE refleja las economías nacionales con mayor peso y riesgo en el sistema.
+![a-img05](https://user-images.githubusercontent.com/52989055/86049502-e0fe5580-ba17-11ea-938d-9b911146be54.png)
+
+> *El poder de voto en el Consejo de Gobierno del BCE refleja las economías nacionales con mayor peso y riesgo en el sistema.*
 
 Para la toma de decisiones en el Consejo de Gobierno del BCE, los Gobernadores de las 5 economías más grandes (actualmente Alemania, Francia, Italia, España y los Países Bajos) comparten cuatro derechos de voto. Los otros 14 países comparten 11 votos, donde sus gobernadores rotan votos en una rotación mensual. Mensualmente, se llega a un consenso después de votar de la siguiente manera:
 
@@ -110,6 +121,8 @@ Los gobernadores del BCE se reúnen para establecer tasas de interés, monitorea
 
 **El dólar estadounidense y la Reserva Federal:**
 
+![a-img06](https://user-images.githubusercontent.com/52989055/86049503-e0fe5580-ba17-11ea-83ed-b10a34a4140d.png)
+
 Mientras que el euro está gobernado por el BCE, el dólar estadounidense está gobernado por la Reserva Federal de los Estados Unidos. Al igual que el BCE tiene un consejo de gobierno, la política monetaria de la Fed se rige por el Comité Federal de Mercado Abierto (FOMC). El FOMC tiene 12 representantes con derecho a voto:
 
 + 7 miembros de la junta del Sistema de la Reserva Federal (nombrados por el Presidente de los Estados Unidos con la aprobación del Senado).
@@ -123,6 +136,8 @@ El dólar estadounidense es la moneda de reserva actual del mundo, y la mayor pa
 ---
 
 **Los derechos especiales de giro: un activo de reserva internacional**
+
+![a-img07](https://user-images.githubusercontent.com/52989055/86049506-e22f8280-ba17-11ea-960f-f586907ff57b.png)
 
 El DEG se deriva de una canasta de las monedas más importantes del mundo, actualmente el dólar estadounidense, el euro, el yen, la libra esterlina y el renminbi. Las monedas que conforman el DEG son un sustituto de la influencia de los mayores poderes económicos del mundo. La canasta se revisa cada cinco años para garantizar que refleje la importancia relativa de las monedas y los sistemas financieros mundiales. Derivar el valor DEG de un modelo de canasta ayuda a gestionar la volatilidad cambiaria en cualquier moneda única.
 
@@ -140,12 +155,14 @@ Además de los derechos de gobernanza, los DEG también generan intereses. Cuand
 
 Cuando los miembros del Fondo Monetario Internacional tienen diferencias de opinión, pueden ejercer sus voces mediante un sistema de votación. Como hemos estudiado anteriormente, estos sistemas de votación no siguen necesariamente una estructura de "una persona, un voto": reconocen que algunas partes tienen más riesgo y peso en el sistema.
 
-Si bien las monedas como el euro, el dólar y el DEG nos brindan instituciones para gobernar la economía mundial, sus poderes de toma de decisiones se concentran en un puñado de delegados en su mayoría no elegidos. Lo más importante a largo plazo, mientras que nuestras monedas existentes nos proporcionan medios de cooperación, las monedas fiduciarias están sujetas a degradación e influencia política. Es por eso que Bitcoin es una gran innovación económica.
+> *Si bien las monedas como el euro, el dólar y el DEG nos brindan instituciones para gobernar la economía mundial, sus poderes de toma de decisiones se concentran en un puñado de delegados en su mayoría no elegidos. Lo más importante a largo plazo, mientras que nuestras monedas existentes nos proporcionan medios de cooperación, las monedas fiduciarias están sujetas a degradación e influencia política. Es por eso que Bitcoin es una gran innovación económica.*
 
 
 ---
 
 ### Bitcoin: dinero duradero digital
+
+![a-img08](https://user-images.githubusercontent.com/52989055/86049508-e22f8280-ba17-11ea-82d9-e7620e24c068.png)
 
 > *"No necesitamos una Reserva Federal. Durante muchos años, he estado a favor de reemplazar la Fed con una computadora " -  Milton Friedman, 1999*
 
@@ -154,6 +171,8 @@ Al inversionista Peter Thiel le gusta decir que hay momentos "cero a uno" en los
 Antes de 2008, hubo muchos intentos fallidos de efectivo digital, pero el protocolo Bitcoin es el primero que realmente funciona sin requerir un facilitador central. Incluso mientras pasamos más de nuestras vidas en línea, antes de Bitcoin, cada transacción en línea tenía que liquidarse utilizando acuerdos interbancarios ineficientes, en monedas limitadas por fronteras físicas.
 
 La invención de Bitcoin introdujo el primer dinero digital sin fronteras que se puede transferir de persona a persona en cualquier lugar, sin necesidad de intermediarios. Puede ser difícil comprender de inmediato el grado de innovación de Bitcoin, porque va mucho más allá que un efectivo digital. El protocolo de Bitcoin también elimina la necesidad de que los bancos corresponsales liquiden las transacciones y la necesidad de que los bancos centrales rijan la política monetaria.
+
+![a-img09](https://user-images.githubusercontent.com/52989055/86049509-e2c81900-ba17-11ea-92f7-6ec9b5334246.png)
 
 Cuando se envía una transferencia a alguien en todo el mundo, el dinero debe pasar por diferentes bancos corresponsales antes de llegar a su destinatario, quien probablemente tenga que esperar un par de días e incurrir en tarifas de cambio para disponer del dinero en un país diferente . Esto cambia con la llegada de Bitcoin y las criptomonedas, donde el dinero ahora se puede intercambiar directamente entre personas sin requerir un intermediario de confianza.
 
@@ -184,6 +203,8 @@ Hasta ahora, este documento ha examinado el dinero como una forma de soberanía,
 
 Decred es el mismo fenómeno prodigio que Bitcoin, excepto que su diseño se extiende a dimensiones adicionales. Mientras que la gran mayoría de las criptomonedas son imitaciones baratas de Bitcoin, Decred innova en vectores específicamente no cubiertos por el diseño de Bitcoin.
 
+![a-img10](https://user-images.githubusercontent.com/52989055/86049511-e360af80-ba17-11ea-87d0-857896779898.PNG)
+
 La creación en 2008 de Bitcoin permitió una economía digital sin permiso donde cualquiera puede intercambiar valor y donde los usuarios reciben sólidas garantías de dinero contra la inflación. La innovación de Decred en 2016 conserva estos mismos principios e innova en dimensiones adicionales al empoderar a los usuarios con voz y al resolver la capacidad de autofinanciar un ecosistema sin necesidad de inversores externos.
 
 Con Decred, ahora tenemos un medio para retener la solidez monetaria, al tiempo que reconocemos que los productos de software necesitan un proceso para las actualizaciones. Lo que es más importante como instrumento monetario, Decred no solo brinda la seguridad de un dinero duradero, sino que también brinda a los usuarios una voz soberana.
@@ -193,6 +214,8 @@ Decred se lanzó en 2016 con la intención explícita de extender el espíritu d
 > *Decred es una criptomoneda como Bitcoin, pero Decred reconoce la diferencia entre la maleabilidad económica y la maleabilidad tecnológica.*
 
 Decred aún no tiene el reconocimiento de marca de Bitcoin, pero también es muy joven. En términos de suministro extraído, Decred hoy es similar a Bitcoin en 2013.
+
+![a-img11](https://user-images.githubusercontent.com/52989055/86049513-e3f94600-ba17-11ea-99b4-c7b5695493f3.png)
 
 Al igual que Bitcoin, Decred no necesita comités del banco central para debatir la formulación de políticas monetarias. Pero aunque Bitcoin y Decred comparten similitudes económicas, difieren en la cantidad de voz que se les brinda a los usuarios de su moneda.
 
@@ -224,11 +247,13 @@ Una de las innovaciones más interesantes para Decred es la capacidad de financi
 
 En mi artículo de 2019 ['Un competidor alternativo'](https://medium.com/@Ammarooni/decred-an-alternative-contender-a3547a014745), estudié cómo se financia el Fondo del Tesoro al dirigir una parte de las recompensas de minado de $ DCR hacia un fondo comunitario, y cómo este grupo tiene el potencial de convertirse en una tesorería de gran resistencia en el futuro. Mientras alguien en alguna parte del mundo esté dispuesto a extraer $ DCR, la tesorería se continuará financiando.
 
+![a-img12](https://user-images.githubusercontent.com/52989055/86049488-dd6ace80-ba17-11ea-81a0-63a842a63724.png)
+
 El autosustento es un requisito previo para que cualquier moneda descentralizada tenga éxito a largo plazo. Sin embargo, en la práctica la mayoría de las criptomonedas dependen de inversores externos para financiar su desarrollo. La dimensión del autofinanciamiento nunca se podrá agregar a Bitcoin, y seguirá dependiendo de donaciones voluntarias. Puede que hoy no sea un riesgo obvio, pero tanto la gobernanza comunitaria clara y el autofinanciamiento son dos dimensiones que nunca se podrán agregar al diseño de Bitcoin.
 
 Por el contrario, Decred está diseñado para ser autosostenible. Tener una tesorería significa que el protocolo Decred puede invitar a desarrolladores y contribuyentes de la comunidad sin estar vinculados a intereses externos (que pueden surgir como consecuencia de recibir capital externo al proyecto). En el largo plazo, esto también evita un riesgo en el que un bien compartido sucumbe a una tragedia de los bienes comunes.
 
-Decred está diseñado también para recompensar la lealtad. Al mantener en su cartera Decred hasta por 142 días, puede participar en el proceso de participación (PoS) de Decred. Esto significa que puede obtener un rendimiento por tener la moneda, similar a cómo el FMI paga intereses por mantener cuotas extras de DEG. Esta recompensa de participación disminuye gradualmente con el tiempo, ya que está diseñada para recompensar a los primeros usuarios quienes asumen el mayor riesgo. Más de la mitad de los $ DCR minados hasta la fecha están bloqueados en su sistema de participación de gobernanza, que es una muestra del adecuado emparejamiento de producto con mercado. Hay que destacar que son muchos los usuarios que bloquean sus $ DCR durante meses seguidos, aún sabiendo que los precios de las criptomonedas fluctúan ampliamente.
+Decred está diseñado también para recompensar la lealtad. Al mantener en su cartera Decred hasta por 142 días, puede participar en el proceso de participación (PoS) de Decred. Esto significa que puede obtener un rendimiento por tener la moneda, similar a cómo el FMI paga intereses por mantener cuotas extras de DEG. Esta recompensa de participación disminuye gradualmente con el tiempo, ya que está diseñada para recompensar a los primeros usuarios quienes asumen el mayor riesgo. [Más de la mitad](https://twitter.com/lefebvre_dustin/status/1158860292719304706?s=20) de los $ DCR minados hasta la fecha están bloqueados en su sistema de participación de gobernanza, que es una muestra del adecuado emparejamiento de producto con mercado. Hay que destacar que son muchos los usuarios que bloquean sus $ DCR durante meses seguidos, aún sabiendo que los precios de las criptomonedas fluctúan ampliamente.
 
 Decred ahora tiene una trayectoria de 4 años. Puede que todavía no tenga el reconocimiento de la marca de otras monedas, pero su grandeza radica en diseño, que está estructurado para una durabilidad a largo plazo y que crea potentes efectos de red.
 
