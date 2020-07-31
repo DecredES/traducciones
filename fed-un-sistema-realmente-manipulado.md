@@ -1,9 +1,9 @@
 # La reserva Federal:  Un sistema realmente manipulado
 
-Muchos de nosotros en el ambiente cripto hemos estado esperando la próxima gran contracción del mercado durante varios años, y finalmente ha llegado, de manera espectacular. COVID-19 y la respuesta del gobierno a esto están perturbando los mercados de una manera que pocos podrían haber esperado, lo que ejerce una presión masiva sobre los mercados apalancados hasta el punto de un mal funcionamiento. El banco central de EE. UU., El Sistema de Reserva Federal ("SRF"), está ejecutando las mismas jugadas que hizo durante la crisis de 2008: una combinación de reducir su tasa de interés objetivo y usar un crédito ilimitado para respaldar varios mercados. Desde que Bitcoin se lanzó poco después de la crisis de 2008, muchas personas han llegado a comprender las deficiencias sustanciales en el sistema bancario fiduciario a través de Bitcoin, Decred y las criptomonedas en general. En resumen, el sistema de banca fiduciaria es un sistema manipulado y las criptomonedas son sistemas menos manipulados, lo que crea un incentivo para adoptar las criptomonedas sobre las monedas fiduciarias. Hay mucho que desempaquetar en la oración anterior, y abordaremos específicamente la declaración “el sistema bancario fiduciario es un sistema realmente manipulado”. 
-Este artículo es el primero de una serie, el siguiente es sobre Bitcoin.
+Muchos de nosotros en el ambiente cripto hemos estado esperando la próxima gran contracción del mercado durante varios años, y finalmente ha llegado, de manera espectacular. COVID-19 y la respuesta del gobierno están perturbando los mercados de una manera que pocos podrían haber esperado, lo que ejerce una presión masiva sobre los mercados apalancados hasta el punto de un mal funcionamiento. El banco central de EE. UU., El Sistema de Reserva Federal ("SRF"), está ejecutando las mismas jugadas que hizo durante la crisis de 2008: una combinación de reducir su tasa de interés objetivo y usar un crédito ilimitado para respaldar varios mercados. Desde que Bitcoin se lanzó poco después de la crisis de 2008, muchas personas han llegado a comprender las deficiencias sustanciales en el sistema bancario fiduciario a través de Bitcoin, Decred y las criptomonedas en general. En resumen, el sistema de banca fiduciaria es un sistema manipulado y las criptomonedas son sistemas menos manipulados, lo que crea un incentivo para adoptar las criptomonedas sobre las monedas fiduciarias. Hay mucho que desempaquetar en la oración anterior, y abordaremos específicamente la declaración “el sistema bancario fiduciario es un sistema realmente manipulado”. 
+Este artículo es el primero de una serie, el siguiente será sobre Bitcoin.
 
-## El sistema bancario Fiat
+## El sistema bancario fiduciario
 
 Para entender cómo se manipula el sistema de fiduciario, primero debemos entender qué es y cómo funciona. Este resumen se centra en los conceptos importantes, no en los detalles. Las finanzas modernas son ricas en abstracción, que se utiliza para ofuscar conceptos centrales y fallas en el sistema, por lo que no nos detendremos en él. No tomes el señuelo.
 
@@ -13,7 +13,7 @@ Dado que el SRF es el banco central más importante del mundo por ahora, se util
 
 En respuesta al [pánico de 1907](https://es.wikipedia.org/wiki/P%C3%A1nico_financiero_de_1907), [la Ley de la Reserva Federal](https://es.wikipedia.org/wiki/Ley_de_la_Reserva_Federal_de_1913) se aprobó a fines de 1913 y creó el Sistema de la Reserva Federal de 12 bancos regionales, que son responsables conjuntamente de administrar la oferta monetaria del país, otorgar préstamos, supervisar a los bancos, y sirviendo como prestamista de último recurso. El propósito del SRF se dice comúnmente que tiene 3 objetivos clave: maximizar el empleo, estabilizar los precios y moderar las tasas de interés a largo plazo. Estos objetivos declarados son bastante razonables porque pretenden minimizar los disturbios sociales, de los cuales los ciudadanos estadounidenses se benefician colectivamente.
 
-Los bancos comerciales obtienen crédito del SRF a través de un sistema de reserva fraccional, donde un banco comercial deposita fondos en su cuenta de reserva con SRF y se le otorga una cantidad de crédito correspondiente. El requisito de la reserva para el SRF es que el 10% del crédito emitido debe permanecer como depósito, por lo que un banco comercial depositaría 1 millón de dólares y recibiría 10 millones de dólares en crédito. Los bancos comerciales luego emiten crédito a sus clientes en forma de préstamos, donde la tasa de interés ofrecida es más alta que la tasa pagada al SRF, y obtienen ingresos del diferencial entre la tasa de interés del mercado y las tasas de interés que cobran a los clientes por el crédito.
+Los bancos comerciales obtienen crédito del SRF a través de un sistema de reserva fraccional, donde un banco comercial deposita fondos en su cuenta de reserva con el SRF y se le otorga una cantidad de crédito correspondiente. El requisito de la reserva para el SRF es que el 10% del crédito emitido debe permanecer como depósito, por lo que un banco comercial depositaría 1 millón de dólares y recibiría 10 millones de dólares en crédito. Los bancos comerciales luego emiten crédito a sus clientes en forma de préstamos, donde la tasa de interés ofrecida es más alta que la tasa pagada al SRF, y obtienen ingresos del diferencial entre la tasa de interés del mercado y las tasas de interés que cobran a los clientes por el crédito.
 
 ## Operación
 
@@ -37,7 +37,7 @@ COVID-19 ("CV19"), una variedad particularmente desagradable del coronavirus, ha
 
 Debido a la naturaleza de CV19, muchos estados y condados de los EE. UU. Han optado por cancelar o prohibir la mayoría de los eventos, obligar a los restaurantes a realizar entregas solo a domicilio, y cerrar la mayoría de las oficinas, que son todas formas de cuarentena sistémica. Incluso en estas condiciones, CV19 continúa propagándose, aunque más lentamente.
 
-El resultado de las contramedidas gubernamentales citadas anteriormente y el temor generalizado resultante es que EE. UU. Y sus economías estatales individuales se hayan contraído sustancialmente. Si considera que el [40% de los estadounidenses no tiene 400 USD disponibles para un gasto de emergencia](https://abcnews.go.com/US/10-americans-struggle-cover-400-emergency-expense-federal/story?id=63253846), es razonable suponer que un porcentaje considerable de las empresas estadounidenses son igualmente marginales, p. Ej. 40% Muchas empresas no pueden capear una pérdida de ingresos total o casi total, incluso por un corto período de tiempo, y esto tiene una variedad de efectos secundarios:
+El resultado de las contramedidas gubernamentales citadas anteriormente y el temor generalizado resultante es que EE. UU. Y sus economías estatales individuales se hayan contraído sustancialmente. Si considera que el [40% de los estadounidenses no tiene 400 USD disponibles para un gasto de emergencia](https://abcnews.go.com/US/10-americans-struggle-cover-400-emergency-expense-federal/story?id=63253846), es razonable suponer que un porcentaje considerable de las empresas estadounidenses son igualmente marginales, p. Ej. 40% Muchas empresas no pueden solventar una pérdida de ingresos total o casi total, incluso por un corto período de tiempo, y esto tiene una variedad de efectos secundarios:
 
 - el personal es despedido
 - las cadenas de suministro se ven obligadas a reorganizarse
@@ -47,7 +47,7 @@ El resultado de las contramedidas gubernamentales citadas anteriormente y el tem
 - caída de precio en las acciones
 - los clientes bancarios se preocupan por la seguridad de sus depósitos y retiran sus fondos
 - los bancos tienen insolvencia
-- los enlaces en las cadenas de suministro colapsan 
+- las cadenas de suministro colapsan 
 
 Algunos de estos efectos ya han ocurrido, y algunos pueden ocurrir o no antes de que finalice esta contracción del mercado.
 La respuesta predecible a esta crisis por parte del gobierno de los EE. UU. ("USG") y el SRF ha sido emitir créditos a gran escala, lo que comúnmente se conoce como "dinero helicóptero ". La intención aquí es suavizar el golpe financiero para los bancos y estabilizar los mercados crediticios importantes que sustentan una economía. Aquí hay una lista de contramedidas que se están implementando actualmente o en fase de planificación:
@@ -73,7 +73,8 @@ Además de la intervención sustancial del SRF en varios mercados, el USG está 
 La intervención del gobierno de los Estados Unidos tiene como objetivo preservar la confianza en los sistemas de gobernanza existentes, reducir los disturbios sociales y ayudar a las empresas a resistir la contracción económica.
 A continuación, nos centraremos principalmente en el SRF. Vale la pena señalar que el estímulo del USG tiene similitudes sustanciales con el del SRF, por lo que gran parte del razonamiento se aplicará a ambos.
 
-Un sistema realmente manipulado
+## Un sistema realmente manipulado
+
 Después de leer el resumen de cómo funcionan los SRF y la banca fiduciaria en los EE. UU., tanto en condiciones de mercado estables como inestables, puede parecer que todo lo relacionado con la estructura y la operación es bastante razonable y nominalmente justo. Como suele ser el caso, debe prestar mucha atención para ver cómo se arregla el sistema.
 Los principales medios a través de los cuales se manipula el sistema bancario fiduciario son:
 
