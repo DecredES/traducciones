@@ -1,4 +1,6 @@
-# La reserva Federal:  Un sistema realmente manipulado
+# La reserva federal:  Un sistema realmente manipulado
+
+![analizando-fiat](../assets/analizando-fiat.png)
 
 Muchos de nosotros en el ambiente cripto hemos estado esperando la próxima gran contracción del mercado durante varios años, y finalmente ha llegado, de manera espectacular. COVID-19 y la respuesta del gobierno están perturbando los mercados de una manera que pocos podrían haber esperado, lo que ejerce una presión masiva sobre los mercados apalancados hasta el punto de un mal funcionamiento. El banco central de EE. UU., El Sistema de Reserva Federal ("SRF"), está ejecutando las mismas jugadas que hizo durante la crisis de 2008: una combinación de reducir su tasa de interés objetivo y usar un crédito ilimitado para respaldar varios mercados. Desde que Bitcoin se lanzó poco después de la crisis de 2008, muchas personas han llegado a comprender las deficiencias sustanciales en el sistema bancario fiduciario a través de Bitcoin, Decred y las criptomonedas en general. En resumen, el sistema de banca fiduciaria es un sistema manipulado y las criptomonedas son sistemas menos manipulados, lo que crea un incentivo para adoptar las criptomonedas sobre las monedas fiduciarias. Hay mucho que desempaquetar en la oración anterior, y abordaremos específicamente la declaración “el sistema bancario fiduciario es un sistema realmente manipulado”. 
 Este artículo es el primero de una serie, el siguiente será sobre Bitcoin.
