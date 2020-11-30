@@ -5,7 +5,7 @@ Durante los últimos años, algunos participantes del mercado financiero, banque
 - son estafas
 - son esquemas ponzi
 - son burbujas
-- sin valor 
+- no tiene valor alguno 
 - son inútiles
 - se utilizan para evadir impuestos
 - se utilizan en delitos financieros
