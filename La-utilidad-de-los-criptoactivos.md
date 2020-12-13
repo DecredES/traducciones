@@ -72,7 +72,7 @@ Las monedas mineras descentralizadas dependen del poder de la minería para gene
 La semilla (o clave privada) debe almacenarse de forma segura
 Como no existe una autoridad central, verificación de documentos y devolución de cargo, en posesión de la semilla (o clave privada) cualquiera puede acceder y transferir los recursos almacenados en una billetera digital. Por tanto, es importante que los dispositivos en los que se mecanografíe o almacene la semilla sean seguros y almacenar una copia de la semilla en otro dispositivo u otro entorno físico.
 
-Obtenga más información sobre ["El refuerzo de la seguridad para wallets digitales"](https://stakey.club/en/security-hardening-for-digital-wallets/).
+Obtenga más información sobre como ["Fortalecer la seguridad en las wallets digitales"](https://stakey.club/en/security-hardening-for-digital-wallets/).
 
 ### La herencia debe planificarse
 Es más fácil transferir la propiedad de cuentas en plataformas de intercambio, registradas a través de documentos emitidos por el gobierno, que de wallets que almacenan recursos digitales. Debe planificar con anticipación y evaluar la seguridad de la solución:
