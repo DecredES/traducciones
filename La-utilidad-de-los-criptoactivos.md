@@ -2,27 +2,27 @@
 
 Durante los últimos años, algunos participantes del mercado financiero, banqueros, grandes inversores y asesores de inversiones han insistido en que los criptoactivos, también llamados monedas digitales o criptomonedas:
 
-- son estafas
-- son esquemas ponzi
-- son burbujas
-- no tiene valor alguno 
-- son inútiles
-- se utilizan para evadir impuestos
-- se utilizan en delitos financieros
-- son la burbuja más grande en la historia de la humanidad
-- se utilizan para cometer delitos en general
-- son innecesarios porque los bancos hacen un gran trabajo
+- [son estafas](https://www.bloomberg.com/news/articles/2017-09-12/jpmorgan-s-ceo-says-he-d-fire-traders-who-bet-on-fraud-bitcoin)
+- [son esquemas ponzi](https://www.cnbc.com/2018/02/06/bitcoin-and-cryptocurrencies-are-ponzi-bubbles-says-bis.html)
+- [son burbujas financieras](https://www.businessinsider.com/bitcoin-price-is-a-bubble-mark-cuban-says-2017-6?r=US&IR=T)
+- [no tienen valor alguno](https://www.cbsnews.com/news/warren-buffett-bill-gates-charles-munger-beat-up-on-bitcoin/) 
+- [son inútiles](https://blogs.wsj.com/moneybeat/2017/03/10/lets-be-real-bitcoin-is-a-useless-investment/)
+- [se utilizan para evadir impuestos](https://www.cnbc.com/2018/02/13/barely-anyone-is-paying-the-taxes-they-owe-on-their-bitcoin-gains.html)
+- [se utilizan en delitos financieros](https://blogs.imf.org/2018/03/13/addressing-the-dark-side-of-the-crypto-world/)
+- [son la burbuja más grande en la historia de la humanidad](https://www.bloomberg.com/news/articles/2018-05-11/roubini-vs-crypto-round-two-this-time-at-a-blockchain-summit)
+- [se utilizan para cometer delitos en general](https://www8.gsb.columbia.edu/articles/chazen-global-insights/thumbs-down-facebook-s-cryptocurrency)
+- [son innecesarios porque los bancos hacen un gran trabajo](https://www.nytimes.com/2018/07/31/opinion/transaction-costs-and-tethers-why-im-a-crypto-skeptic.html)
 
-Sabemos que se han desarrollado innumerables estafas en donde se involucran Bitcoins y otras monedas, varios esquemas ponzi prometían un retorno del 500% en seis meses, algunas empresas han afirmado que fueron hackeadas para justificar la desaparición de los recursos de los inversores, también que la mayoría de las ICO (ofertas iniciales de monedas) fueron otros tipos de esquemas Ponzi. Esto no significa que todos los proyectos sean fraudulentos o que la tecnología blockchain no tenga uso y valor en un proyecto como Bitcoin o Decred.
+Sabemos que se han desarrollado innumerables estafas en donde se involucran Bitcoins y otras monedas, varios esquemas ponzi prometían un retorno del 500% en seis meses, algunas empresas han afirmado que fueron hackeadas para justificar la desaparición de los recursos de los inversores, también que la mayoría de las ICO ([ofertas iniciales de monedas](https://www.technologyreview.com/2017/09/06/149298/what-the-hell-is-an-initial-coin-offering/)) fueron otros tipos de esquemas Ponzi. Esto no significa que todos los proyectos sean fraudulentos o que la tecnología blockchain no tenga uso y valor en un proyecto como Bitcoin o Decred.
 
 Es importante tener en cuenta la posición de estas personas en el mercado financiero, si podrían estar acortando algunas criptomonedas, si pudieron haber perdido el momento de comprar el dip y ahora desean forzar una retractación, si sus negocios o trabajos son amenazados por el mercado de las criptomonedas, si están a favor de un Estado poderoso y si tienen algún conocimiento de la tecnología de la que están hablando.
 
 Sin embargo, algunos logran entender la utilidad de los criptoactivos y apuesta a que no desaparecerán:
 
-- Banca central y fintech: ¿un mundo feliz?
-- Revisión trimestral del BPI - Septiembre de 2017, página 55
-- El boom de Bitcoin: ¿Activo, moneda, producto básico o coleccionable?
-- Reacción de Bitcoin: ¿De vuelta al tablero de dibujo?
+- [Banca central y fintech: ¿un mundo feliz?](https://www.imf.org/en/News/Articles/2017/09/28/sp092917-central-banking-and-fintech-a-brave-new-world)
+- [Revisión trimestral del BPI - Septiembre de 2017, página 55](https://www.bis.org/publ/qtrpdf/r_qt1709.pdf)
+- [El boom de Bitcoin: ¿Activo, moneda, producto básico o coleccionable?](http://aswathdamodaran.blogspot.com/2017/10/the-bitcoin-boom-asset-currency.html)
+- [Reacción de Bitcoin: ¿De vuelta al tablero de dibujo?](http://aswathdamodaran.blogspot.com/2017/10/bitcoin-backlash-back-to-drawing-board.html)
 
 Incluso sin profundizar en los aspectos macroeconómicos, las teorías de precio, valor e intercambio, o lo que significa el dinero, un análisis rápido muestra que los criptoactivos tienen muchas ventajas y algunas desventajas. La lista a continuación.
 
@@ -72,11 +72,11 @@ Las monedas mineras descentralizadas dependen del poder de la minería para gene
 La semilla (o clave privada) debe almacenarse de forma segura
 Como no existe una autoridad central, verificación de documentos y devolución de cargo, en posesión de la semilla (o clave privada) cualquiera puede acceder y transferir los recursos almacenados en una billetera digital. Por tanto, es importante que los dispositivos en los que se mecanografíe o almacene la semilla sean seguros y almacenar una copia de la semilla en otro dispositivo u otro entorno físico.
 
-Obtenga más información sobre el refuerzo de la seguridad para wallets digitales.
+Obtenga más información sobre ["El refuerzo de la seguridad para wallets digitales"](https://stakey.club/en/security-hardening-for-digital-wallets/).
 
 ### La herencia debe planificarse
 Es más fácil transferir la propiedad de cuentas en plataformas de intercambio, registradas a través de documentos emitidos por el gobierno, que de wallets que almacenan recursos digitales. Debe planificar con anticipación y evaluar la seguridad de la solución:
 
 - semilla almacenada en bóveda de banco
 - clave de firma múltiple 1 de 2 o 2 de 3
-- instrucciones para acceder a una unidad USB de cifrado encriptado
+- instrucciones para acceder a una unidad USB de cifrado encriptado.
