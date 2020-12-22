@@ -1,4 +1,4 @@
-# Fortalecimiento de la seguridad para billeteras digitales
+# Fortalecimiento en la seguridad para billeteras digitales
 
 ## 1. Introducción
 En este artículo se analiza los controles de seguridad que reducen principalmente el riesgo de acceso no autorizado o uso indebido, fuga de información y acceso físico no autorizado. Estos controles pueden aplicarse en cualquier situación, pero nos centraremos en los controles que reducen el riesgo de que un atacante acceda a la clave privada o semilla de una billetera digital.
