@@ -3,12 +3,12 @@
 ## 1. Introducción
 En este artículo se analiza los controles de seguridad que reducen principalmente el riesgo de acceso no autorizado o uso indebido, fuga de información y acceso físico no autorizado. Estos controles pueden aplicarse en cualquier situación, pero nos centraremos en los controles que reducen el riesgo de que un atacante acceda a la clave privada o semilla de una billetera digital.
 
-"Todos quieren que haya respuestas simples en seguridad, pero a veces no hay respuestas simples".-Tavis Ormandy (@taviso) 15 de diciembre del 2017
+"Todos quieren que haya respuestas simples en seguridad, pero a veces no hay respuestas simples".-Tavis Ormandy (@taviso) [15 de diciembre del 2017](https://twitter.com/taviso/status/941724872169766912?ref_src=twsrc%5Etfw)
 
 ### 1.1. Estrategia
 Para un uso más fácil y una mejor gestión de riesgos, las billeteras se pueden segregar. Idealmente, la billetera principal (la que contiene la mayoría de sus recursos) debe estar aislada del dispositivo que se uso diario como si fuera una caja fuerte. Su computadora puede tener otra billetera para pagos diarios y en su celular otra para pagos pequeños cuando está fuera de casa. Hay varias opciones para aumentar la "seguridad":
 
-a) Una billetera de hardware, como lo es Ledger o Trezor (si la moneda es compatible) 
+a) Una billetera de hardware, como lo es la billetera [Ledger](https://www.ledger.com/) o [Trezor](https://trezor.io/) (si la moneda es compatible) 
 b) Un hardware dedicado, como una computadora portátil 
 c) Arranque dual en una unidad USB o disco duro externo (necesita evaluar el espacio libre en el disco si se va a alojar varias blockchains) 
 d) Un sistema virtual (dedicado) 
@@ -53,7 +53,7 @@ Cualquier tarea realizada con privilegios administrativos tiene mucho más alcan
 ## Linux
 En Linux, cree un usuario normal. Instale sudo (Super User do) y agregue el usuario al grupo sudo (grupo de usuarios que pueden ejecutar el comando sudo). A partir de ese momento, use sudo para ejecutar comandos que requieran privilegios de root.
 
-[IMAGEN]
+[IMAGEN] 
 
 Para verificar si el usuario es miembro del grupo sudo:
 
@@ -84,7 +84,7 @@ Para guardar las nuevas reglas, use:
 [IMAGEN]
 
 ## Mac
-Los usuarios de Mac pueden intentar usar el firewall de red nativo pfsense y habilitar el firewall de la aplicación nativa, o evaluar las soluciones más amigables como Little Snitch y Hands Off.
+Los usuarios de Mac pueden intentar usar el [firewall de red nativo pfsense](https://pleiades.ucsc.edu/hyades/PF_on_Mac_OS_X) y habilitar el [firewall de la aplicación nativa](https://support.apple.com/en-us/HT201642), o evaluar las soluciones más amigables como [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) y [Hands Off](http://www.oneperiodic.com/products/handsoff/).
 
 ## Windows
 Los usuarios de Windows pueden usar el Firewall de Windows (que es mejor que nada) o buscar una solución más sólida.
@@ -107,7 +107,7 @@ Ejecute Windows Update (ubicado en algún lugar dentro del Panel de control)
 
 ### 3.5. Elija contraseñas difíciles de adivinar
 Una contraseña difícil de adivinar hace que sea casi imposible para el atacante obtenerla mediante la fuerza bruta durante el tiempo necesario para probar todas (o casi todas) las combinaciones posibles. Dichas contraseñas tendrían más de 14 caracteres, letras mayúsculas [AZ], letras minúsculas [az], números [0-9] y símbolos [! @ # $% ^ & * ();: - = +], para nombrar unos pocos. Nunca use palabras de ningún diccionario, en ningún idioma. Nunca utilice datos que el atacante pueda obtener en bases de datos de proveedores de servicios como nombres, correos electrónicos, fechas de nacimiento, etc.
-MasterPassword es una aplicación que ayuda a quienes tienen dificultades para crear nuevas contraseñas. Genera nuevas contraseñas a través de un algoritmo que combina una contraseña maestra (que debe ser elegida y memorizada por el usuario) y el nombre de los sitios a los que se accederá. No realiza ningún tipo de conexión externa y no almacena las contraseñas de forma local. Todo el proceso es determinista, nada es aleatorio, por lo que se puede reproducir en otros dispositivos sin necesidad de sincronización.
+[MasterPassword](https://masterpassword.app/) es una aplicación que ayuda a quienes tienen dificultades para crear nuevas contraseñas. Genera nuevas contraseñas a través de un algoritmo que combina una contraseña maestra (que debe ser elegida y memorizada por el usuario) y el nombre de los sitios a los que se accederá. No realiza ningún tipo de conexión externa y no almacena las contraseñas de forma local. Todo el proceso es determinista, nada es aleatorio, por lo que se puede reproducir en otros dispositivos sin necesidad de sincronización.
 
 ## Frase de contraseña para la billetera
 Cree siempre su billetera con una contraseña difícil de adivinar. La billetera es un archivo que reside en el dispositivo y este contiene la clave privada que le permite transferir los recursos. Si el atacante tiene acceso y esta protegida con contraseña, tendrá que descifrarla antes de transferir los recursos.
@@ -115,13 +115,13 @@ Cree siempre su billetera con una contraseña difícil de adivinar. La billetera
 ### 3.6. Utilice 2FA en todas partes
 El segundo factor de autenticación (2FA) aumenta en gran medida la protección de las credenciales de inicio de sesión. Se llama segundo factor porque el primero suele ser lo que conoce (contraseña). Otros factores son lo que tienes (un token OTP como ese) y quién eres (autenticación biométrica). OTP significa One-Time Password y tiene este nombre porque se genera un nuevo número cada 30 segundos. Conocer el número anterior no aumenta las posibilidades de predecir el siguiente. El uso de OTP obliga al atacante a pensar la contraseña y este número en una ventana de 30 segundos, lo que hace que el inicio de sesión no autorizado sea prácticamente imposible. Nunca revele la semilla, que generalmente tiene 16 caracteres (o código QR) y se usa para configurar la aplicación en su teléfono, pero haga una copia de seguridad si necesita reinstalarla en otro dispositivo.
 Nunca confíes en la seguridad de un sitio web. Algunos almacenan contraseñas en texto plano (sin cifrado, lo que permite a los atacantes leerlas en caso de invasión), otros existen únicamente para recopilar usuarios y contraseñas e intentar robar información del usuario. No use la misma contraseña, incluso con 2FA habilitado.
-Las aplicaciones 2FA más utilizadas son Authy y Google Authenticator, que hace que el código fuente esté disponible en Github.
+Las aplicaciones 2FA más utilizadas son [Authy](https://authy.com/) y Google Authenticator, que hace que el código fuente esté disponible en [Github](https://github.com/google/google-authenticator).
 
 ### 3.7. Deshabilitar JavaScript
 Muchos ataques de navegador dependen de JavaScript. La desactivación completa de Javascript hará que casi todos los sitios web dejen de funcionar. Una solución intermedia es la instalación de la extensión ScriptSafe, que está disponible para Firefox y Chrome. En esta extensión es posible bloquear y permitir (lista negra y lista blanca) sitios web y etiquetas que pueden ejecutar JavaScript. Lleva un tiempo desbloquear solo los necesarios que hacen que los sitios web funcionen, además de aprender los JavaScripts relacionados con los trackers, pero luego puedes exportar la lista e importarla en otros dispositivos.
 
 ### 3.8. Habilitar bloqueadores de anuncios
-Los anuncios son fragmentos de HTML con JavaScript que provienen de fuentes que no son de confianza. A menudo se utilizan para violar la privacidad de los usuarios (rastreadores) y pueden cargar en el navegador Javascript desconocido. Una extensión que se puede utilizar para bloquear anuncios es uBlock.
+Los anuncios son fragmentos de HTML con JavaScript que provienen de fuentes que no son de confianza. A menudo se utilizan para violar la privacidad de los usuarios (rastreadores) y pueden cargar en el navegador Javascript desconocido. Una extensión que se puede utilizar para bloquear anuncios es [uBlock](https://github.com/gorhill/uBlock).
 
 ### 3.9. No hagas clic en todos los enlaces que tienes delante de ti
 Siempre que acceda a un sitio web, verifique la dirección en el navegador para asegurarse de que no está accediendo a un sitio de phishing. También debes tener cuidado con los anuncios que aparecen en el motor de búsqueda, como Google, por ejemplo. A menudo, el atacante paga un anuncio para que el sitio de phishing aparezca como primer resultado. En el que suele tener una dirección muy similar junto con una copia fiel a su estructura al original. El objetivo es capturar el nombre de usuario junto con la contraseña que se utilizarán en el sitio original, como los intercambios, por ejemplo. Consulte 2FA en la sección 3.6.
@@ -129,10 +129,10 @@ Siempre que acceda a un sitio web, verifique la dirección en el navegador para 
 Importante: no existe tal cosa como "Solo voy a navegar, no hago clic en nada". Simplemente abra cualquier página de un sitio web y su código, incluido Javascript, se ejecutará en su navegador.
 
 ## URL cortas 
-Antes de hacer clic en una URL "acortada", utilice un servicio como Unshorten.it para averiguar qué URL se ha acortado y adónde lo llevarán. Este es uno de los sitios que dependen de Javascript para funcionar.
+Antes de hacer clic en una URL "acortada", utilice un servicio como [Unshorten.it](https://www.unshorten.it/) para averiguar qué URL se ha acortado y adónde lo llevarán. Este es uno de los sitios que dependen de Javascript para funcionar.
 
 ### 3.10. Utilice HTTPS en todas partes
-Cuando envíe información confidencial como lo es el nombre de usuario y contraseñas, asegúrese de que el candado (https) esté presente en la barra de direcciones. HTTPS Everywhere es una extensión para Firefox, Chrome y Opera que fuerza las conexiones encriptadas a sitios web conocidos, evitando que algunos objetos se carguen fuera de la conexión encriptada, que incluso puede revelar la dirección IP real del usuario.
+Cuando envíe información confidencial como lo es el nombre de usuario y contraseñas, asegúrese de que el candado (https) esté presente en la barra de direcciones. [HTTPS Everywhere](https://www.eff.org/https-everywhere) es una extensión para Firefox, Chrome y Opera que fuerza las conexiones encriptadas a sitios web conocidos, evitando que algunos objetos se carguen fuera de la conexión encriptada, que incluso puede revelar la dirección IP real del usuario.
 
 ### 3.11. Deshabilitar las extensiones del navegador
 Las extensiones del navegador pueden leer y cambiar la información ingresada por el usuario, como las contraseñas. Desactive todas las extensiones y conserve solo las necesarias y fiables.
@@ -144,30 +144,32 @@ Las nuevas aplicaciones y servicios aumentan la superficie de ataque de un dispo
 En general, la recomendación es descargar aplicaciones solo desde el sitio web del fabricante o desarrollador (o recomendado por ellos). En el caso de las billeteras digitales, el software debe ser seguro en primer lugar y funcional en segundo lugar. Pruebe la billetera proporcionada por los desarrolladores, vea si es de código abierto y se adapta a sus necesidades. Probablemente será la mejor opción.
 
 ### 3.14. Verificar firmas digitales
-Antes de instalar o utilizar cualquier software, verifique su firma digital.
+Antes de instalar o utilizar cualquier software, [verifique su firma digital](https://stakey.club/en/verifying-digital-signatures/).
 
 ### 3.15. Reinicie el proceso ejecutable del navegador
 Inicie un nuevo navegador, sin pestañas abiertas, antes de hacer cualquier cosa relacionada con las criptomonedas. Esto no es lo mismo que abrir una nueva ventana. El proceso (ejecutable) debe cerrarse y volverse abrir. El objetivo es evitar que el código malicioso descargado a través de cualquier sitio web y vinculado al proceso del navegador pueda estar ejecutándose en el momento del acceso a los sitios de intercambio (exchanges). Cuando termine, cierre el navegador (proceso) e inicie otro para otras actividades.
 
 ### 3.16. Habilite el aislamiento de procesos y los contextos de seguridad
-Si usa Google Chrome, puede habilitar el aislamiento de procesos. Cada sitio abierto se cargará en su propio ejecutable en la memoria, aislado de los datos de otros sitios cargados por otros procesos. Leer más aquí.
-Si usa Firefox no necesita hacer nada. Las versiones más nuevas ya tienen aislamiento de procesos de forma predeterminada. Puede verificar esto siguiendo las instrucciones en Electrólisis y puede obtener más información sobre Sandbox.
+Si usa Google Chrome, puede habilitar el aislamiento de procesos. Cada sitio abierto se cargará en su propio ejecutable en la memoria, aislado de los datos de otros sitios cargados por otros procesos. Leer más [aquí](https://support.google.com/chrome/answer/7623121?hl=en).
+Si usa Firefox no necesita hacer nada. Las versiones más nuevas ya tienen aislamiento de procesos de forma predeterminada. Puede verificar esto siguiendo las instrucciones en [Electrolysis](https://wiki.mozilla.org/Electrolysis) y puede obtener más información sobre [Sandbox](https://wiki.mozilla.org/Security/Sandbox).
 
 ## Contextos de seguridad
-Los usuarios de Firefox pueden habilitar contextos de seguridad de espacio aislado, un concepto que suena familiar para aquellos que ya conocen el proceso de virtualización de Qubes OS. Este sandboxing en diferentes contextos de seguridad le da al usuario más control sobre los datos a los que pueden acceder los sitios web (por ejemplo: cookies, localStorage, indexedDB, etc.).
+Los usuarios de Firefox pueden habilitar [contextos de seguridad](https://wiki.mozilla.org/Security/Contextual_Identity_Project/Containers) de espacio aislado, un concepto que suena familiar para aquellos que ya conocen el proceso de virtualización de Qubes OS. Este sandboxing en diferentes contextos de seguridad le da al usuario más control sobre los datos a los que pueden acceder los sitios web (por ejemplo: cookies, localStorage, indexedDB, etc.).
 
 ### 3.17. Instalar un antivirus
 En algún momento, un usuario normal se comportará como un usuario normal. Por eso es mejor tener instalado algún antivirus. Si este usuario no ejecuta ejecutables aleatorios que no sean de confianza, no es necesario.
 
 "El contexto aquí es tener guías de "cómo no ser pirateado". Si no está ejecutando ejecutables*** aleatorios que no sean de confianza, el antivirus es una responsabilidad. Si estás ejecutando ex que no son de confianza, te piratearán."
-- Tavis Ormandy (@taviso) 16 de noviembre del 2017
+- Tavis Ormandy (@taviso) [16 de noviembre del 2017](https://twitter.com/taviso/status/931010786717155328?ref_src=twsrc%5Etfw)
 
 ### 3.18. Cifre todo el disco
 Cifrar todo el disco reduce la amenaza de acceso físico no autorizado. Si el dispositivo no será transportado y no se está considerando el acceso físico no autorizado a su entorno, esto no debería ser la principal preocupación. Sin embargo, debe tenerse en cuenta que mientras en Mac es posible habilitar el cifrado en cualquier momento, en Linux es necesario particionar el disco con este soporte ANTES de instalar el sistema o copiar los datos. Esto significa, incluir la seguridad en el diseño, ser proactivo.
-Mac, Filevault2: https://support.apple.com/en-us/HT204837
-Debian, LUKS: https://xo.tc/setting-up-full-disk-encryption-on-debian-jessie.html
-Microsoft, Bitlocker: https://docs.microsoft.com/en-us/windows/device-security/bitlocker/bitlocker-overview
-El disco de respaldo se puede cifrar con una solución como Veracrypt.
+
+- Mac, Filevault2: https://support.apple.com/en-us/HT204837
+- Debian, LUKS: https://xo.tc/setting-up-full-disk-encryption-on-debian-jessie.html
+- Microsoft, Bitlocker: https://docs.microsoft.com/en-us/windows/device-security/bitlocker/bitlocker-overview
+
+El disco de respaldo se puede cifrar con una solución como [Veracrypt](https://www.veracrypt.fr/en/Home.html).
 
 ### 3.19. Realizar copias de seguridad
 Las copias de seguridad deben realizarse con regularidad, como recomendación general de seguridad de la información. El problema es que la restauración no es preventiva, es correctiva. Esto significa que una vez que el atacante accede a su clave privada o semilla, no se puede hacer nada. Por lo tanto, aunque los archivos de respaldo pueden resolver muchos problemas, la seguridad de la billetera debe ser completamente preventiva. Recuerde: siempre haga una copia de seguridad de la semilla de la billetera en una hoja de papel, guardada en un lugar seguro.
@@ -175,7 +177,7 @@ Hacer una copia de seguridad no significa mover todos los archivos a una memoria
 Las copias de seguridad deben realizarse preferiblemente con el dispositivo desconectado de internet, para reducir el riesgo de que un ransomware cifre ambos discos. Un ransomware es un código malicioso que cifra todos los archivos del dispositivo y requiere el pago de un rescate para que el usuario reciba la clave para recuperar sus archivos. Por lo general, este rescate debe pagarse en Bitcoin u otra criptomoneda y no hay garantía de que el usuario pueda volver a acceder a su contenido.
 
 ### 3.20. Utilice un sistema operativo (razonablemente) seguro
-Los más paranoicos deberían experimentar Qubes OS y Subgraph, dos sistemas operativos Linux orientados a la seguridad.
+Los más paranoicos deberían experimentar [Qubes OS](https://www.qubes-os.org/) y [Subgraph](https://subgraph.com/), dos sistemas operativos Linux orientados a la seguridad.
 
 ## 4. Recuperación***
 Si sospecha que hay algún problema con su sistema, la única recomendación segura es: vuelva a instalar desde cero (desde el medio de instalación, no desde una copia de seguridad que ya se haya visto comprometida). No existe ningún software, técnica o antivirus capaz de garantizar la eliminación de cualquier código malicioso que pudiera haber sido instalado. La razón es que existe una gran cantidad de códigos maliciosos en el mundo y las empresas de seguridad simplemente no los conocen todos. Además, nadie sabe con certeza cómo funcionan en su totalidad junto con todos los cambios que podrían haber implementado en su sistema.
