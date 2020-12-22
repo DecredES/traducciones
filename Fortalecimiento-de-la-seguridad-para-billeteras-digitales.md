@@ -8,7 +8,7 @@ En este artículo se analiza los controles de seguridad que reducen principalmen
 ### 1.1. Estrategia
 Para un uso más fácil y una mejor gestión de riesgos, las billeteras se pueden segregar. Idealmente, la billetera principal (la que contiene la mayoría de sus recursos) debe estar aislada del dispositivo que se uso diario como si fuera una caja fuerte. Su computadora puede tener otra billetera para pagos diarios y en su celular otra para pagos pequeños cuando está fuera de casa. Hay varias opciones para aumentar la "seguridad":
 
-a) Una billetera de hardware, como lo es la billetera [Ledger](https://www.ledger.com/) o [Trezor](https://trezor.io/) (si la moneda es compatible) 
+a) Una billetera de hardware, como lo es [Ledger](https://www.ledger.com/) o [Trezor](https://trezor.io/) (si la moneda es compatible) 
 b) Un hardware dedicado, como una computadora portátil 
 c) Arranque dual en una unidad USB o disco duro externo (necesita evaluar el espacio libre en el disco si se va a alojar varias blockchains) 
 d) Un sistema virtual (dedicado) 
