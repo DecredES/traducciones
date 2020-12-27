@@ -3,17 +3,19 @@
 ## 1. Introducción
 En este artículo se analiza los controles de seguridad que reducen principalmente el riesgo de acceso no autorizado o uso indebido, fuga de información y acceso físico no autorizado. Estos controles pueden aplicarse en cualquier situación, pero nos centraremos en los controles que reducen el riesgo de que un atacante acceda a la clave privada o semilla de una billetera digital.
 
-"Todos quieren que haya respuestas simples en seguridad, pero a veces no hay respuestas simples".-Tavis Ormandy (@taviso) [15 de diciembre del 2017](https://twitter.com/taviso/status/941724872169766912?ref_src=twsrc%5Etfw)
+> Todos quieren que haya respuestas simples en seguridad, pero a veces no hay respuestas simples.
+>
+> -Tavis Ormandy (@taviso) [15 de diciembre del 2017](https://twitter.com/taviso/status/941724872169766912?ref_src=twsrc%5Etfw)
 
 ### 1.1. Estrategia
 Para un uso más fácil y una mejor gestión de riesgos, las billeteras se pueden segregar. Idealmente, la billetera principal (la que contiene la mayoría de sus recursos) debe estar aislada del dispositivo que se uso diario como si fuera una caja fuerte. Su computadora puede tener otra billetera para pagos diarios y en su celular otra para pagos pequeños cuando está fuera de casa. Hay varias opciones para aumentar la "seguridad":
 
-a) Una billetera de hardware, como lo es [Ledger](https://www.ledger.com/) o [Trezor](https://trezor.io/) (si la moneda es compatible) 
-b) Un hardware dedicado, como una computadora portátil 
-c) Arranque dual en una unidad USB o disco duro externo (necesita evaluar el espacio libre en el disco si se va a alojar varias blockchains) 
-d) Un sistema virtual (dedicado) 
-e) Una billetera de papel (no para mineros PoS)
-f) Dispositivo compartido con otras actividades (este siendo el menos seguro)
+- a) Una billetera de hardware, como lo es [Ledger](https://www.ledger.com/) o [Trezor](https://trezor.io/) (si la moneda es compatible) 
+- b) Un hardware dedicado, como una computadora portátil 
+- c) Arranque dual en una unidad USB o disco duro externo (necesita evaluar el espacio libre en el disco si se va a alojar varias blockchains) 
+- d) Un sistema virtual (dedicado) 
+- e) Una billetera de papel (no para mineros PoS)
+- f) Dispositivo compartido con otras actividades (este siendo el menos seguro)
 
 El usuario que elija una de las estrategias de la (a) a la (e), ya resolvió la mayoría de sus problemas y puede leer las recomendaciones de la sección 3 para obtener más información sobre la seguridad de la información. Los usuarios que compartieron un dispositivo en donde se aloja una billetera digital con otras actividades, deben leer la sección 3 con mucha atención.
 
@@ -36,10 +38,10 @@ Dependiendo de la vulnerabilidad, es posible que el atacante acceda al archivo d
 Incluso si el atacante no puede acceder a la clave privada o semilla, puede intentar obtener la mayor cantidad de información disponible para intentar iniciar sesión en plataformas de Exchanges (casas de cambio) y transferir recursos, mediante la búsqueda de correos electrónicos, contraseñas y otra información sobre el usuario que pueda ayudarlo a responder preguntas de seguridad en caso de pérdida de contraseña.
 
 ### 2.3. Acceso físico no autorizado
-Si el dispositivo incluye opciones de arranque dual, es posible arrancar*** un sistema operativo Linux en una unidad USB y copiar los archivos de la billetera desde el disco duro. Ver recomendación 3.18.
+Si el dispositivo incluye opciones de arranque dual, es posible arrancar un sistema operativo Linux en una unidad USB y copiar los archivos de la billetera desde el disco duro. Ver recomendación 3.18.
 
 ## 3. Recomendaciones
-Disclaimer (Atención**): Las siguientes recomendaciones se basan únicamente en estudios, experiencia profesional y preferencias personales. Siempre haga su propia investigación, evalúe sus riesgos y realice copias de seguridad antes de implementar cualquier control de seguridad.
+> Descargo de responsabilidad: Las siguientes recomendaciones se basan únicamente en estudios, experiencia profesional y preferencias personales. Siempre **haga su propia investigación, evalúe sus riesgos y realice copias de seguridad** antes de implementar cualquier control de seguridad.
 
 Muchas recomendaciones aquí son muy difíciles de implementar para el usuario promedio. En un mundo ideal, la seguridad de la información sería un tema muy sencillo, como marcar una casilla de verificación. Desafortunadamente, la seguridad no siempre es trivial. El usuario promedio debe, al menos, seguir las recomendaciones de las secciones 3.1, 3.2, 3.4, 3.5, 3.6, 3.9, 3.11, 3.12, 3.13, 3.14, 3.15, 3.17, 3.19. Idóneamente, casi toda la lista.
 
@@ -51,13 +53,18 @@ La misma recomendación se aplica a otros programas pirateados (crackeados): no 
 Cualquier tarea realizada con privilegios administrativos tiene mucho más alcance dentro del sistema operativo que con los privilegios de usuario normales. Los usuarios habituales tienen acceso a su propio entorno, mientras que los usuarios administrativos pueden hacer casi cualquier cosa dependiendo del sistema operativo. Mantenga las credenciales administrativas reservadas para tareas administrativas.
 
 ## Linux
-En Linux, cree un usuario normal. Instale sudo (Super User do) y agregue el usuario al grupo sudo (grupo de usuarios que pueden ejecutar el comando sudo). A partir de ese momento, use sudo para ejecutar comandos que requieran privilegios de root.
+En Linux, cree un usuario normal. Instale sudo y agregue el usuario al grupo sudo (grupo de usuarios que pueden ejecutar el comando sudo). A partir de ese momento, use sudo para ejecutar comandos que requieran privilegios de root.
 
-[IMAGEN] 
+```
+$ apt-get install sudo
+$ usermod -aG sudo [username]
+```
 
 Para verificar si el usuario es miembro del grupo sudo:
 
-[IMAGEN]
+```
+$ groups [username]
+```
 
 ## Mac y Windows
 En Mac y Windows, debe iniciar sesión con un usuario habitual y proporcionar las credenciales administrativas cuando sea necesario.
@@ -68,20 +75,47 @@ El firewall es otro control de seguridad y no resolverá todos los problemas. El
 ## Linux
 Los usuarios de Linux ya tienen un firewall nativo dentro del kernel: iptables. Como recomendación general, se aplican las siguientes reglas (las listas a continuación no son exhaustivas):
 
-[IMAGEN]
+```
+$ sudo iptables -A INPUT -i lo -j ACCEPT
+$ sudo iptables -A INPUT -m state --state INVALID -j DROP
+$ sudo iptables -A INPUT -m state --state ESTABLISHED -j ACCEPT
+$ sudo iptables -A INPUT -j LOG
+$ sudo iptables -P INPUT DROP
+$ sudo iptables -P FORWARD DROP
+```
 
-Las reglas con el destino DROP rechazan todos los paquetes*** sin respuesta; la segunda regla permite solo el tráfico localhost (interno) y la cuarta regla solo permite el tráfico relacionado con las conexiones iniciadas por el dispositivo. Podría aplicarse una regla para restringir la salida de paquetes para evitar que el código malicioso se comunique con el atacante. Esta regla no tendría prácticamente ningún efecto ya que muchos de estos códigos se comunican a través de HTTPS (TCP / 443) y en canales ofuscados. Sería necesario bloquear todo el tráfico saliente a internet y evitar incluso las actualizaciones a través de HTTPS.
+Las reglas con el destino DROP rechazan todos los paquetes sin respuesta; la segunda regla permite solo el tráfico localhost (interno) y la cuarta regla solo permite el tráfico relacionado con las conexiones iniciadas por el dispositivo. Podría aplicarse una regla para restringir la salida de paquetes para evitar que el código malicioso se comunique con el atacante. Esta regla no tendría prácticamente ningún efecto ya que muchos de estos códigos se comunican a través de HTTPS (TCP / 443) y en canales ofuscados. Sería necesario bloquear todo el tráfico saliente a internet y evitar incluso las actualizaciones a través de HTTPS.
 
-[IMAGEN]
+```
+$ sudo iptables -A OUTPUT -o lo -j ACCEPT
+$ sudo iptables -A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+$ sudo iptables -A OUTPUT -m multiport -p tcp --dports 80,443 -j ACCEPT
+$ sudo iptables -A OUTPUT -m multiport -p tcp --dports 9108,9109 -m comment --comment "dcrd p2p, RPC" -j ACCEPT
+$ sudo iptables -A OUTPUT -m multiport -p tcp --dports 19108,19109 -m comment --comment "testnet dcrd p2p, RPC" -j ACCEPT
+$ sudo iptables -A OUTPUT -p udp --dport 53 -m comment --comment "DNS Queries" -j ACCEPT
+$ sudo iptables -A OUTPUT -p tcp --dport 53 -m comment --comment "DNS Extended Queries" -j ACCEPT
+$ sudo iptables -A OUTPUT -p tcp --dport 11371 -m comment --comment "GPG HKP" -j ACCEPT
+$ sudo iptables -A OUTPUT -j LOG
+$ sudo iptables -P OUTPUT DROP
+```
 
-Para permitir el acceso externo a dcrd (Decred) es necesario abrir otros puertos en el firewall (ENTRADA de cadena) y configurar el NAT en el enrutador. Más información: https://github.com/decred/dcrd/blob/master/docs/default_ports.md
+Para permitir el acceso externo a dcrd (Decred) es necesario abrir otros puertos en el firewall (ENTRADA de cadena) y configurar el NAT en el enrutador. 
+
+Más información: 
+
+https://github.com/decred/dcrd/blob/master/docs/default_ports.md
+
 El paquete iptables-persistent se puede instalar para guardar las reglas y volver a cargarlas automáticamente después de cada reinicio:
 
-[IMAGEN]
+```
+$ sudo apt-get install iptables-persistent
+```
 
 Para guardar las nuevas reglas, use:
 
-[IMAGEN]
+```
+$ sudo iptables-save > /etc/iptables/rules.v4
+```
 
 ## Mac
 Los usuarios de Mac pueden intentar usar el [firewall de red nativo pfsense](https://pleiades.ucsc.edu/hyades/PF_on_Mac_OS_X) y habilitar el [firewall de la aplicación nativa](https://support.apple.com/en-us/HT201642), o evaluar las soluciones más amigables como [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) y [Hands Off](http://www.oneperiodic.com/products/handsoff/).
@@ -96,17 +130,20 @@ Todos los sistemas operativos y aplicaciones, en todas las plataformas, vienen c
 Abra la App Store y haga clic en Actualizaciones.
 
 ## Debian Linux
-[IMAGEN]
-
+```
+$ sudo apt-get update && apt-get upgrade
+```
 ## Redhat Linux
 
-[IMAGEN]
-
+```
+$ sudo yum update
+```
 ## Windows
 Ejecute Windows Update (ubicado en algún lugar dentro del Panel de control)
 
 ### 3.5. Elija contraseñas difíciles de adivinar
 Una contraseña difícil de adivinar hace que sea casi imposible para el atacante obtenerla mediante la fuerza bruta durante el tiempo necesario para probar todas (o casi todas) las combinaciones posibles. Dichas contraseñas tendrían más de 14 caracteres, letras mayúsculas [AZ], letras minúsculas [az], números [0-9] y símbolos [! @ # $% ^ & * ();: - = +], para nombrar unos pocos. Nunca use palabras de ningún diccionario, en ningún idioma. Nunca utilice datos que el atacante pueda obtener en bases de datos de proveedores de servicios como nombres, correos electrónicos, fechas de nacimiento, etc.
+
 [MasterPassword](https://masterpassword.app/) es una aplicación que ayuda a quienes tienen dificultades para crear nuevas contraseñas. Genera nuevas contraseñas a través de un algoritmo que combina una contraseña maestra (que debe ser elegida y memorizada por el usuario) y el nombre de los sitios a los que se accederá. No realiza ningún tipo de conexión externa y no almacena las contraseñas de forma local. Todo el proceso es determinista, nada es aleatorio, por lo que se puede reproducir en otros dispositivos sin necesidad de sincronización.
 
 ## Frase de contraseña para la billetera
@@ -159,8 +196,9 @@ Los usuarios de Firefox pueden habilitar [contextos de seguridad](https://wiki.m
 ### 3.17. Instalar un antivirus
 En algún momento, un usuario normal se comportará como un usuario normal. Por eso es mejor tener instalado algún antivirus. Si este usuario no ejecuta ejecutables aleatorios que no sean de confianza, no es necesario.
 
-"El contexto aquí es tener guías de "cómo no ser pirateado". Si no está ejecutando ejecutables*** aleatorios que no sean de confianza, el antivirus es una responsabilidad. Si estás ejecutando ex que no son de confianza, te piratearán."
-- Tavis Ormandy (@taviso) [16 de noviembre del 2017](https://twitter.com/taviso/status/931010786717155328?ref_src=twsrc%5Etfw)
+> El contexto aquí es tener guías de "cómo no ser pirateado". Si no está ejecutando programas aleatorios que no sean de confianza, el antivirus es una responsabilidad. Si estás ejecutando ejecutables que no son de confianza, te piratearán.
+>
+> - Tavis Ormandy (@taviso) [16 de noviembre del 2017](https://twitter.com/taviso/status/931010786717155328?ref_src=twsrc%5Etfw)
 
 ### 3.18. Cifre todo el disco
 Cifrar todo el disco reduce la amenaza de acceso físico no autorizado. Si el dispositivo no será transportado y no se está considerando el acceso físico no autorizado a su entorno, esto no debería ser la principal preocupación. Sin embargo, debe tenerse en cuenta que mientras en Mac es posible habilitar el cifrado en cualquier momento, en Linux es necesario particionar el disco con este soporte ANTES de instalar el sistema o copiar los datos. Esto significa, incluir la seguridad en el diseño, ser proactivo.
@@ -179,9 +217,11 @@ Las copias de seguridad deben realizarse preferiblemente con el dispositivo desc
 ### 3.20. Utilice un sistema operativo (razonablemente) seguro
 Los más paranoicos deberían experimentar [Qubes OS](https://www.qubes-os.org/) y [Subgraph](https://subgraph.com/), dos sistemas operativos Linux orientados a la seguridad.
 
-## 4. Recuperación***
+## 4. Restauración
 Si sospecha que hay algún problema con su sistema, la única recomendación segura es: vuelva a instalar desde cero (desde el medio de instalación, no desde una copia de seguridad que ya se haya visto comprometida). No existe ningún software, técnica o antivirus capaz de garantizar la eliminación de cualquier código malicioso que pudiera haber sido instalado. La razón es que existe una gran cantidad de códigos maliciosos en el mundo y las empresas de seguridad simplemente no los conocen todos. Además, nadie sabe con certeza cómo funcionan en su totalidad junto con todos los cambios que podrían haber implementado en su sistema.
+
 Durante esta reinstalación, intente no cometer los mismos errores que antes para no reproducir el mismo estado de inseguridad. Sí lo hace, obtendrá los mismos resultados.
-Además de la reinstalación, en caso de sospecha de acceso no autorizado, el usuario también debe crear una nueva billetera y transferir todos los recursos a la anterior lo antes posible. De esta forma el usuario evita el riesgo de que un atacante acceda (con o sin contraseña) y transfiera los recursos.
+
+Además de la reinstalación, en caso de sospecha de acceso no autorizado, el usuario también debe crear una nueva billetera y transferir todos los recursos de la anterior lo antes posible. De esta forma el usuario evita el riesgo de que un atacante acceda (con o sin contraseña) y transfiera los recursos.
 
 Articulo original: https://stakey.club/en/security-hardening-for-digital-wallets/
