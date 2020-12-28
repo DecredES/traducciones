@@ -175,9 +175,13 @@ e) Verificar la firma digital:
 [Imagen]
 
 f) Busque en la salida de gpg: “usando la clave RSA 6D897EDF518A031D” (solo cuando se verifica por primera vez después de importar la clave). Observe que la segunda mitad de la clave RSA, que se muestra en la tercera línea anterior, se muestra en el paso c) y también el texto "Buena firma de" Decred Release ""
+
 g) Windows no viene con una herramienta nativa para generar hashes SHA256. Los usuarios de Windows pueden probar la herramienta PowerShell File Checksum Integrity Verifier (PsFCIV) disponible en Microsoft Technet.
+
 Advertencia en la salida de GPG: Lea más sobre Web of Trust en la sección 3.1.
+
 Referencia: https://docs.decred.org/advanced/verifying-binaries/
- Obs .: si no tiene gpg, vaya a https://gpgtools.org/
+
+Obs .: si no tiene gpg, vaya a https://gpgtools.org/
 
 Articulo original: https://stakey.club/en/verifying-digital-signatures-decred/
