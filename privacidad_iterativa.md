@@ -53,7 +53,7 @@ Supón que Alice, Bob y Carol tienen cada uno un número y quieren calcular la s
 
 El truco que se usa en el ejemplo anterior es "la suma de las sumas horizontales es igual a la suma de las sumas verticales", lo cual es evidente si escribe las particiones:
 
-[./assets/dcr-secure-sum-example.png]
+![ejemplo-simplificado](./assets/dcr-secure-sum-example.png)
 
 Con DiceMix, se agrega complejidad adicional, pero el concepto central sigue siendo el mismo. DiceMix implica que cada par crea un vector de los exponentes de su dirección de pago, agrega términos de relleno a cada componente del vector que se basan en las claves de sesión por pares del proceso de intercambio de claves, suma estos vectores de cada par para crear un sistema de ecuaciones, y luego resolviendo el sistema de ecuaciones para las direcciones de pago. El truco aquí es que los términos de relleno se eligen de manera que se cancelen, ya que se suman en los vectores de todos los pares. Una vez que tenemos una lista anónima de direcciones de pago, se produce un proceso CoinJoin estándar con los pares.
 
