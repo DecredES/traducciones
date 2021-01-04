@@ -118,8 +118,9 @@ Si bien el trabajo ya completado es sustantivo, aún queda mucho por hacer. Nues
 
 A continuación, de acuerdo con el artículo de privacidad anterior, hemos agregado Decred al siguiente cuadro.
 
-![comparacion-pivacidad-con-decred](./dcr-cc-privacy-comparison-2.png)
+![comparacion-pivacidad-con-decred](./assets/dcr-cc-privacy-comparison-2.png)
 
-![comparacion-privacidad](./assetsdcr-cc-privacy-comparison-1.png)
+
+![comparacion-privacidad](./assets/dcr-cc-privacy-comparison-1.png)
 
 Articulo original: https://blog.decred.org/2019/08/28/Iterating-Privacy/
