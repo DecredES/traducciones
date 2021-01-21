@@ -55,13 +55,13 @@ El servicio dcrseeder es el agregador de red en Decred, que expone una lista de 
 Es el sistema de propuestas de Decred para almacenar datos fuera de la cadena con versiones y anclado a la cadena de bloques mediante marcas de tiempo de dcrtime. Esencialmente, "git, un popular sistema de control de revisiones con marca de tiempo".
 
 ## 3. Redes y direcciones
-Hay tres redes utilizadas por Decred. Mainnet es la red de producción. Esta es la red principal, la cadena de bloques que contiene los recursos valiosos con el mayor poder hash.
+Hay tres redes utilizadas por Decred. **Mainnet** es la red de producción. Esta es la red principal, la blockchain que contiene los recursos valiosos con el mayor poder de hash.
 
-Testnet es el entorno de desarrollo, un entorno público donde se prueba el nuevo código sin pérdidas reales. También es la red para demostraciones y para aprender cómo funcionan los componentes.
+**Testnet** es el entorno de desarrollo, un entorno público donde se prueba el nuevo código sin pérdidas reales. También es la red para demostraciones y para aprender cómo funcionan los componentes.
 
-Simnet es una red de simulación. Es como una red de prueba privada utilizada por desarrolladores y para pruebas avanzadas. Para crear su propia Simnet, lea https://docs.decred.org/advanced/simnet/.
+**Simnet** es una red de simulación. Es como una red de prueba privada utilizada por desarrolladores y para pruebas avanzadas. Para crear su propia Simnet, lea https://docs.decred.org/advanced/simnet/.
 
-[Imagen_traducirla?]
+![redes-de-decred](./assets/decred-networks.png)
 
 Una dirección Decred es una representación de una clave pública con un prefijo de 2 bytes que identifica la red y el tipo de clave, más un sufijo que contiene una suma de comprobación para detectar direcciones erróneas.
 
@@ -90,6 +90,7 @@ ScriptHashAddrID: [2]byte{0x0e, 0x6c}, // starts with Sc
 PubKeyHashAddrID: [2]byte{0x0f, 0x21}, // starts with Ts
 ScriptHashAddrID: [2]byte{0x0e, 0xfc}, // starts with Tc
 ```
+
 ## 4. Estructura de archivos y directorios
 ### 4.1. dcrd, dcrwallet y dcrctl
 Los archivos de configuración se encuentran dentro del directorio predeterminado de cada aplicación. A continuación, la ubicación predeterminada de los directorios en cada sistema operativo:
