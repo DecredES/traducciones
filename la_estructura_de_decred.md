@@ -1,14 +1,21 @@
 # La estructura de Decred
 ## 1. Introducción
-Para comprender cómo funciona Decred y aprovecharlo al máximo, debe comprender los tipos de redes, componentes, conexiones y direcciones que esxisten dentro de el.
+Para comprender cómo funciona Decred y aprovecharlo al máximo, debe comprender los tipos de redes, componentes, conexiones y direcciones que existen dentro.
+
 ## 2. Componentes
-[imagen_traducir]
+![componentes-decred](./assets/decred-ecosystem.png)
+Imagen 1: Una vista general de los componentes de Decred
+
 ### 2.1. dcrd
-Las funcionalidades de Decred se dividen en dos componentes principales: el primero es dcrd, el servidor blockchain, el nodo completo. Este componente resuelve problemas de blockchain, ejecuta reglas de consenso y establece una comunicación entre pares para sincronizar la cadena de bloques. Dcrd es la columna vertebral de Decred network.
+Las funcionalidades de Decred se dividen en dos componentes principales: el primero es dcrd, el servidor blockchain, el nodo completo. Este componente resuelve problemas de blockchain, ejecuta reglas de consenso y establece una comunicación entre los pares para sincronizar la blockchain. Dcrd es la columna vertebral de Decred.
+
 ### 2.2. dcrwallet
 El segundo componente es la billetera, que administra las monedas (transacciones no gastadas), claves privadas, generación determinista de claves, etc. A diferencia de Bitcoin Core, donde toda la funcionalidad se construyó sobre un componente monolítico, Decred extendió sus funcionalidades a través de componentes separados.
-Para conocer su saldo, dcrwallet consulta a dcrd sobre información en la cadena de bloques. Esta es una de las razones por las que dcrwallet habla con dcrd a través de RPC.
-[imagen_traducir]
+
+Para conocer tu saldo, dcrwallet consulta a dcrd sobre información en la blockchain. Esta es una de las razones por las que dcrwallet habla con dcrd a través de RPC.
+
+![componentes-basicos](./assets/decred-basic-setup.png)
+Imagen 2: Componentes básicos de Decred
 
 ### 2.3. dcrctl
 dcrctl es la aplicación para cliente que se conecta al servidor blockchain (dcrd) y al servidor de la billetera (dcrwallet) para realizar consultas y firmar transacciones.
