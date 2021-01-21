@@ -62,6 +62,7 @@ Hay tres redes utilizadas por Decred. **Mainnet** es la red de producción. Esta
 **Simnet** es una red de simulación. Es como una red de prueba privada utilizada por desarrolladores y para pruebas avanzadas. Para crear su propia Simnet, lea https://docs.decred.org/advanced/simnet/.
 
 ![redes-de-decred](./assets/decred-networks.png)
+Imagen 3: Redes de Decred
 
 Una dirección Decred es una representación de una clave pública con un prefijo de 2 bytes que identifica la red y el tipo de clave, más un sufijo que contiene una suma de comprobación para detectar direcciones erróneas.
 
