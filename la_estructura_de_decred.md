@@ -19,41 +19,62 @@ Imagen 2: Componentes básicos de Decred
 
 ### 2.3. dcrctl
 dcrctl es la aplicación para cliente que se conecta al servidor blockchain (dcrd) y al servidor de la billetera (dcrwallet) para realizar consultas y firmar transacciones.
+
 ### 2.4. Decrediton
 Decrediton es la aplicación gráfica para la billetera, disponible en múltiples plataformas. Con Decrediton no hay necesidad de preocuparse por dcrd, dcrwallet y dcrctl, porque es una aplicación 3 en 1.
+
 ### 2.5. Verificación de pago simple (SPV)
 SPV es un modo de operación que no depende de la ejecución local de un dcrd (nodo completo) para realizar sus funciones. SPV utiliza DNS Seeds para localizar nodos completos y conectarse a la red peer-to-peer.
+
 ### 2.6. Otros componentes
 Otros componentes de la red se abordarán en otros artículos. Aquí hay una breve descripción de cada uno.
+
 ## Atomicswap
 Un atomicswap es un intercambio entre dos usuarios de diferentes criptomonedas, que desean intercambiar por ejemplo: Decred y Bitcoin, sin utilizar un depósito como garantía. Debido a que las cadenas de bloques no están relacionadas y las transacciones no se pueden revertir, no existe protección contra una parte que no cumpla con el trato (los que enviarán los recursos).
 Atomicswap resuelve este problema sin la necesidad de un intermediario, conectando a las partes a través de una transacción contractual en cada blockchain.
 
 ## dcrdata
 El explorador de bloques de la red Decred. Se puede instalar localmente por razones de privacidad y para mejorar la confiabilidad o se puede acceder directamente en https://www.dcrdata.org.
+
 ## dcrlnd
-El Lightning Network Daemon (lnd) es una implementación completa de un nodo Lightning Network actualmente implementado en testnet3 (ESTADO ACTUAL: COMPLETADO), una red de prueba de Bitcoin. Lightning Network permite pagos instantáneos, mayor escalabilidad y transacciones de costo extremadamente bajo.
+El Lightning Network Daemon (lnd) es una implementación completa de un nodo de [Lightning Network](https://lightning.network/) actualmente implementado en testnet3 (ESTADO ACTUAL: COMPLETADO), una red de prueba de Bitcoin. Lightning Network permite pagos instantáneos, mayor escalabilidad y transacciones de costo extremadamente bajo.
+
 ## dcrpayments
-El conjunto de bibliotecas y utilidades para la integración con una pasarela de pago Decred. También existe la biblioteca para la integración del comercio electrónico de Magento*** con las billeteras de Decred.
+El conjunto de bibliotecas y utilidades para la integración con una pasarela de pago Decred. También existe la biblioteca para la integración del comercio electrónico de Magento con las billeteras de Decred.
+
 ## dcrstakepool
 La aplicación web que coordina la generación de direcciones de firma múltiple 1 a 2 utilizadas en un grupo de servidores de dcrwallet para que los usuarios puedan comprar tickets de minería de PoS (prueba de participación) en la red de Decred y usar el grupo de servidores para votar en su nombre cuando se extrae dicho ticket.
+
 ## dcrtime
 Implementación entre cliente y servidor del servicio de sellado de tiempo (timestamp)públicamente verificable en blockchain.
+
 ## dcrseeder
 El servicio dcrseeder es el agregador de red en Decred, que expone una lista de nodos confiables utilizando un servidor DNS interno. Lea más sobre esto en la sección 6.
+
 ## Politeia
 Es el sistema de propuestas de Decred para almacenar datos fuera de la cadena con versiones y anclado a la cadena de bloques mediante marcas de tiempo de dcrtime. Esencialmente, "git, un popular sistema de control de revisiones con marca de tiempo".
+
 ## 3. Redes y direcciones
 Hay tres redes utilizadas por Decred. Mainnet es la red de producción. Esta es la red principal, la cadena de bloques que contiene los recursos valiosos con el mayor poder hash.
+
 Testnet es el entorno de desarrollo, un entorno público donde se prueba el nuevo código sin pérdidas reales. También es la red para demostraciones y para aprender cómo funcionan los componentes.
+
 Simnet es una red de simulación. Es como una red de prueba privada utilizada por desarrolladores y para pruebas avanzadas. Para crear su propia Simnet, lea https://docs.decred.org/advanced/simnet/.
+
 [Imagen_traducirla?]
+
 Una dirección Decred es una representación de una clave pública con un prefijo de 2 bytes que identifica la red y el tipo de clave, más un sufijo que contiene una suma de comprobación para detectar direcciones erróneas.
+
 Por lo tanto, siempre es posible conocer el tipo de dirección en función de este prefijo de 2 bytes.
+
 El primer byte identifica la red. Todas las direcciones de Mainnet comienzan con "D", las direcciones de Testnet comienzan con "T" y las de Simnet con "S".
+
 El segundo byte identifica el tipo de dirección. Las direcciones más utilizadas son los hash de clave pública secp256k1, identificados por la "s" minúscula. Este tipo representa una única clave pública y, por lo tanto, tiene una única clave privada asociada que se puede utilizar para recuperar los recursos.
+
 El grupo de tickets usa una dirección de pago a script-hash, que se identifica con el segundo byte, una "c" minúscula. Este tipo de secuencia de comandos genera una firma múltiple 1 de 2. Tanto el usuario como el grupo de tickets tienen su propia clave privada. Dado que el script solo requiere una firma de dos (1 de 2), tanto el usuario como el grupo pueden votar, y así es como funciona la delegación de derechos de voto al grupo sin que el usuario tenga que renunciar a los derechos de voto.
+
 A continuación, verá algunas claves utilizadas en cada entorno Decred. Otros tipos de claves se abordarán en otros artículos.
+
 #### Mainnet
 ```
 PubKeyHashAddrID: [2]byte{0x07, 0x3f}, // starts with Ds
