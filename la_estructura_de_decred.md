@@ -115,7 +115,8 @@ C:\Users\$USERNAME\AppData\Local\Dcrctl\
 ```
 Dentro de estas carpetas se encuentran los archivos de configuración: `dcrd.conf`, `dcrwallet.conf` y `dcrctl.conf`.
 Si no puede ubicar los archivos de configuración, haga una copia de los archivos de muestra: `sample-dcrd.conf`, `sample-dcrwallet.conf` y `sample-dcrctl.conf`. Estos archivos vienen con el paquete de instalación `dcrinstall`.
-4.2. Decrediton
+
+### 4.2. Decrediton
 Decrediton almacena la billetera, los archivos de registro y su configuración en un solo directorio. La configuración de Decrediton reside en un archivo llamado `config.json` en todos los sistemas operativos.
 ```
 Windows: C:\Users\$USERNAME\AppData\Local\Decrediton
