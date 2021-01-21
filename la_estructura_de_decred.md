@@ -123,9 +123,11 @@ Windows: C:\Users\$USERNAME\AppData\Local\Decrediton
 macOS: ~/Library/Application Support/Decrediton
 Linux: ~/.config/decrediton
 ```
-Decrediton usa la carpeta `dcrd` predeterminada en cada sistema operativo para almacenar la cadena de bloques. El archivo `wallet.db` se almacena en una carpeta con el nombre de la red (`wallets / mainnet / $ WALLET_NAME / mainnet, wallets / testnet / $ WALLET_NAME / testnet2`) dentro de su propia estructura (no relacionada con el directorio dcrwallet).
+Decrediton usa la carpeta `dcrd` predeterminada en cada sistema operativo para almacenar la Blockchain. El archivo `wallet.db` se almacena en una carpeta con el nombre de la red (`wallets / mainnet / $ WALLET_NAME / mainnet, wallets / testnet / $ WALLET_NAME / testnet2`) dentro de su propia estructura (no relacionada con el directorio dcrwallet).
+
 ### 4.3. Datos de blockchain (dcrd y Decrediton) 
 Puede cambiar el directorio de almacenamiento de blockchain para mejorar el rendimiento o el uso del espacio en disco. Para dcrd, la configuración se realiza cambiando el parámetro `datadir` en el archivo `dcrd.conf.` Para Decrediton, el parámetro `appdata_path` en `config.json`.
+
 ### 4.4. Wallet (dcrwallet y Decrediton) 
 La billetera se almacena en el archivo `wallet.db`. Incluso si un dispositivo tiene dcrwallet y Decrediton instalados, sus billeteras serán archivos diferentes. Puede copiar el archivo entre directorios, para uso alternativo de las aplicaciones con la misma billetera. También puede configurar dcrwallet para usar Decrediton `wallet.db`.
 ### 4.5. Configuración a través de la línea de comandos (command-line)
@@ -152,16 +154,18 @@ Todos los componentes (dcrd, dcrwallet, dcrctl) están en el mismo dispositivo y
 - Que no estén todos los componentes en el mismo dispositivo, pero no haya ningún firewall instalado en los dispositivos para su interferencia;
 - Que no estén todos los componentes en el mismo dispositivo, pero todos los dispositivos están en la red local, en donde haya un firewall instalado pero no haya ninguna regla que bloquee el tráfico entrante de los dispositivos en la red local.
 - Por defecto, el sistema operativo (firewall) generalmente permita la comunicación de red saliente. Si el firewall está configurado para rechazar paquetes salientes que no están explícitamente permitidos, consulte los puertos que deben permitirse en las siguientes secciones.
+
 ### 5.1. localhost y Decrediton
-Si todos los componentes (dcrd, dcrwallet, dcrctl) se ejecutan en el mismo dispositivo, la comunicación debería fluir como se esperaba. Sin embargo, con reglas estrictas de un de firewall, puede que la comunicación del host local (en el mismo dispositivo) se bloquee. Si la comunicación no fluye como se esperaba, verifique las reglas del firewall para permitir la comunicación, en su lugar ponga*** lo siguiente:
+Si todos los componentes (dcrd, dcrwallet, dcrctl) se ejecutan en el mismo dispositivo, la comunicación debería fluir como se esperaba. Sin embargo, con reglas estrictas de un de firewall, puede que la comunicación del host local (en el mismo dispositivo) se bloquee. Si la comunicación no fluye como se esperaba, verifique las reglas del firewall para permitir la comunicación, en su lugar escriba los siguientes comandos:
 ```
 $ sudo iptables -A INPUT -i lo -j ACCEPT
 $ sudo iptables -A INPUT ! -i lo -s 127.0.0.0/8 -j DROP
 $ sudo iptables -A OUTPUT -o lo -j ACCEPT
 ```
 Si Decrediton no se ha configurado para usar un dcrd o dcrwallet externo, entonces todos los componentes están en el mismo dispositivo y la descripción anterior son aplicables.
+
 ### 5.2. dcrd
-Para permitir que su servidor dcrd (incluido el que viene con Decrediton) hable con otros servidores dcrd alrededor del mundo con una sola regla en iptables:
+Para permitir que su servidor dcrd (incluido el que viene con Decrediton) hable con otros servidores dcrd alrededor del mundo con una sola regla en *iptables*:
 ```
 $ sudo iptables -A OUTPUT -m multiport -p tcp --dports 9108,19108 -m comment --comment "dcrd to dcrd mainnet,testnet" -j ACCEPT
 ```
@@ -182,6 +186,7 @@ Si dcrwallet va ser controlado por un dcrctl instalado en otro dispositivo:
 ```
 $ sudo iptables -A INPUT -m multiport -p tcp --dports 9110,19110 -s $LOCALNET -m comment --comment "dcrwallet from dcrctl mainnet,testnet" -j ACCEPT
 ```
+
 ### 5.4. dcrctl
 Si dcrctl se utilizará para administrar un dcrd instalado en otro dispositivo, puede ser necesario configurar ciertas reglas para las conexiones salientes:
 ```
@@ -191,6 +196,7 @@ Si dcrctl se usará para administrar una dcrwallet instalada en otro dispositivo
 ```
 $ sudo iptables -A OUTPUT -m multiport -p tcp --dports 9110,19110 -d $LOCALNET -m comment --comment "dcrctl to dcrwallet mainnet,testnet" -j ACCEPT
 ```
+
 ### 5.5. Otros servicios
 Será necesario permitir otras conexiones salientes para un uso mínimo del dispositivo y la funcionalidad para Decred. Este uso incluye:
 - Descargar nuevas versiones de Decrediton y otros binarios;
@@ -198,7 +204,8 @@ Será necesario permitir otras conexiones salientes para un uso mínimo del disp
 - Consultar servidores DNS buscando otros nodos de la red de Decred;
 - Alquilar una dirección IP del servidor DHCP;
 - Actualizar el sistema operativo;
-- Actualizar el sistema de tiempo***(horario);
+- Actualizar el horario del sistema;
+
 ```
 $ sudo iptables -A OUTPUT -p udp --dport 53 -m comment --comment "DNS Queries" -j ACCEPT
 $ sudo iptables -A OUTPUT -p tcp --dport 53 -m comment --comment "DNS Extended Queries" -j ACCEPT
@@ -208,20 +215,21 @@ $ sudo iptables -A OUTPUT -p udp --dport 123 -m comment --comment "ntp" -j ACCEP
 $ sudo iptables -A OUTPUT -m multiport -p tcp --dports 80,443 -d ftp.debian.org -j ACCEPT
 $ sudo iptables -A OUTPUT -m multiport -p tcp --dports 80,443 -d github.com -j ACCEPT
 ```
-Para enviar paquetes de solicitud de eco ICMP a cualquier destino y poder enviar respuesta de eco ICMP unicamente a la red local (PING):
+Para enviar paquetes de solicitud de eco ICMP a cualquier destino y poder enviar respuesta de eco ICMP únicamente a la red local (PING):
 ```
 $ sudo iptables -A INPUT -p icmp --icmp-type echo-request -s $LOCALNET -m comment --comment "icmp ping reply" -j ACCEPT
 $ sudo iptables -A OUTPUT -p icmp --icmp-type any -d $LOCALNET -m comment --comment "icmp out" -j ACCEPT
 ```
+
 ### 5.6. Reglas generales
-Para configurar una política para una cadena en iptables, use la opción -P. Para mantener una configuración de lista blanca (todo está prohibido excepto lo específicamente permitido), las cadenas están configuradas para rechazar (DROP) cualquier paquete que no se ajuste a una de las reglas.
+Para configurar una política para una blockchain en iptables, use la opción -P. Para mantener una configuración de lista blanca (todo está prohibido excepto lo específicamente permitido), las blockchains están configuradas para rechazar (DROP) cualquier paquete que no se ajuste a una de las reglas.
 No es común bloquear conexiones salientes (OUTPUT DROP). Normalmente se utiliza una política "SALIDA ACEPTABLE".
 ```
 $ sudo iptables -P INPUT DROP
 $ sudo iptables -P FORWARD DROP
 $ sudo iptables -P OUTPUT DROP
 ```
-Para controlar los paquetes entrantes, generalmente se usan las siguientes reglas: la primera bloquea los paquetes inválidos (sin banderas, con características indocumentadas, etc.), y la segunda permite paquetes relacionados con la conexión que ya concuerdan con alguna regla de la cadena.
+Para controlar los paquetes entrantes, generalmente se usan las siguientes reglas: la primera bloquea los paquetes inválidos (sin banderas, con características indocumentadas, etc.), y la segunda permite paquetes relacionados con la conexión que ya concuerdan con alguna regla de la blockchain.
 ```
 $ sudo iptables -A INPUT -m state --state INVALID -j DROP
 $ sudo iptables -A INPUT -m state --state ESTABLISHED -j ACCEPT
@@ -235,8 +243,10 @@ Al final, todos los paquetes que no coincidieron con ninguna regla se registrar�
 $ sudo iptables -A INPUT -m limit --limit 3/min -j LOG --log-prefix "iptables_INPUT_denied: " --log-level 4
 $ sudo iptables -A OUTPUT -m limit --limit 3/min -j LOG --log-prefix "iptables_OUTPUT_denied: " --log-level 4
 ```
+
 ### 5.7. NAT
 Es probable que, dependiendo de la estructura de su red, aún necesite crear una regla NAT en el enrutador. NAT (o PAT) es una traducción de direcciones IP y puertos en el enrutador para que los servidores de una red privada sean accesibles desde una red pública.
+
 ### 5.8. Juntando todas las piezas
 A continuación, verá una lista de las reglas sugeridas hasta ahora. El orden de las reglas está relacionado con la expectativa de uso de cada una de ellas. Dado que las reglas se procesan secuencialmente de arriba a abajo, las reglas que se espera que sean más utilizadas se colocan en la parte superior de la cadena (INPUT, OUTPUT). La lista no es exhaustiva.
 ```
@@ -275,10 +285,14 @@ Si no hay  `iptables-save`en ejecutables:
 ```
 $ sudo apt-get install iptables-persistent
 ```
+
 ## 6. DNSSeed
 Dcrd almacena información sobre otros nodos en el archivo `peers.json`, ubicado en el directorio predeterminado de dcrd, dentro del directorio de red (`mainnet`, `testnet2`). Al buscar otros nodos en la red, dcrd lee este archivo e intenta conectarse a nodos conocidos. Después de un tiempo sin ejecutar dcrd, es posible que todos esos nodos se hayan apagado o que sus direcciones IP hayan cambiado.
-[imagen]
+
+![decred-semillas-fuera-de-linea](./assets/decred-dns-seeder-offline.png)
+
 Para resolver este problema, dcrd se conecta a los servidores DNS de la red y busca nodos válidos. Este servicio valida con frecuencia nodos conocidos y hace que esta información esté disponible para otros nodos, etc.
+
 > Simnet es una red de simulación privada que se utiliza para realizar pruebas. El descubrimiento de nodos de red no funciona como en Mainnet o Testnet, de lo contrario, esta red sería simplemente otra Testnet pública. Es por eso que DNSSeed de Simnet no tiene una dirección para la ubicación del nodo, como se muestra a continuación. 
 La siguiente información sobre las seeds (semillas)*** de DNS se encuentra en el código fuente de https://github.com/decred/dcrd/blob/master/chaincfg/params.go#L476.
 ```
@@ -318,7 +332,9 @@ Dcrd recibe la información sobre otros nodos y registra la dirección IP de cad
 ]
 ```
 Para más información, lea https://github.com/decred/dcrseeder.
+
 ## 7. Un escenario en común
+
 En la red de Decred encontramos varios escenarios:
 - Decrediton ejecutándose en Mac, Linux o Windows;
 - Decrediton conectado a un dcrd en la red local;
@@ -326,7 +342,10 @@ En la red de Decred encontramos varios escenarios:
 - dcrd en un dispositivo; dcrwallet y dcrctl en otro;
 - Un nodo con dcrd, una Raspberry Pi con dcrwallet y Decrediton como interfaz
 La modularidad de Decred permite numerosas configuraciones, adaptándose al perfil de usuario, la red y las necesidades de seguridad.
-[imagen]
+
+
+![tipica-configuracion-decred](./assets/decred-typical-network.png)
+
 Información sobre las direcciones y mucho más mientras lee el código en https://github.com/decred/dcrd/blob/master/chaincfg/params.go#L326
 
 Articulo original: https://stakey.club/en/the-decred-structure/
