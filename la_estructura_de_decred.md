@@ -294,7 +294,7 @@ Dcrd almacena información sobre otros nodos en el archivo `peers.json`, ubicado
 Para resolver este problema, dcrd se conecta a los servidores DNS de la red y busca nodos válidos. Este servicio valida con frecuencia nodos conocidos y hace que esta información esté disponible para otros nodos, etc.
 
 > Simnet es una red de simulación privada que se utiliza para realizar pruebas. El descubrimiento de nodos de red no funciona como en Mainnet o Testnet, de lo contrario, esta red sería simplemente otra Testnet pública. Es por eso que DNSSeed de Simnet no tiene una dirección para la ubicación del nodo, como se muestra a continuación. 
-La siguiente información sobre las seeds (semillas)*** de DNS se encuentra en el código fuente de https://github.com/decred/dcrd/blob/master/chaincfg/params.go#L476.
+La siguiente información sobre las seeds de DNS se encuentra en el código fuente de https://github.com/decred/dcrd/blob/master/chaincfg/params.go#L476.
 ```
 DNSSeeds: []DNSSeed{
     {"mainnet-seed.decred.mindcry.org", true},
@@ -341,8 +341,8 @@ En la red de Decred encontramos varios escenarios:
 - dcrd, dcrwallet y dcrctl ejecutándose en el mismo dispositivo;
 - dcrd en un dispositivo; dcrwallet y dcrctl en otro;
 - Un nodo con dcrd, una Raspberry Pi con dcrwallet y Decrediton como interfaz
-La modularidad de Decred permite numerosas configuraciones, adaptándose al perfil de usuario, la red y las necesidades de seguridad.
 
+La modularidad de Decred permite numerosas configuraciones, adaptándose al perfil de usuario, la red y las necesidades de seguridad.
 
 ![tipica-configuracion-decred](./assets/decred-typical-network.png)
 
