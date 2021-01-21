@@ -290,6 +290,7 @@ $ sudo apt-get install iptables-persistent
 Dcrd almacena información sobre otros nodos en el archivo `peers.json`, ubicado en el directorio predeterminado de dcrd, dentro del directorio de red (`mainnet`, `testnet2`). Al buscar otros nodos en la red, dcrd lee este archivo e intenta conectarse a nodos conocidos. Después de un tiempo sin ejecutar dcrd, es posible que todos esos nodos se hayan apagado o que sus direcciones IP hayan cambiado.
 
 ![decred-semillas-fuera-de-linea](./assets/decred-dns-seeder-offline.png)
+Imagen 4: dcrd usa semillas DNS para localizar otros nodos
 
 Para resolver este problema, dcrd se conecta a los servidores DNS de la red y busca nodos válidos. Este servicio valida con frecuencia nodos conocidos y hace que esta información esté disponible para otros nodos, etc.
 
@@ -345,6 +346,7 @@ En la red de Decred encontramos varios escenarios:
 La modularidad de Decred permite numerosas configuraciones, adaptándose al perfil de usuario, la red y las necesidades de seguridad.
 
 ![tipica-configuracion-decred](./assets/decred-typical-network.png)
+Imagen 5: Un escenario común
 
 Información sobre las direcciones y mucho más mientras lee el código en https://github.com/decred/dcrd/blob/master/chaincfg/params.go#L326
 
