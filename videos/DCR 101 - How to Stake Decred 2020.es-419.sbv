@@ -1,0 +1,335 @@
+0:00:00.000,0:00:03.310
+En este tutorial, les mostraré lo fácil y rápido que es stakear Decred
+
+0:00:03.310,0:00:05.763
+en 'Decrediton', la billetera de Decred.
+
+0:00:05.763,0:00:08.623
+La gobernanza de Decred se basa en el principio de votos de quienes tienen tickets.
+
+0:00:08.623,0:00:11.230
+Para participar de la gobernanza, los usuarios deben activar un 'bloqueo de tiempo'
+
+0:00:11.230,0:00:13.338
+(o stakear DCR) para comprar tickets.
+
+0:00:13.338,0:00:17.235
+Luego, estos tickets pueden ser usados para validar bloques, participar de las reglas de Consenso,
+
+0:00:17.235,0:00:20.455
+o de las propuestas en 'Politeia', la web de Decred sobre propuestas.
+
+0:00:20.455,0:00:24.833
+Los usuarios que participen reciben una porción de la recompensa del bloque como incentivo.
+
+0:00:24.833,0:00:28.485
+30% del total de la recompensa de bloque está asignado para los 'stakers'.
+
+0:00:28.485,0:00:31.744
+Antes de comenzar, permítanme recordarles que, si bien existen billeteras móviles
+
+0:00:31.744,0:00:33.689
+el sistema de Staking no es compatible en ellas.
+
+0:00:33.689,0:00:37.430
+Esto se debe a problemas de seguridad. Entonces, no puedes stakear en Android ni en iOS.
+
+0:00:37.430,0:00:39.015
+Además, en la fecha de la creación de este video
+
+0:00:39.015,0:00:42.630
+el staking tampoco es compatible por el momento en billeteras de hardware como Trezor ni Ledger.
+
+0:00:42.630,0:00:45.668
+Aunque esto puede cambiar en el futuro si se llevan a cabo los desarrollos apropiados.
+
+0:00:45.668,0:00:49.335
+Las plataformas que si son compatibles son: Windows, Mac y Linux.
+
+0:00:49.335,0:00:50.495
+Así que, vamos a comenzar.
+
+0:00:50.495,0:00:53.515
+Para descargar la billetera de Decred, 'Decrediton', simplemente ingresas a decred.org
+
+0:00:53.515,0:00:55.673
+el cual debería reconocer tu sistema operativo
+
+0:00:55.673,0:01:00.464
+o puedes ir a decred.org/downloads y selecciona el archivo apropiado para tu sistema operativo.
+
+0:01:00.464,0:01:03.644
+Una vez tengas tu seed y tu frase anotada y asegurada
+
+0:01:03.644,0:01:05.505
+y tu billetera se haya sincronizado completamente
+
+0:01:05.505,0:01:07.135
+haz clic en la pestaña de Tickets
+
+0:01:07.135,0:01:09.495
+en la parte superior encontrarás el precio actual del ticket
+
+0:01:09.495,0:01:12.971
+Esta es la cantidad de DCR que necesitas para adquirir un ticket y comenzar a stakear.
+
+0:01:12.971,0:01:14.935
+El precio de los tickets cambia cada 12 horas
+
+0:01:14.935,0:01:16.335
+y depende de un algoritmo
+
+0:01:16.335,0:01:20.050
+el cual intenta mantener una cantidad de 40,960 tickets.
+
+0:01:20.050,0:01:23.120
+Así que, cuantos más participen del staking, más alto será este precio.
+
+0:01:23.120,0:01:27.415
+Puedes utilizar explorer.dcrdata.org para ver cuál será el próximo cierre del precio.
+
+0:01:27.415,0:01:30.441
+También puedes ver los gráficos para revisar el historial del precio del ticket.
+
+0:01:30.441,0:01:32.820
+Ahora que conoces la cantidad de DCR que necesitas para stakear
+
+0:01:32.820,0:01:34.235
+el siguiente paso es obtener algunos.
+
+0:01:34.235,0:01:37.713
+Puede hacer esto a través de varios exchanges que aceptan efectivo o Bitcoin.
+
+0:01:37.713,0:01:42.565
+Visita decred.org/exchanges para obtener una lista completa donde puedas encontrar un exchange adecuado.
+
+0:01:42.565,0:01:45.265
+Podrás crear una dirección de entrega para tu DCR en tu billetera
+
+0:01:45.265,0:01:47.925
+haciendo clic en la pestaña "Transacciones", luego haga clic en "Rrecibir"
+
+0:01:47.925,0:01:49.765
+donde se creará una dirección para ti.
+
+0:01:49.765,0:01:52.875
+Utiliza la dirección generada para recibir tu DCR.
+
+0:01:52.875,0:01:55.985
+Una vez hayas recibido el DCR que compraste, haz clic en la pestaña "Tickets"
+
+0:01:55.985,0:01:58.616
+deberás registrarte a un Proveedor de Servicios de Votación
+
+0:01:58.616,0:02:01.135
+al también se lo conoce como VSP, o Stake Pool.
+
+0:02:01.135,0:02:05.135
+Los VSP permiten participar del sistema de Proof-of-Stake de Decred
+
+0:02:05.135,0:02:07.585
+sin la necesidad de llevar una billetera constantemente desbloqueada
+
+0:02:07.585,0:02:10.584
+o preocuparte por las pérdidas debido a fallas o internet inestable.
+
+0:02:10.585,0:02:14.435
+Esto significa que tus tickets votarán de forma segura, aunque tu billetera se encuentre offline.
+
+0:02:14.435,0:02:17.635
+Tu VSP también transferirá tus preferencias de voto a la red.
+
+0:02:17.640,0:02:20.988
+Actualmente, el 34% de los tickets utilizan algún tipo de VSP.
+
+0:02:20.988,0:02:24.239
+Utilizar un VSP no le concede el acceso a tus fondos a nadie.
+
+0:02:24.239,0:02:27.105
+Todo lo que haces es la otorgar derechos de voto a tu VSP.
+
+0:02:27.105,0:02:30.675
+Puedes ver una lista de VSP en decred.org/vsp
+
+0:02:30.675,0:02:32.435
+De esta lista, puedes elegir tu VSP.
+
+0:02:32.435,0:02:36.541
+Teniendo en cuenta los diferentes fees en el porcentaje de la red que poseé cada VSP.
+
+0:02:36.541,0:02:38.921
+En orden para apoyar la descentralización de la red
+
+0:02:38.921,0:02:42.735
+se recomienda unirse VSP más pequeño, con menos tickets activos.
+
+0:02:42.735,0:02:46.155
+La tarifa es del 5% (o menos), y el fee se paga con recompensa del ticket.
+
+0:02:46.155,0:02:48.725
+No es necesario que utilices el mismo VSP para todos tus tickets.
+
+0:02:48.725,0:02:51.805
+Así que, elegiré el VSP '99split.com'.
+
+0:02:51.805,0:02:53.915
+Es utilizado por una pequeña parte de la red.
+
+0:02:53.915,0:02:55.725
+Y tiene una tarifa inferior al 1%.
+
+0:02:55.725,0:02:58.940
+Entonces voy a grabar, ingresar el captcha
+
+0:02:59.480,0:03:02.025
+y luego ingresar una dirección de correo electrónico y una contraseña.
+
+0:03:02.025,0:03:04.610
+Tu VSP te enviará un correo electrónico de verificación a tu correo electrónico
+
+0:03:04.610,0:03:07.115
+Y solo tienes que confirmarlo, luego podrás iniciar sesión.
+
+0:03:07.115,0:03:09.685
+Una vez que haya iniciado, el VSP muestra una clave API
+
+0:03:09.685,0:03:13.195
+que necesitas para ingresar en Decrediton para agregar el VSP.
+
+0:03:13.195,0:03:16.225
+Si no se muestra aquí, puede encontrarlo en la pestaña 'Configuración'.
+
+0:03:16.225,0:03:19.220
+Volviendo a la cartera, asegúrate de elegir tu VSP
+
+0:03:19.220,0:03:22.020
+ingresa la clave API. Ingrese la contraseña de tu billetera
+
+0:03:22.025,0:03:25.981
+y haz clic en 'Agregar VSP'. Te avisará que se ha actualizado tu VSP.
+
+0:03:25.981,0:03:28.305
+Una vez que establezcas tu VSP en Decrediton
+
+0:03:28.305,0:03:30.695
+Haz clic en la pestaña 'Cancelar' o 'Actualizar tickets'.
+
+0:03:30.695,0:03:33.635
+Aquí puedes especificar la cantidad de boletos que deseas comprar.
+
+0:03:33.635,0:03:36.215
+Tu billetera te alertará si no tienes suficientes DCR.
+
+0:03:36.215,0:03:40.105
+Pon la cantidad de tickets, haz clic en 'Comprar', y luego ingresa la contraseña de tu boleto.
+
+0:03:40.105,0:03:43.084
+Aparecerá una notificación para avisarte que el ticker fue comprado
+
+0:03:43.084,0:03:46.570
+seguido de una linda animación de la mascota de Decred, 'Stakey'.
+
+0:03:46.570,0:03:49.367
+¡Y eso es todo! Así de fácil es convertirte en un stakeholder
+
+0:03:49.367,0:03:53.055
+y participar del sistema de consenso único PoW/PoS que Decred tiene.
+
+0:03:53.055,0:03:55.487
+La votación se puede realizar fácilmente a través de la pestaña "Gobernanza".
+
+0:03:55.487,0:03:57.075
+En la parte superior de la pestaña "Tickets".
+
+0:03:57.075,0:04:00.885
+Ahora tu cuenta VSP debería mostrar un texto para importar en la pestaña "Conectar a Billetera"
+
+0:04:00.885,0:04:04.645
+Que puedes usar para un reembolso en caso de que el VSP falle.
+
+0:04:04.645,0:04:05.685
+¡Asegura esto!
+
+0:04:05.685,0:04:09.269
+Ahora veamos las diferentes períodos que atraviesa tu ticket recién comprado.
+
+0:04:09.269,0:04:11.065
+En primer lugar, tu ticket ingresa a la mempool.
+
+0:04:11.065,0:04:13.985
+Aquí es donde tu ticket espera ser minado por un minero PoW.
+
+0:04:13.985,0:04:16.942
+Una vez que tu ticket se extraiga de un bloque, se vuelve inmaduro
+
+0:04:16.942,0:04:20.466
+y permanece en este estado durante unos 256 bloques (unas ~20 horas).
+
+0:04:20.466,0:04:22.195
+Durante este tiempo, el ticket no puede votar.
+
+0:04:22.195,0:04:26.703
+Una vez que tu ticket madure, ingresa al total de tickets y se convierte en uno Vivo (o no gastado).
+
+0:04:26.703,0:04:30.185
+Lo que significa que son elegibles para votar, y se pueden elegir en cualquier momento.
+
+0:04:30.185,0:04:34.365
+Una vez tu ticket sea elegido, tu dinero necesitará otras 20 horas para poder utilizarse nuevamente.
+
+0:04:34.365,0:04:38.941
+Recibirás el costo original del ticket, más la recompensa del bloque, menos la tarifa del VSP.
+
+0:04:38.941,0:04:43.164
+Al preparar este video, la recompensa del bloque es de 0.91 DCR por ticket votado.
+
+0:04:43.164,0:04:48.293
+En promedio, los tickets vivos votan en 28 días, sin embargo la votación puede tardar hasta 142 días.
+
+0:04:48.293,0:04:52.467
+Si el boleto no vota durante esta período, caduca y se pierde el fee del ticket.
+
+0:04:52.467,0:04:55.071
+¡Pero no te preocupes! Puedes obtener un reembolso del precio del ticket.
+
+0:04:55.071,0:04:58.435
+Las probabilidades de que esto te suceda son inferiores al 0,5%.
+
+0:04:58.435,0:05:01.245
+Es importante que comprendas que, una vez que compras un ticket
+
+0:05:01.245,0:05:05.295
+No hay forma de desbloquear tu dinero hasta que el ticket haya votado, o perdido, o vencido.
+
+0:05:05.295,0:05:09.445
+Y como decía, esto puede tardar unos 142 días en suceder.
+
+0:05:09.445,0:05:12.177
+Lo que esto significa es que los stakeholders en Decred tienen 'skin in the game'
+
+0:05:12.177,0:05:14.515
+están incentivados a no tomar malas decisiones.
+
+0:05:14.515,0:05:17.608
+ya que no pueden retirar su dinero cuando lo deseen.
+
+0:05:17.608,0:05:20.385
+Recuerda, en Decred, los stakeholders son quienes deciden.
+
+0:05:20.385,0:05:23.266
+No es un comité de planificación central, como es el caso de la mayoría de las monedas digitales.
+
+0:05:23.266,0:05:24.255
+¡Gracias por ver!
+
+0:05:24.255,0:05:28.115
+Si deseas unirte a la comunidad, no dudes en visitar decred.org/community
+
+0:05:28.115,0:05:30.385
+y siéntete en la libertad de preguntar cualquier duda que pueda surgirte.
+
+0:05:31.045,0:05:35.685
+Decred es seguro, adaptable, sustentable.
+
+0:05:35.895,0:05:39.355
+Obtén más información en decred.org
