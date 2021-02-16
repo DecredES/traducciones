@@ -1,0 +1,356 @@
+0:00:00.000,0:00:03.443
+Donde realmente se especializa Decred es en la gobernanza de la blockchain
+
+0:00:03.443,0:00:07.279
+y esto es algo (la gobernanza) que siempre está presente en todas las cadenas
+
+0:00:07.279,0:00:11.000
+incluyendo Bitcoin, sólo que por lo general se lo entiende pobremente.
+
+0:00:11.003,0:00:13.947
+Así que, la gobernanza es el proceso donde la gente debate
+
+0:00:13.947,0:00:18.102
+traduce, implementa, despliega, crea código y mueve
+
+0:00:18.102,0:00:21.840
+la capa de consenso social, el acuerdo que tenemos como personas
+
+0:00:21.840,0:00:27.558
+cómo mueves eso al código, y luego cómo implementas ese código en la capa de consenso de esa máquina
+
+0:00:27.558,0:00:29.779
+Así que básicamente es ese proceso de humanos
+
+0:00:29.779,0:00:33.490
+entrando en el código, debatiendo sobre qué versión del código es Bitcoin
+
+0:00:33.490,0:00:36.890
+cuál versión es Decred, cómo haces para debatir y discutir eso
+
+0:00:36.890,0:00:40.169
+y luego cómo se traduce ese código en una capa de consenso de la máquina
+
+0:00:40.169,0:00:43.990
+sea esa Proof-of-Work (PoW) o un híbrido PoW/PoS (Proof-of-Stake) como es en el caso de Decred
+
+0:00:43.990,0:00:47.412
+Entonces, ¿qué hizo Decred con la gobernanza en lugar del modelo clásico de consenso
+
+0:00:47.412,0:00:50.200
+que es esencialmente un mix de enfrentamientos entre
+
+0:00:50.200,0:00:53.274
+los mineros, los usuarios, los nodos económicos y los desarrolladores
+
+0:00:53.274,0:00:56.019
+todos discutiendo en Twitter y gritándose entre si en GitHub
+
+0:00:56.019,0:00:57.809
+tratando de averiguar cuál es el código
+
+0:00:57.809,0:01:02.329
+y cuál es el enfoque estándar para un consenso, el cual no cambia a menos que haya un consenso global.
+
+0:01:02.329,0:01:05.680
+Y lo que eso significa es, en general, que es mucho más largo, mucho más lento
+
+0:01:05.680,0:01:10.590
+mucho más desafiante, y hay mucho riesgo involucrado en el despliegue de las actualizaciones de la red
+
+0:01:10.590,0:01:12.847
+y tienden a tardar muchos, muchos años
+
+0:01:12.847,0:01:14.640
+no solo por el debate y la fase de discusión
+
+0:01:14.640,0:01:18.400
+sino también por realmente implementarlo. Así que, hay una capa mucho tiempo después de todo esto.
+
+0:01:18.400,0:01:21.129
+Y vale la pena señalar que esta es una característica y un error
+
+0:01:21.129,0:01:24.880
+esto es lo que le da a Bitcoin su naturaleza de no cambiar durante mucho tiempo
+
+0:01:24.880,0:01:31.000
+que es una característica, pero al mismo tiempo no puede actualizar ciertas características en un cierto período de tiempo.
+
+0:01:31.000,0:01:33.906
+Así que hay un equilibrio y un intercambio para estos dos.
+
+0:01:33.906,0:01:36.402
+No es que haya un camino particularmente correcto
+
+0:01:36.402,0:01:38.960
+pero hay más de una manera de resolver el problema.
+
+0:01:38.960,0:01:44.407
+Entonces, lo que hizo Decred es formalizar este sistema, y usa tres piezas esenciales para esto.
+
+0:01:44.407,0:01:47.068
+Así que, la primera es la Constitución de Decred
+
+0:01:47.068,0:01:48.915
+parecida a una constitución nacional
+
+0:01:48.915,0:01:52.240
+esta establece los principios básicos y los valores de la cadena de Decred
+
+0:01:52.240,0:01:55.080
+qué se propone hacer, cuáles son sus objetivos finales
+
+0:01:55.080,0:02:00.651
+y esto es para que las partes interesadas, los mineros, y los desarrolladores, que serán diferentes personas a medida que pase el tiempo
+
+0:02:00.651,0:02:04.389
+estas nuevas personas puedan entrar, comprender, y saber exactamente
+
+0:02:04.389,0:02:07.560
+en qué están eligiendo. Es una forma muy transparente de decir:
+
+0:02:07.560,0:02:10.720
+"Estos son los valores de Decred, esto es por qué existe
+
+0:02:10.720,0:02:14.080
+así es como se ve cuando participas, y así es como funciona el sistema."
+
+0:02:14.080,0:02:16.170
+Es ese tipo de documentación-guía de principios.
+
+0:02:16.170,0:02:20.080
+Politeia es una plataforma de propuestas off-chain, donde la gente puede proponer,
+
+0:02:20.080,0:02:23.200
+aumentando el desarrollo, presupuestos de marketing
+
+0:02:23.200,0:02:27.303
+cualquier cosa que impulse la investigación del proyecto, y cosas como eso.
+
+0:02:27.303,0:02:30.510
+Los tickets luego votarán sobre esto en la cadena
+
+0:02:30.510,0:02:33.219
+por lo que es esencial cómo la Tesorería está alocada
+
+0:02:33.219,0:02:36.560
+utiliza este sistema Politea para asignar realmente los fondos
+
+0:02:36.560,0:02:40.385
+y hay varios quórums, y cosas para asegurarse de que las partes interesadas en general
+
+0:02:40.385,0:02:42.480
+están de acuerdo con la dirección hacia donde van las cosas
+
+0:02:42.480,0:02:45.380
+y toda esta información está anclada en la cadena de bloques
+
+0:02:45.380,0:02:48.143
+para garantizar que sea resistente a la censura.
+
+0:02:48.143,0:02:53.320
+Y el último nivel en la cadena de votación es para los votos de Consenso.
+
+0:02:53.320,0:02:58.239
+Así que, una vez que se ha discutido en Politeia, y una vez que se dió toda la discusión
+
+0:02:58.239,0:03:01.899
+y comentarios que los desarrolladores se han ido y han construido lo que sea el código
+
+0:03:01.899,0:03:05.253
+si se requiere de un cambio en las Reglas de Consenso decretadas
+
+0:03:05.253,0:03:09.247
+y un ejemplo de esto es la implementación de Lightning Network hace un par de años atrás
+
+0:03:09.247,0:03:13.515
+entonces ese código se inserta en el software del Nodo en un estado latente.
+
+0:03:13.515,0:03:18.054
+Cuando el 95% de los mineros y el 75% de los stakeholders han actualizado sus nodos
+
+0:03:18.054,0:03:20.400
+por lo que tienen una copia de la nueva blockchain
+
+0:03:20.400,0:03:25.280
+pero actualmente ejecutan la anterior, pasarán entonces a una votación on-chain.
+
+0:03:25.280,0:03:29.200
+Y si hay una aprobación del 75% en ese voto on-chain
+
+0:03:29.200,0:03:31.783
+entonces el código comenzará.
+
+0:03:31.783,0:03:36.159
+En orden para realmente ejecutar el código, toda la red es esencialmente actualizada
+
+0:03:36.159,0:03:40.518
+pero con el código latente, y luego toma la aprobación explícita de los stakeholders (partes interesadas)
+
+0:03:40.518,0:03:44.080
+para participar y activar el voto de Consenso.
+
+0:03:44.080,0:03:48.289
+Así que, ese es realmente el último nivel que requiere el nivel más alto de quórum
+
+0:03:48.289,0:03:50.879
+para aprobar una votación por Consenso en Decred.
+
+0:03:50.879,0:03:54.480
+Y lo que esto realmente hace es que los stakeholders y los stakeholders de DCR
+
+0:03:54.480,0:03:56.249
+la pieza central del poder.
+
+0:03:56.249,0:04:01.040
+Así que, en lugar de ser tener un enfrentamiento entre usuarios, mineros y nodos
+
+0:04:01.040,0:04:06.151
+En Decred, todas las partes tienen esencialmente algún papel que desempeñar en la gobernanza del sistema
+
+0:04:06.151,0:04:09.090
+y todo esto requiere de bloquear por un tiempo determinado DCR.
+
+0:04:09.090,0:04:11.120
+Así que, si quieres participar en el sistema de staking
+
+0:04:11.120,0:04:14.159
+corres el riesgo de que falte liquidez, porque tus monedas estarán bloqueadas
+
+0:04:14.159,0:04:18.400
+por un período de entre 2 a 142 días (con un promedio de 28 días)
+
+0:04:18.400,0:04:21.070
+pero debido a que tus monedas están sujetas a la blockchain
+
+0:04:21.070,0:04:24.790
+es más probable que tomes decisiones que sean de tu mejor interés a largo plazo, ¿no?
+
+0:04:24.790,0:04:27.636
+Por lo que es muy caro tomar una mala decisión
+
+0:04:27.636,0:04:32.273
+porque tus monedas están on-chain. Si entra un atacante, compra muchos tickets
+
+0:04:32.273,0:04:35.600
+vota negativamente en propuestas, o negativamente en cambios de Consenso
+
+0:04:35.600,0:04:37.774
+el precio termina cayendo
+
+0:04:37.774,0:04:41.150
+a la larga están quemando dinero, y esto es parte del sistema de seguridad
+
+0:04:41.150,0:04:44.226
+y de por qué es una red tan elegante y desafiante para atacar
+
+0:04:44.226,0:04:48.931
+porque todos los incentivos están alineados para proteger la blockchain a largo plazo.
+
+0:04:48.931,0:04:52.447
+Ahora, los stakeholders tienen un veto sobre los mineros en la escala de las cosas
+
+0:04:52.447,0:04:54.620
+así que en el caso de centralizaciones menores
+
+0:04:54.620,0:04:57.108
+los stakeholders tienen el equilibrio de poder en última instancia
+
+0:04:57.108,0:04:59.980
+pero es importante tener en cuenta que los mineros también pueden stakear
+
+0:04:59.980,0:05:05.155
+no hay un limitar de quién puede stakear, por lo que no solo los mineros, los desarrolladores y los stakeholders
+
+0:05:05.155,0:05:07.520
+sino también los contratistas, los usuarios, los exchanges
+
+0:05:07.520,0:05:12.000
+y quienquiera que esté involucrado en la red de Decred puede ser parte del sistema
+
+0:05:12.000,0:05:13.980
+por lo que es un sistema muy inclusivo
+
+0:05:13.980,0:05:17.919
+y ese balance de poder existe en toda la red
+
+0:05:17.919,0:05:21.840
+y realmente se reduce a que el control de la Tesorería,
+
+0:05:21.840,0:05:27.451
+el control de las Reglas de Consenso y usando ese control con el mecanismo de hard fork de código latente
+
+0:05:27.451,0:05:30.824
+para asegurarse de que el sistema esté siempre estable, siempre seguro
+
+0:05:30.824,0:05:33.488
+y mantenido por todos los stakeholders involucrados.
+
+0:05:33.488,0:05:36.065
+Y la tesorería de Decred es realmente el corazón palpitante de la DAO
+
+0:05:36.065,0:05:41.507
+por lo que 10% de la recompensa del bloque ingresa al Tesoro (que hasta la fecha, ha sido 1.06 millones de DCR)
+
+0:05:41.507,0:05:45.863
+se han gastado alrededor de 8,7 millones de dólares en la construcción de Decred
+
+0:05:45.863,0:05:47.322
+y en este momento
+
+0:05:47.322,0:05:51.110
+hay 640 000 DCR todavía en la Tesorería
+
+0:05:51.110,0:05:55.993
+y que equivale aproximadamente a unos 8,7 / 9 millones de dólares, dependiendo del precio actual.
+
+0:05:55.993,0:05:59.364
+Lo que eso significa es en los cinco años desde que Decred se inició
+
+0:05:59.364,0:06:02.250
+toda la tecnología que ha creado desde el génesis
+
+0:06:02.250,0:06:06.005
+podría tener suficiente recorrido incluso si el precio nunca sube nuevamente
+
+0:06:06.005,0:06:10.051
+tendría la capacidad de reconstruirse todo nuevamente
+
+0:06:10.051,0:06:12.080
+tiene "otro Decred" en la Tesorería
+
+0:06:12.080,0:06:17.247
+y este es un fenómeno realmente muy muy interesante ya que por cada cambio de precio en DCR/USD
+
+0:06:17.247,0:06:21.039
+si tienes 640 000 DCR en la Tesorería (tanto hacia arriba como hacia abajo)
+
+0:06:21.039,0:06:25.580
+eso es un cambio en el total de la Tesorería y cuánto puede financiar en el futuro
+
+0:06:25.580,0:06:28.313
+por lo que el precio es en realidad un factor clave en Decred
+
+0:06:28.313,0:06:31.090
+y eso realmente puede mover la Tesorería aún más arriba
+
+0:06:31.090,0:06:34.800
+y cuanto más 'momentum' el proyecto obtenga, mayor será el valor de la Tesorería
+
+0:06:34.800,0:06:38.080
+y puede aún extender más el trayecto, y hay muchos excelentes estudios
+
+0:06:38.080,0:06:42.160
+y trabajos de investigación que analizan cuánto podría haber disminuido este trayecto
+
+0:06:42.160,0:06:45.160
+dependiendo de la relación gasto/precio.
+
+0:06:45.160,0:06:48.160
+Por lo que es un activo realmente interesante y muy reflexivo
+
+0:06:48.160,0:06:53.759
+y los fundamentos en realidad incrementan por cada cambio del precio en dólares.
+
+0:06:53.759,0:07:03.840
+Decred es seguro, adaptable, sustentable. Aprende más en: decred.org.
