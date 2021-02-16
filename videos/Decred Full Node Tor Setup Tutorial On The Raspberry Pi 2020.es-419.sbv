@@ -1,0 +1,428 @@
+0:00:05.120,0:00:11.223
+En este tutorial, te explicaré cómo configurar y ejecutar el nodo completo de Decred en Raspberry Pi con Tor habilitado
+
+0:00:11.223,0:00:14.676
+el nodo completo es un programa que permite validar transacciones y bloqueos
+
+0:00:14.676,0:00:16.620
+sin tener que depender de un tercero.
+
+0:00:16.620,0:00:21.746
+Ejecutar un nodo completo es una de las acciones de apoyo más sólidas que puedes realizar para un protocolo peer-to-peer.
+
+0:00:21.746,0:00:24.913
+Cada nodo de Decred que se ejecuta en la red agrega fuerza y resistancia
+
+0:00:24.913,0:00:26.599
+al mecanismo de Consenso.
+
+0:00:26.599,0:00:30.768
+Este video es orientado a usuarios de bajo nivel nuevos en Raspberry Pi y Linux.
+
+0:00:30.768,0:00:35.463
+La manera más sencilla de seguirlo es ejecutar este video junto con este script que publiqué en GitHub
+
+0:00:35.463,0:00:40.399
+donde puedes copiar y pegar todos los comandos necesarios. Me verás haciendo esto en el video.
+
+0:00:40.399,0:00:43.358
+Me gustaría agradecer a Checkmate por la guía original de Raspberry Pi
+
+0:00:43.358,0:00:46.020
+y a Kozel para la guía sobre la configuración de Tor. Así que, comencemos.
+
+0:00:46.020,0:00:51.270
+Necesitará un Raspberry Pi 3b o uno mejor, un adaptador de corriente o un cable de alimentación
+
+0:00:51.270,0:00:56.579
+una tarjeta SD de 32gb o mayor, y un lector de tarjetas SD, recomendaría una SSD
+
+0:00:56.579,0:01:00.798
+en lugar de una tarjeta SD si deseas obtener el mejor rendimiento y vida útil del nodo
+
+0:01:00.798,0:01:04.350
+pero una tarjeta SD está bien para empezar, y un cable HDMI si deseas
+
+0:01:04.350,0:01:07.283
+conectar tu Pi directamente al monitor o televisor.
+
+0:01:07.283,0:01:10.950
+Si aún no tiene un Raspberry Pi, recomendaría comprar un kit o paquete
+
+0:01:10.950,0:01:15.229
+que vendrá con todo lo que necesitas. Estos varian entre USD 60 / 100 comprándolo online
+
+0:01:15.229,0:01:17.310
+dependiendo del modelo al que vayas.
+
+0:01:17.310,0:01:20.340
+El primer paso es descargar el generador de imágenes para el Raspberry Pi
+
+0:01:20.340,0:01:23.130
+conecta tu tarjeta SD o SSD a tu computadora
+
+0:01:23.130,0:01:25.507
+instalaremos el sistema operativo Raspberry Pi.
+
+0:01:25.507,0:01:29.612
+Descarga el programa llamado 'Raspberry Pi Imager' e instálalo.
+
+0:01:29.612,0:01:32.297
+Elige tu sistema operativo, por defecto está bien
+
+0:01:32.297,0:01:36.833
+elige tu tarjeta SD, ten cuidado de no elegir nada más, y haz clic en 'Write'.
+
+0:01:36.833,0:01:40.210
+Una vez terminado, haz clic derecho en la unidad, y haz clic en 'Eject'.
+
+0:01:42.120,0:01:44.677
+Necesitarás decidir si deseas configurar tu Pi 'sin cabeza'
+
+0:01:44.677,0:01:46.432
+lo que significa que accedes a tu Pi de manera remota
+
+0:01:46.432,0:01:49.260
+sin tener que conectar un teclado, ratón ni monitor
+
+0:01:49.590,0:01:51.391
+o puedes elegir enchufar todo
+
+0:01:51.391,0:01:54.837
+y conectar tu PI a un televisor o monitor, con un cable HDMI.
+
+0:01:54.837,0:01:58.287
+Recomendaría que te tomes el tiempo en aprender a configurar tu Pi sin cabeza
+
+0:01:58.287,0:02:00.590
+para que puedas consultarlo fácilmente en el futuro.
+
+0:02:00.590,0:02:04.239
+Para la configuración sin cabeza vuelve a conectar la tarjeta SD/SSD
+
+0:02:04.239,0:02:08.237
+debes crear un archivo de texto en la unidad titulado 'SSH'.
+
+0:02:10.587,0:02:13.168
+Si planeas usar SSH en tu Pi de forma inalámbrica
+
+0:02:13.168,0:02:19.230
+hay otro paso extra en el que necesitas crear un archivo de texto titulado 'WPA_supplicant.conf'
+
+0:02:20.410,0:02:23.200
+e ingresa lo siguiente en el documento.
+
+0:02:25.230,0:02:30.199
+Por supuesto, debes ingresar tu propio red de código de país, nombre de la red, y tu propia contraseña.
+
+0:02:30.199,0:02:31.952
+Guarda el archivo una vez que haya terminado.
+
+0:02:31.952,0:02:33.770
+Haz clic derecho en la unidad, y luego en 'Eject'.
+
+0:02:33.770,0:02:37.574
+Conecta tu cable Ethernet (si es necesario), conecta tu tarjeta SD en el Pi
+
+0:02:37.574,0:02:39.600
+conecta la energía, y enciende tu Pi.
+
+0:02:39.600,0:02:42.784
+Si estás haciendo este proceso conectando directamente tu Pi a un monitor
+
+0:02:42.784,0:02:46.146
+deberías ver el arranque del Pi, y aparecerá la pantalla de inicio.
+
+0:02:46.146,0:02:49.529
+Si estás realizando una configuración sin cabeza, deberás descargar un programa llamado 'PuTTY'
+
+0:02:49.529,0:02:54.655
+este programa nos permitirá acceder a nuestro Pi, y controlarlo por línea de comandos, después de que haya arrancado.
+
+0:02:55.415,0:02:58.553
+En PuTTY pones 'raspberrypi.local' y presiona 'Enter'.
+
+0:02:58.553,0:03:00.480
+Haz clic en 'Connect', más allá de la precaución.
+
+0:03:00.480,0:03:02.975
+Se te pedirá que ingreses un nombre de usuario y contraseña.
+
+0:03:02.975,0:03:05.950
+el predeterminado es 'pi', y la contraseña es 'raspberry'.
+
+0:03:05.950,0:03:09.185
+Felicidades, ahora tienes SSH en tu Pi.
+
+0:03:09.185,0:03:11.816
+Si intentas conectar de forma inalámbrica, pero no puedes encontrar un 'host'
+
+0:03:11.816,0:03:14.520
+es posible que debas conectar tu Pi directamente a un monitor
+
+0:03:14.520,0:03:17.534
+e ingresar manualmente la contraseña de la red cuando te lo solicite.
+
+0:03:17.534,0:03:21.565
+Por supuesto también puedes ir directamente a través de Ethernet, que es la opción más fácil.
+
+0:03:21.565,0:03:23.879
+Ahora necesitamos habilitar el visor VNC.
+
+0:03:23.879,0:03:27.455
+En la línea de comandos, escribe 'sudo raspi-config'
+
+0:03:27.455,0:03:29.840
+selecciona 'Interfacing options'
+
+0:03:29.980,0:03:31.346
+selecciona 'VNC'
+
+0:03:32.233,0:03:33.233
+presione en 'Yes'
+
+0:03:33.786,0:03:35.596
+luego en 'Ok' y luego en 'Finish'.
+
+0:03:36.070,0:03:38.850
+Ahora configuraremos la resolución para VNC
+
+0:03:38.850,0:03:41.990
+escribe: 'sudo nano /boot/config.txt'.
+
+0:03:42.650,0:03:44.609
+Agrega el siguiente texto del documento.
+
+0:03:44.609,0:03:49.739
+De nuevo, deberías usar el script en GitHub para obtener estos comandos.
+
+0:03:52.110,0:03:55.380
+Ahora descarga, instala e inicia el visor de VNC
+
+0:03:55.380,0:03:57.797
+selecciona en 'New connection' desde el menú del archivo
+
+0:03:57.797,0:04:01.300
+y escribe 'raspberrypi.local' en el campo del servidor VNC
+
+0:04:01.810,0:04:03.040
+haz clic en 'Ok'.
+
+0:04:04.440,0:04:06.590
+Doble clic en el ícono de conexión para conectar.
+
+0:04:06.590,0:04:09.185
+Haz clic en 'Ok' si muestra una advertencia de seguridad
+
+0:04:09.185,0:04:14.910
+e ingresa el nombre de usuario y la contraseña del Pi cuando se le soliciten, los valores predeterminados son, usuario: 'pi', contraseña: 'raspberry'
+
+0:04:14.910,0:04:15.840
+clic 'Ok'.
+
+0:04:15.840,0:04:20.360
+Tu Raspberry Pi aparecerá en una ventana en el escritorio de tu computadora principal.
+
+0:04:20.360,0:04:22.680
+Podrás controlar todo desde allí.
+
+0:04:22.680,0:04:26.587
+Si estás utilizando tu Pi directamente a través de tu monitor, también puedes seguir esto.
+
+0:04:26.587,0:04:28.440
+Establece tu país según sea necesario.
+
+0:04:28.720,0:04:31.225
+Cambia tu contraseña de la cuenta de Pi cuando se solicite.
+
+0:04:31.225,0:04:34.450
+Puedes configurar tu Wi-Fi en este punto, si lo necesitas.
+
+0:04:34.450,0:04:35.950
+Actualiza tu Pi.
+
+0:04:37.547,0:04:39.290
+Reinicia tu Pi cuando se solicite.
+
+0:04:39.290,0:04:41.147
+Si estás haciendo esto en VNC
+
+0:04:41.147,0:04:44.040
+tendrás que volver a conectarte una vez que se reinicie el Pi.
+
+0:04:44.549,0:04:46.963
+Ahora necesitamos descargar el instalador de DCR.
+
+0:04:46.963,0:04:51.000
+Abre el navegador web, navega al sitio decred.org
+
+0:04:51.000,0:04:55.120
+desplázate hacia abajo, y busca por la versión 1.5.2
+
+0:04:55.120,0:04:58.431
+los nuevos lanzamientos serán distintas versiones, así que ten eso en cuenta
+
+0:04:58.431,0:05:01.581
+haciendo clic aquí nos llevará a la página de GitHub de lanzamientos de Decred
+
+0:05:01.581,0:05:06.480
+descarga 'dcrinstall-linux-arm-v.1.5.1'
+
+0:05:06.480,0:05:10.125
+nuevamente, puede que haya una versión más actualizada, asegúrate de descargar la última versión
+
+0:05:10.125,0:05:12.440
+necesitamos establecer el archivo como un ejecutable
+
+0:05:12.440,0:05:16.930
+abre la terminal de Pi, ejecuta el comando de descargas como se muestra
+
+0:05:20.750,0:05:24.120
+ahora escribe el comando para hacerlo ejecutable
+
+0:05:33.100,0:05:35.700
+navega a tu carpeta de descargas
+
+0:05:37.550,0:05:38.970
+haz doble clic en el instalador
+
+0:05:38.970,0:05:40.620
+ejecuta el instalador en la terminal
+
+0:05:41.013,0:05:43.810
+tomará algunos minutos para descargar y configurar todos los archivos
+
+0:05:43.810,0:05:46.801
+una carpeta llamada 'Decred' será colocada en tu directorio inicial
+
+0:05:46.801,0:05:49.834
+puede que pida que ingreses una contraseña para una nueva billetera
+
+0:05:49.834,0:05:51.065
+ingresa una contraseña
+
+0:05:51.065,0:05:54.250
+recuerda que solo estamos usando esto como un nodo, y no como una billetera
+
+0:05:56.170,0:05:59.360
+tipea 'n' para los datos públicos, presiona 'n' para la semilla
+
+0:05:59.360,0:06:01.906
+no estamos usando esto como billetera, así que no escribas la semilla
+
+0:06:01.906,0:06:05.180
+presiona 'Ok' para que la semilla, espera unos minutos para que termine
+
+0:06:05.180,0:06:06.490
+y ahora podemos iniciar el nodo
+
+0:06:06.490,0:06:09.109
+inicia la terminal y ejecuta el comando para comenzar
+
+0:06:09.109,0:06:13.457
+asegúrate de cambiar el número de versión si la versión actual ya no es la 1.5.1
+
+0:06:13.457,0:06:17.010
+por ejemplo, la versión 1.6.0.
+
+0:06:19.680,0:06:24.065
+El daemon de Decred iniciará, y comenzará la conexión con los pares.
+
+0:06:24.885,0:06:27.320
+Si ves que el nodo se ha iniciado correctamente
+
+0:06:27.320,0:06:30.870
+presiona CTRL + C al mismo tiempo para que podamos terminar habilitando Tor
+
+0:06:30.870,0:06:34.960
+si prefieres no ejecutar Tor, asegúrate de que tu puerto sea 9108
+
+0:06:34.960,0:06:38.046
+si sigues con Tor, no necesitarás asignar ningún puerto.
+
+0:06:40.126,0:06:44.105
+Tor es un software gratuito y de código abierto que habilita una comunicación anónima.
+
+0:06:44.105,0:06:46.080
+Abre la terminal del Raspberry Pi
+
+0:06:46.560,0:06:48.700
+escribe 'sudo apt install tor'
+
+0:06:57.260,0:06:59.110
+presiona 'y' para continuar
+
+0:07:03.109,0:07:04.849
+ejecuta el siguiente comando
+
+0:07:13.070,0:07:16.700
+agrega el siguiente texto en la parte superior como se muestra
+
+0:07:25.520,0:07:28.016
+presiona CTRL + X al mismo tiempo cuando hayas terminado
+
+0:07:28.016,0:07:32.140
+guarda en la misma ubicación de archivo, y presiona 'Enter' para continuar.
+
+0:07:33.630,0:07:36.670
+Reinicia el servicio Tor con el siguiente comando
+
+0:07:47.929,0:07:50.999
+Verifica el estado para ver si está funcionando.
+
+0:08:01.849,0:08:05.719
+Si no está funcionando, asegúrate de ingresar todo correctamente como se indica arriba.
+
+0:08:05.719,0:08:08.819
+Puedes salir de la vista presionando CTRL + C al mismo tiempo.
+
+0:08:09.884,0:08:11.274
+Ejecuta el siguiente comando
+
+0:08:18.850,0:08:22.340
+Guarda tu '.onion', lo necesitaremos para el siguiente paso.
+
+0:08:35.390,0:08:38.140
+Ahora necesitamos ejecutar la configuración
+
+0:08:51.789,0:08:55.010
+Edita la parte superior del archivo como se muestra en la pantalla
+
+0:08:58.209,0:09:00.879
+Asegúrate de ingresar tu '.onion'.
+
+0:09:12.990,0:09:16.279
+Presiona CTRL + X al mismo tiempo para salir, guarda el archivo.
+
+0:09:19.689,0:09:21.519
+Y ahora ejecuta tu nodo de Decred.
+
+0:09:30.350,0:09:32.930
+El nodo necesitará mucho tiempo para descargar y sincronizar.
+
+0:09:32.930,0:09:37.310
+Actualmente, la blockchain de Decred tiene un tamaño de unos 4.2 gigabytes.
+
+0:09:37.310,0:09:39.410
+Cuando veas un registro que dice 'inbound'
+
+0:09:39.410,0:09:41.750
+significa que tu nodo está aceptando conexiones de pares
+
+0:09:41.750,0:09:45.083
+y ahora estás oficialmente siendo parte de la blockchain de Decred, ayudándolo a crecer.
+
+0:09:45.083,0:09:49.132
+Si tu Pi alguna vez pierde poder, asegúrate de reiniciarlo y de volver a ejecutar DCRD.
+
+0:09:49.132,0:09:53.070
+También es una buena idea utilizar VNC para comprobar su Pi de vez en cuando.
+
+0:09:53.070,0:09:56.908
+Asegúrate también de seguir el proyecto Decred para no perderte de ningún nuevo lanzamiento.
+
+0:09:58.838,0:10:00.170
+Gracias por ver.
+
+0:10:00.778,0:10:12.280
+Decred es seguro, adaptable, sustentable. Conoce más en decred.org.
