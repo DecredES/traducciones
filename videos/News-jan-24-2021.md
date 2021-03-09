@@ -576,7 +576,7 @@ Adaptable
 {11:59}
 Sustentable
 
-{12:01}
+{12:01
 Aprende más en decred.org
 
 
