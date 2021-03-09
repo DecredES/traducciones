@@ -1,93 +1,391 @@
-# Actualización de Decred, 24 de enero del 2021. v1.6 inminente, Decred Eco, Métricas Altas, Propuestas y ¡Nuevo Contenido!
+# Actualizaciones Decred 24/01/2021- v1.6 , Decred Eco, máximos, propuestas y ¡nuevo contenido!
 
-Hola y bienvenidos a otro video sobre las actualizaciónes de Decred.
+{00:00}
+Decred noticias
+{00:02}
+Fondeado por el fondo de Tesorería de Decred
+{00:04}
+Hola y bienvenido a la actualización de noticias de esta semana,
+{00:06}
+soy su anfitrión Exitus y han sucedido muchísimas cosas dentro del proyecto Decred
+{00:09}
+Decred 1.6 finalmente está aquí para la emoción de la comunidad de Decred, este es un gran hito para el proyecto con años de desarrollo que se unen,
+{00:17}
+todos los usuarios de Decred deberían actualizar a la versión 1.6 yendo a decred.org y descargar el nuevo software
+{00:23}
+también se estuvo viendo un número diferente de máximos históricos en varias métricas diferentes sobre la cadena
+{00:27}
+participación en la privacidad, participación en staking, el valor en el fondo de tesorería de Decred está aumentando
+{00:33}
+a medida que aumenta el tipo de cambio (exchange) de Decred
+{00:34}
+Politeia también tiene una participación récord de votantes en la última propuesta
+{00:38}
+con una participación de 70 votantes con más de 29,000 votos emitidos,
+{00:43}
+para comenzar, repasemos rápidamente lo que abarca este nuevo lanzamiento
+{00:46}
+El nuevo lanzamiento incluye una nueva votación para descentralizar la tesorería de Decred que comenzará una vez que el 75% de los stakers y el 95% de los mineros actualicen su software,
+{00:54}
+como puedes ver, por parte de los stakeholders se ha completado
+{00:57}
+y ahora solo estamos esperando que los mineros se actualicen
+{00:59}
+una vez que esto suceda, se abrirá una ventana para una votación en donde los stakeholders emitirán su voto para un cambio de reglas durante un intervalo de aproximadamente 4 semanas
+{01:06}
+una vez que finalice la votación, las nuevas reglas se activarán sí al menos el 75% de los stakers votan a favor
+{01:11}
+o las nuevas reglas serán rechazadas y permanecerán inactivas
+{01:14}
+las desiciones que se toman en el protocolo de Decred están hechos por los poseedores de las monedas quienes realmente tienen "Skin in the game"
+{01:17}
+no para un pequeño comité de planificación central como en la mayoría de las criptomonedas
+{01:21}
+una nueva forma de votar por servicio de proveedores para staking ya está aquí, lo llaman Vspd.
+{01:25}
+Vspd elimina la necesidad de registrarse y proporcionar un correo electrónico a un vsp,
+{01:28}
+lo que mejora la privacidad del usuario y facilita aún más el proceso de staking,
+{01:32}
+además, los usuarios ya no necesitan almacenar un script de canje y no hay reutilización de direcciones.
+{01:37}
+Las tarifas de vsp se pagan por adelantado en una transacción en cadena.
+{01:40}
+Vspd también permite que los tickets se compren con la mezcla de fondos a través de Decreds Coins shuffle ++ mixnet,
+01:45
+esto aumenta el tamaño del conjunto de anonimato general, lo que brinda mayor privacidad a los usuarios de Decred
+{01:51}
+para dar un breve recorrido sobre cómo hacer staking con Vspd,
+{01:53}
+vaya a la pestaña de staking, seleccione el vsp
+{01:56}
+seleccione el número del ticket que desea
+{01:58}
+y luego simplemente cómprelo,
+{01:59}
+tendrá que esperar a que el ticket pase por la mixnet sí es que tiene habilitada la privacidad,
+{02:02}
+por lo que esto podría tomar un poco de tiempo ya que la mezcla se produce en una época de 20 minutos
+{02:06}
+con este nuevo sistema, puedes pagar la tarifa del vsp por adelantado,
+{02:09}
+por lo que deberás esperar hasta que la transacción se haya extraído y la billetera haya confirmado que se pagó la tarifa de vsp.
+{02:15}
+Estoy preparando un recorrido más detallado para el nuevo sistema de staking,
+{02:18}
+así que asegúrese de estar suscrito a este canal, para no perderse ninguna actualización.
+{02:21}
+Los usuarios ahora pueden mezclar y anonimizar sus decreds en la pestaña de privacidad con tan solo unos pocos clics.
+{02:26}
+He preparado un tutorial para el "mixing" que puedes ver aquí en este canal de youtube.
+{02:30}
+Cuanto más se mezcle decreds, más fungible se vuelve,
+{02:33}
+más del 32% del suministro circulante de Decred actual esta mezclado
+{02:37}
+lo cual es increíble por derecho propio y solo aumentará a medida que más usuarios opten por mezclar sus monedas.
+{02:42}
+La red Lightining de Decred ahora se ha integrado completamente en su billetera Decrediton,
+{02:45}
+los usuarios ahora pueden recibir y enviar pagos virtualmente al instante con tarifas de transacción mínimas,
+{02:50}
+Lightning en Decred es todavía nuevo, por lo que no hay demasiados canales o actividad en él a partir de ahora,
+{02:55}
+pero hay tantas posibilidades de que Lightning crezca, será emocionante ver cómo se desarrolla,
+{02:59}
+también estaré trabajando en videos tutoriales sobre cómo realizar transacciones en la red lightning
+{03:03}
+y cómo configurar y ejecutar su propio nodo lightining.
+{03:05}
+En Decrediton hay una nueva página que muestra una lista de salidas no gastadas,
+{03:11}
+los Vsps ahora se muestran en orden aleatorio en la pestaña de tickets,
+{03:14}
+el estado de los tickets se actualizará en los inicios, reinicios y restauraciones de semillas
+{03:18}
+hay detección automática sí la billetera usó el "mixing" en el pasado,
+{03:21}
+ahora hay sugerencias de interfaz de usuario (UI) para propuestas y presentaciones de RFP
+{03:25}
+y algunas actualizaciones del soporte en Trezor en la nueva billetera de escritorio, diríjase a Decred, y verá la implementación de la interfaz de usuario (UI) y la configuración para la mezcla de juego aleatorio,
+{03:31}
+se han agregado las configuraciones del mensaje de verificación, del mensaje de firma y las páginas de configuración de la billetera entre otras, UX y correcciones de errores.
+{03:38}
+Las billeteras móviles también continúan trabajando para agregar privacidad y soporte de Politeia,
+{03:43}
+los usuarios también pueden crear una billetera solo para ver desde la pantalla de inicio,
+{03:46}
+decred.org tiene una nueva página elegante dedicada a la versión 1.6,
+{03:52}
+el escáner de direcciones Decred se ha actualizado y está disponible en Google Play Store,
+{03:56}
+la integración de Decrediton está a la espera de revisión.
+{03:58}
+La propuesta de la fase 2 del Dex de Decred fue aprobada por los stakeholders,
+{04:02}
+esto significa que se comenzó a trabajar para comenzar a agregar soporte spv, intercambios atómicos (atomic sawaps) en Ethereum
+{04:06}
+y la integración de Decrediton.
+{04:08}
+La comunidad de Decred también se ha mantenido activa,
+{04:10}
+Decred Arabia celebró el quinto aniversario de Decred con una presentación y un poco de pastel,
+{04:15}
+en estos cinco años no ha habido ataques del 51%, cero tiempo de inactividad, ha tenido series de cambios de consenso dirigidos por la comunidad,
+{04:22}
+actualizaciones serias como privacidad, la red lightning, un Dex, verificación de pagos simples,
+{04:27}
+una plataforma de propuestas pública,
+{04:29}
+tampoco ha habido bifurcaciones minoritarias fuera del protocolo que pueda fracturar la comunidad.
+{04:33}
+El investigador de Decred, Checkmate, aceptó un puesto en Glassnode como analista on-chain,
+{04:38}
+también será entrevistado en Real Vision el 17 de febrero, así que no se lo vaya a perder.
+{04:43}
+El líder del proyecto Decred, Jake Yacom Piatt, fue entrevistado sobre la versión 1.6 en Coinscrum:
+{04:47}
+- "con Decred, lo que estamos tratando de ser, ya sabes, la evolución del dinero, Decred es dinero involucrado y lo hacemos, al tener, ya sabes,
+{04:56}
+al noquear 3, ya sabes, 3 principales cosas,
+{04:59}
+seguridad,
+{05:01}
+adaptabilidad y sostenibilidad,
+{05:03}
+somos seguros porque la gente no puede duplicar arbitrariamente el gasto en nuestra red,
+{05:07}
+somos adaptables porque nuestras reglas de consenso pueden cambiar con el tiempo, evolucionamos a través de hard forks,
+{05:13}
+y luego en términos de sostenibilidad, somos un proyecto autofinanciado en donde los subsidios de nuestra blockchain se utilizan para financiar el desarrollo en curso
+{05:21}
+y, ya sabes,
+{05:22}
+construir a partir de eso, ya sabes, del proyecto,
+{05:24}
+y la versión 1.6 de la que estamos hablando hoy es el más grande,
+{05:28}
+creo que es el lanzamiento individual más grande de Decred que ha ocurrido desde entonces,
+{05:33}
+su lanzamiento es porque, ya sabes, hay tanto, hay tanto empaquetado,
+{05:36}
+que incluso tengo que ser breve sobre lo que estoy hablando en el contexto de 1.6.
+{05:40}
+Decred fue incluido en una exchange africana, First Kudi en Nigeria.
+{05:44}
+Travis Kling dice que existen muy pocos activos criptográficos que puedan presentarse como un caso creíble
+{05:49}
+para ser un depósito de valor
+{05:51}
+además le gusta Decred.
+{05:53}
+- así que digamos que aparece algo nuevo,
+{05:55}
+bien,
+{05:57}
+y ese es el bitcoin de google, en donde preguntan los jeeps
+{06:00}
+¿cuáles serían las características,
+{06:03}
+cuáles serían las características,
+{06:04}
+cuál sería la mejora relativa
+{06:08}
+a bitcoin,
+{06:09}
+como, yo no sé cómo es eso,
+{06:12}
+hay muy pocos activos criptográficos en existencia hoy en día, incluso pueden presentar un caso creíble
+{06:17}
+para una reserva de valor
+{06:19}
+y todos son drásticamente como,
+{06:21}
+como lo es Litecoin, un competidor de Bitcoin como,
+{06:24}
+me refiero,
+{06:25}
+tal vez Bitcoin Cash, tal vez
+{06:28}
+Decred, me gusta Decred.
+{06:30}
+El podcast Staked lanzó un episodio con "Imod Perez"
+{06:32}
+que trabaja para Metal Pay
+{06:34}
+-¿Qué tiene Decred que te emociona tanto?
+{06:38}
+-su pesado intelecto,
+{06:41}
+se enfoque solo en Decred,
+{06:43}
+que no está concentrado en súper precios,
+{06:47}
+me recuerda al inicio de Bitcoin,
+{06:49}
+en el mismo tiempo que me metí en él en
+{06:51}
+2014,
+{06:52}
+donde la gente realmente solo hablaba de fundamentos y tecnología,
+{06:55}
+Decred realmente representa para mí, tal vez
+{06:58}
+la oportunidad de tener realmente un sistema de efectivo digital,
+{07:03}
+gracias a que sabe que sus
+{07:04}
+propiedades son más fungibles,
+{07:07}
+adaptables
+{07:08}
+y
+{07:10}
+ofrecen el rendimiento en cadena
+{07:11}
+en el activo nativo virtual.
+{07:12}
+Richard Red publicó un artículo sobre el Proof-of-work de Decred,
+{07:15}
+en donde se adentra en la agrupación de Proof-of-work de los mineros y en la elaboración de redes
+{07:20}
+que representan sus direcciones y transacciones,
+{07:22}
+en el flujo de DCR minado hacia los intercambios, de los pools de tickets y otros datos
+{07:26}
+Richard dice que ha habido 192 direcciones que recibieron recompensas de Proof-of-work,
+{07:30}
+directamente desde Coinbase y estas a su vez enviaron el DCR recién minado
+{07:35}
+a 242, 226 direcciones,
+{07:38}
+también dice que un gran destinatario de monedas de Proof-of-work también ha recibido flujos significativos de DCR que no es minado,
+{07:45}
+incluidos algunos airdrops y pagos del fondo de tesorería,
+{07:47}
+este es un gran reporte informativo,
+{07:49}
+recomiendo a todos que lean el artículo completo visitando blockcommons.red
+{07:53}
+Monday PR ayudó a crear conciencia en varios medios a Decred, en varios sitios nuevos relacionados con la actualización Decred 1.6,
+{08:00}
+incluido en Beg news, Crypto Mode, Crypto briefing, Invezz,
+{08:05}
+Cryptocurrency newscast
+{08:07}
+y en Explica.
+{08:08}
+El DEX fue nombrado en Xangel.io, como uno de los principales exchanges descentralizados para observar en 2021,
+{08:13}
+además, el líder del proyecto, Jake Yacom Piatt, apareció en el Modern Consensus, sobre cómo la saga de la parada de ganancias destaca los beneficios de DCRDEX
+{08:21}
+y los exchanges descentralizados,
+{08:23}
+dice que los exchanges descentralizados como DCRDEX , permiten a las personas comerciar con un mínimo riesgo de fricción y centralización,
+{08:29}
+Decred y otras criptomonedas nivelan el campo de juego en un sistema financiero que de otra manera sería manipulado,
+{08:34}
+en una configuración que solo beneficia a los que están arriba.
+{08:36}
+Ahora echemos un vistazo a las estadísticas de la red,
+{08:39}
+la participación en staking alcanzó un máximo histórico de 57.07%
+{08:43}
+el precio del ticket tiene un nuevo máximo histórico de 214.55,
+{08:47}
+posiblemente incluso más alto para cuando este video se publique,
+{08:50}
+el valor del fondo de la tesorería también llego al máximo, más de 70 millones de dólares,
+{08:55}
+alcanzamos un nuevo máximo de monedas mezcladas en un día con más de 388,000
+{09:00}
+casi 4 millones de DCR o aproximadamente 32% de la oferta circulante está mezclada,
+{09:04}
+estas métricas se están rompiendo semana tras semana,
+{09:07}
+asegúrese de comprobarlos usted mismo en dcrdata.org
+{09:10}
+Ahora revisemos la actividad en el sistema de propuestas públicas de Decred, Politeia.
+{09:14}
+En Politeia tenemos dos nuevas propuestas que están en etapa de votación,
+{09:17}
+la primera es la propuesta de Investigación de Código Abierto 2021 (Open Source Research 2021) de Richard Red,
+{09:21}
+esta propuesta busca 40 000 dólares a pagar en Decred para continuar financiando la investigación
+{09:25}
+y la recopilación de datos relacionados con la blockchain de Decred, la comunidad y otros proyectos de blockchain competitivos basados ​​en la gobernanza.
+{09:32}
+10 000 dólares se destinarán a la investigación externa y 9 150 se destinarán a contratista decred para realizar recolección de datos abiertos sobre estadísticas en redes sociales,
+{09:43}
+estadísticas de redes, propuestas, traducciones, eventos, entre otras áreas de interés.
+{09:48}
+La investigación nos ayuda a comprender más sobre las diferentes blockchains y lo que está ocurriendo en la red,
+{09:52}
+también puede ayudar a informar a los stakeholders sobre qué camino tomar en el futuro,
+{09:55}
+todo el trabajo de Richard se puede ver en blockcommons.cc y en blockcommons.red
+{10:00}
+Los comentaristas apoyaron los esfuerzos continuos de investigación,
+{10:03}
+aunque algunos pidieron más informes que incluyan investigaciones externas fuera de Decred,
+{10:06}
+temas más interesantes como la privacidad, algunos no aprobaron la investigación externa.
+{10:11}
+A continuación está la propuesta de la Revista Decred 2021 de Bee,
+{10:14}
+esta propuesta solicita un presupuesto de entre 34 mil a 34 900 dólares para producir y publicar la Revista Decred y Politeia Digest para 2021.
+{10:22}
+La Revista Decred es publicada cada mes con toda la actividad que ocurre dentro del proyecto Decred,
+{10:26}
+sobre estadísticas de la red hasta las actualizaciones de desarrollo, es una ventanilla única para cualquiera que busque saber qué ha estado sucediendo dentro del proyecto Decred.
+{10:33}
+Politeia Digest es un resumen de las propuestas de politeia y sus resultados de votación
+{10:37}
+para ayudar a mantener a los votantes informados y actualizados sobre lo que está sucediendo en la plataforma y la dirección del proyecto.
+{10:43}
+Bee escribe 30 minutos al mes, lo cual uno se puede mantenerse actualizado e informado sobre lo que está sucediendo dentro de Decred.
+{10:48}
+Las ediciones de la revista Decred normalmente contienen 5000 palabras y 240 enlaces con fuentes,
+{10:52}
+los comentaristas elogiaron la calidad de la Revista Decred y esperan verlo continuar.
+{10:56}
+Por supuesto, los Stakeholders pueden votar estas propuestas directamente desde la billetera Decred, en la pestaña de gobernanza.
+{11:01}
+Tuvimos cuatro propuestas que finalizaron su votación,
+{11:03}
+las propuestas necesitan al menos el 60% de la aprobación de los votantes para ser aceptada
+{11:07}
+con al menos el 20% de participación de los votantes. .
+{11:09}
+La propuesta de la fase 2 del desarrollo de DEX fue aprobada por 98.2%,
+{11:14}
+en total se emitieron 22 213 votos con una participación del 53%.
+{11:19}
+La propuesta del podcast Decred Depth fue aceptada con un 86,3% de aprobación,
+{11:23}
+hubo una participación de votantes del 28%.
+{11:25}
+La propuesta de comunicación y creación de contenido de Decred Arabia fue aceptada con un 96.2% de aprobación,
+{11:31}
+se emitieron un total de 22 833 votos, lo que significa una participación de 55% de votantes,
+{11:36}
+y finalmente, la propuesta del libro de Amarooni fracasó con un 57% de participación de los votantes,
+{11:40}
+un total de 29 060 votos fueron emitido, siendo una participación de votantes del 70%,
+{11:46}
+esta es la participación de votantes más alta en la historia de Politeia para una propuesta.
+{11:50}
+Muchas gracias por ver esta actualización de noticias de Decred,
+{11:52}
+asegúrese de visitar decred.org para obtener más información sobre el proyecto.
+{11:56}
+Decred es Seguro,
+{11:58}
+Adaptable
+{11:59}
+Sustentable
+{12:01}
+Aprende más en decred.org
 
-We are on the brink of decred's biggest release in years, the 1.6 release.
- 
-This release will bring about privacy, the lightning network and it will decentralize the Decred treasury, making Decred on of the biggest decentralized autonomous organizations in crypto.
- 
-The treasury as of this video is worh about 37 million dollars and increasing by the day in this bull market.
- 
-We are also seeing highest stake participation ever seen in the project with over 55 percent of Decred staked in the decred proof-of-work proof of stake mining system.
- 
- 
-The fact that so much Decred is being staked while we are in a bull run, just shows how  much confidence there is in the protocol and with that said let's move on to development updates.
- 
-Decred dcrd release cadidate version 5 is here for testing.
- 
-This release candidate mainly has under the hood improvements fixing various bugs and other dicovered oddities as well as general polishing. In the privacy tab users can now send all available funds from their default account to unmixed account by pressing a newly added button. This make de process of mixing your Decred even easier.
- 
-The what's new sections of the Decrediton also has been updated to show the 1.6 features.
- 
-Wallet translations have also been updated.
- 
-User can now turn off UI animations to make the wallet much more snappy when changing between tabs.
- 
-Decred developer Marco Peereboom says ther is more on the way for 2021 with two exciting things planned for this year.
-
-Remember Decred has the ability to change his consensus code via stakeholder vote and the project treasury to fund new development things will be built and added to Decred not just in the next year but in the decades to come with the treasury increasing so much in value I hope this attracts outside developer talent and we can start seeing more and more proposals on Politeia.
-
-A development pre-proposal from dex developer buck has arrived called Decred Eco, a gui application manager for Decred. The goal for Decred Eco is to be a one-stop Decred application manager wich automatically stays the date it allows users to launch Decred applications such as Decred Wallet Decrediton, The DEX and other Decred Software such as ticket splitting. Other apps can be expected as The Decred Project is constantly growing and expanding.
-
-Imagine a Decred based version of the popular gaming platform steam. Where all of your apps are constantly updated and ready to launch with minimal user tinkering. Bucks is a working  prototype is done for linux and windows is in process.
-
-The timeline and costs are 9 to 12 months until completion and an ask of 59 800 dollars. I will leave a link in the video description for those who want to read more about Decred Eco.
-
-Taking a look at privacy stats over 29 percent of Decred in circulation has been actively mixed. Tha’s over 3.5 million Decred and release 1.6 has not even arrived yet.
-
-Speaking of privacy, Edward Snowden was againg talking about Bitcoin’s lack of privacy features despite being in existence for 11 years.
-
-
-Unfortunately the Bitcoin network as it exists does not provide the privacy protections really necessary for these kind of transactions at scale and I think It should and It could and it’s clear to me the developers relize this should be done for whatever reason however when we’re talking about Bitcoin improvement for rason they haven’t actually moved to do this wich is puzzling to me because  now they’ve had years to do it. I’m not picking winners and losers. I don’t have horse or care or concern as to who wins this beyond. I think what the world needs what we need is a truly independent means of enabling private transactions. My big question is Why are you guys taking so long?
-
-
-Edwar Snowden wants to hold money that is both updradable and has privacy features. He should probably look into Decred.
-
-We also saw lots of community activity in the form of podcasts and Videos.
-
-
-I went in there and just did my standar scan through all of the on-chain metrics and basically everything was an all-time high right, transaction volume, staking volume, amount stake, coin mixing in a day, obviosly the DEX and LN are going to be at all-time highs. I was looking there’s on-chain metrics for Decred that are all time high. Left-right center it’s actually very impressive so even I was taken a back by the manitude of it you know you were looking for that stakeholders ticket buying. Well we cerainly got it. And i mean it’s crazy right like the percentage of supply in the ticket pool now is at all-time highs and you know what’s insane about all this is that all these all-time highs are getting pushed from an on-chain perspective wich is just you know larger stakeholder participation and you know natural bullishness on you know the DCR token is that this is al happening before 1.6 is even out. The owning absolute stake in the Decred DAO and the DCR of viability becoming some sort of monetary asset. You know it has legs let’s see what hapens in this bull market through right and I’m fairly sure that in the next release 1.7 wich you know this is the great thing about Decred right 1.6 hasn´t even come out yet. There’s already work going on at 1.7 and know on of the things that’s going to come into the wallets is going to be really clean multi-sign and multi-sign ultimately is the backbone and really what makes utxo chains very very different from you know traditional money, is you can have these elegant and unique custody solutions and what’s so fascinating about the on-chain space is essentially you get to see nino i love your saying about saying it’s the objective truth it just is what happened on the ledger  and the great thing about what happens in the ledger is that it’s really really expensive right. Every single print wheter it’s a difficulty adjustment whether it’s a hash whether it’s a transaction whatever it is right coin age coins not being spent coins being spent . All of those things are very very deliberate actions if you weren’t looking at the google search trends if you weren’t looking at the traditional media if you weren’t listening to the guys just know drawing fancy pictures on charts you’re actually looking at the data like checkmate and nino are doing. You would have seen the indicator telling you everything you needed to know and that’s what on-chain analysis is it is and evolution of what this base we needs in terms of analysis.
-
-
-Decred contributor checkmate has released an amazing Decred walkthrough. So what Decred did with governance rather than the rough consensus model wich is essentially where it’s a mexican standoff you’ve got the miners, the users, the conomic nodes and the developers all arguming on twitter and yelling at each other on github trying to work out what the code is and the estadar approach for rough consensus is no change unless there’s global consensus and what that means is generally a much longer mush slower. Far more challenging and there is a lot of risk involving in rolling out network upgrades and they tend to take many many years not only for the debate and the discussion phase but then actually implement so there’s a long time layer to all of this. The main reason that i think it’s important to ve looking at Decred right now is Decred 1.6 wich is really the probably the biggest upgrade in Decred’s history is just on the horizon.
-
-The community has lovingly named this thing hidden hydra because the hidden side is it captures the privacy element that’s coming in and the hydra is that it’s going to essentially give degrade multiple heads and make it an unstoppabble down.
-
-The Decred Project Lead Jake Yocom-Piatt was featured on cointelegraph talking about the possible effects of a central bank digital currency takeover he says cryptocurrencies like bitcoin and decred are fundamentally fairer systems than fiat currencies so while cbdc’s may adopt any cryptocurrency features that cannot compete on fairness this is due to cyptocurrencies haing deterministic issuance schedules and self-custodians assets whereas cbdc’s are just digital fiat.
-
-Decred arabia created an excellent educational video explaining decred’s hybrid consensus system. The Decred arabia team has a proposal out to continue funding future work more on that later in this video.
-
-Staked Podcast was very active producing new episodes. Eduardo even has a proposal out more on that later in the video 
-
-
-what was it about you know Decred over the hundred and thousands of others that you saw as this one could be worh holding for a decade.
-
-
-
-If you actually try to start using bitcoin you know it’s got problems it’s got problems that actually make it unusable to me i don’t want the person i’m sending to be able to dig into my past transactions as just a deal breaker. Just because it was the first i’m really pretty sure that it’s not gonna be the one i think these problems that it’s got are gonna kill it there was nothing close to Decred having the potential to actually cover all of those things, the government things that we all known. Yeah, yeah, yeah the team and the incentive alignments. How do you come to? You know the ability to the ability to change the ability to adapt and the speed and having a governance to just see through those changes and the that’s it. Decred is not perfectly today  but it’s moving in that direction of being unruggable.
-
-
-As interest and decred climbs in this bull market. Decred was the number three traded coin on the brazilian exchange Novodax after bitcoin and Ethereum.
-
-Politeia Decred’s public proposal system has a few new proposals up for discussion and vote. The Decred DEX development phase 2 proposal from chappjc is here. Phase one of dex deveolpment saw the completion and release of a minimal viable product version of the dex wich has executed tens  of thousands of dcr worth of trades via atomic swaps with no middlemen, no kyc requirements and no trading fees. 
-Phase 2 sets forth some well sought after objectives such as smoother onboarding via the use of simplified payment verification wich will enable quick startups and greatly reduce disk space usage since users will need to have full nodes to operate the DEX. The Decrediton integration efforts to get the DEX added into Decred’s main wallet and support for more assets namely ethereum and it’s erc 20 token standar wich would make trading popular stablecoin such as usdc and therer possible, bitcoin cash and other bitcoin forks will likely be added as well as they don’t require too much development time. 
-Other work for this proposal includes continued under the hood bug fixes ui updates and other product improvement as time passes. Chappjs says the expected delivery for these developments is 6 to 9 months with work split between three to four full time developers. The total estimated cost is 245 000 USD dollar payable on Decred and billed monthly via Decred Contractor Management System. Certain initiatives that did not make the cut for this proposal but could see work in the future are Monero swap compatibility, Lightning Network integration and a server mesh wich would bring decentralization to the next level all in all the comments were enthusiastic about the dex release and the upcoming improvements proposed. One commenter writes with the tighter kyc requirements and clamp down on privacy oriented coins. This proposal could not come at a better time. The community appreciates and understands how important it is to be able to buy and sell Decred in a permissionaless and truly decentralized manner.
-
-The next proposal is Decred in Depth (Live) from Eduardo Lima. Eduardo is taking the reins from mr black and starting up a new season of Decred in depth. The decred’s informative podcast series. He says he will livestream 24 to 36 episodies with each episode post-produced and turned into a podcast. Furthermore he will pull several smaller clips from the podcast in order to spread teasers on twitter and other social media sites. He’s asking 500 usd dollars per episode to be completed over the course of 2021.
-
-He says the episodes will be live stream for viewers to tine in as the podcast is happening then later edited and uploaded to various platforms. Eduardo has been hosting his own decred focus podcast called staked over the past four months having a number of different guests on a talk Decred in Cryptocurrencies in general. Commenters have been positive about the proposal pointing out how importante the Decred in Depth serias has been for marketing and Eduardo’s commitment for The Decred Project having already produced four months worth of content. 
-Some concerns were mainly bases on the format and the production quality. Eduardo says he will be handling Decred in Depth more professionalism as compared to the Staked Podcast wich is more free form.
-
-Decred stakeholders can vote directly from their wallet by going to the governance tab.
-
-A new proposal from amarooni titled “Decentralized Credits: The digitization of Money and Stake (book)" has arrived. Ammarooni plans to author a book based on his studies of Decred and economic context. Phase one of his work involved researching the Decred protocol followed by a series of written articles wich have become quite popular within the Decred community. 
-His focus now is to study Decred as a monetary asset and as a dow. His research articles will ultimately be published as a free book made a available in pdf form as well as amazon kindle. Ammarooni argues one of the key reasons bitcoin is so successful is because of the amount of education material that draws people into the rabbit hole. Decred has a more complex design that bitcoin yet we have a only a teeny fraction of the amount of education material. He is asking for a maximum billing rate of two thousand dollars per month payable in Decred over a eight to ten month period and fifteen hundred dollars for finalization and publishing finzalized book once completed.
- Commenters have been positive about the proposal pointing to popular bitcoin books as an excellent way to educate newcomers when asked about his writing ability emma rooney pointed out he was recently published in Bitcoin Magazine and nasdaq.com (http://nasdaq.com/). 
-I will leave a link in the video description to ammarooni’s medium account where you can read all of this completed Decred work thus far.
-
-And finally we have the Decred arabia communitactions and content creation proposal from arij. The purpose of this proposal is to increase the awareness presence and adoption of Decred inn te arabic region, this will be donde via creating content in arabic, hosting local events and growing social media presence. Leading the proposal is Insaf Nori who has been actively contributing to Decred via translations, content creation and events. Zakaria will  be contributing as a designer. He has made numerous Decred Art wich you can find on twitter. They say blockchain technology today is emerging in the arabic world. The total budget is 6 200 usd dollars lasting six mounths and payable in Decred. User feedback has been positive praising the frugal budget and the hard work demostrated by the proposer.
-
-Thanks for tuning into this week’s Decred news update. Be sure to check out decred.org (http://decred.org/) if you’d like to learn more about the project.
-
-*Decred es seguro, adaptable y sustentable. Aprende más en decred.org (http://decred.org/)*
-
+Subtitulos: https://www.youtube.com/watch?v=Quf8u1Ksm4M
+Original: https://www.youtube.com/watch?v=f2ooNJXpR7I
