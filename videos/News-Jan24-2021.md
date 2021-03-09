@@ -217,8 +217,8 @@ también será entrevistado en Real Vision el 17 de febrero, así que no se lo v
 El líder del proyecto Decred, Jake Yacom Piatt, fue entrevistado sobre la versión 1.6 en Coinscrum:
 
 {04:47}
-- "con Decred, lo que estamos tratando de ser, ya sabes, la evolución del dinero, Decred es dinero involucrado y lo hacemos, al tener, ya sabes,-
-- 
+"con Decred, lo que estamos tratando de ser, ya sabes, la evolución del dinero, Decred es dinero involucrado y lo hacemos, al tener, ya sabes,-
+
 {04:56}
 al noquear 3, ya sabes, 3 principales cosas,
 
@@ -268,10 +268,11 @@ para ser un depósito de valor
 además le gusta Decred.
 
 {05:53}
-- así que digamos que aparece algo nuevo,
-- 
+así que digamos que aparece algo nuevo,
+
 {05:55}
 bien,
+
 {05:57}
 y ese es el bitcoin de google, en donde preguntan los jeeps
 
