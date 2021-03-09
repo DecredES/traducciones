@@ -580,6 +580,6 @@ Sustentable
 Aprende más en decred.org
 
 
-Subtitulos: https://www.youtube.com/watch?v=Quf8u1Ksm4M
+Subtitulos: https://youtu.be/cZx4azGOvqQ
 
 Original: https://www.youtube.com/watch?v=f2ooNJXpR7I
