@@ -1,4 +1,4 @@
-# Actualizaciones Decred 24/01/2021- v1.6 , Decred Eco, máximos, propuestas y ¡nuevo contenido!
+# Actualización Decred 14/02/2021 Lanzamiento 1.6, votar por $75 millones de DAO, LN, privacidad y más
 
 {00:00}
 Decred noticias
