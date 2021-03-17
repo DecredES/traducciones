@@ -1,4 +1,4 @@
-# videoSubtitles
+# Video Subtitles
 Subtitles made for YouTube content
 
 Every .sbv file has the YouTube link in the description
