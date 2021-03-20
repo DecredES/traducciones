@@ -1,3 +1,20 @@
+Lo más destacado de febrero:
+
+
+- Se lanzó el software v1.6.1, agrega correcciones de errores y mejoras de UX a la versión 1.6
+
+- Se alcanzaron los umbrales de actualización de PoW y PoS, pero no antes de que se lanzara una política de votación de tickets que obliga a los mineros a actualizar
+
+- La participación de PoS alcanzó nuevas alturas y el porcentaje de DCR mixto aumentó del 31% al 38%
+
+- Kohola, un front-end para dcrwallet dirigido a usuarios expertos, fue introducido y lanzado
+
+- Las propuestas de La revista Decred y Open Source Research 2021 fueron aprobadas por votación de los stakeholders
+
+## Versión del partch v1.6.1
+
+La nueva [versión](https://twitter.com/decredproject/status/1364636813168693252?s=21) incluye correcciones de errores y mejoras de UX para dcrd, dcrwallet, Decrediton y dcrdex. La mayoría de los cambios han abordado problemas con la nueva participación de VSP y cómo funciona junto con la mezcla. Es importante destacar que permite a los usuarios de Decrediton establecer opciones de voto por consenso con VSP tanto heredado como nuevo.
+
 ## Comunidad
 
 Damos la bienvenida a los nuevos colaboradores con código fusionado en la rama master @bochinero ([dcrlnd](https://github.com/decred/dcrlnd/commits?author=bochinchero)) y @fintechtrades ([dcrdocs](https://github.com/decred/dcrdocs/pull/1150))
@@ -79,6 +96,7 @@ Las instantáneas son demasiado volátiles, así que compárelo en cómo se han 
 El hashrate informado de UUPool ha caído desde el punto superior al inferior y parece que sus mineros han migrado a Antpool y F2Pool. También aparecen nuevas direcciones no identificadas.
 
 Staking: el [precio medio del ticket](https://explorer.dcrdata.org/charts?chart=ticket-price&zoom=kkf13di6-kltwy2po&bin=window&axis=time&visibility=true-true) a 30 días fue de 181.7 DCR (+8.5). El precio varió entre  154.3 a 220.4 DCR. El [monto bloqueado](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&zoom=kkf13di6-kltwy2po&scale=linear&bin=block&axis=time) por [participación](https://explorer.dcrdata.org/charts?chart=stake-participation&zoom=kkf13di6-kltwy2po&scale=linear&bin=block&axis=time) fue de 6.74 a 7.30 millones de DCR, lo que correspondió al 53.6 a 57.7% del suministro disponible en PoS.
+
 
 ¡Parece que estamos [batiendo](https://twitter.com/michae2xl/status/1359609723541213186) un récord cada mes en términos de precio de tickets y participación!
 
