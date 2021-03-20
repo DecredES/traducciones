@@ -11,7 +11,7 @@ Lo más destacado de febrero:
 
 - Las propuestas de La revista Decred y Open Source Research 2021 fueron aprobadas por votación de los stakeholders
 
-## Versión del partch v1.6.1
+## Versión del patch v1.6.1
 
 La nueva [versión](https://twitter.com/decredproject/status/1364636813168693252?s=21) incluye correcciones de errores y mejoras de UX para dcrd, dcrwallet, Decrediton y dcrdex. La mayoría de los cambios han abordado problemas con la nueva participación de VSP y cómo funciona junto con la mezcla. Es importante destacar que permite a los usuarios de Decrediton establecer opciones de voto por consenso con VSP tanto heredado como nuevo.
 
@@ -19,7 +19,12 @@ Puede descargar y obtener las notas actualizadas [aquí](https://github.com/decr
 
 Todavía hay algunas asperezas en el nuevo VSP + combo mixing, consulte esta [publicación](https://www.reddit.com/r/decred/comments/m3k31o/161_things_ive_learned/) de u / mowmowbeans para conocer las soluciones.
 
-Para ponerse al día con las actualizaciones de Decrediton, consulte los tutoriales en vídeo de [mixing](https://youtu.be/QC65PBNwAK4)  y [staking](https://youtu.be/olWfTqw16OQ)  rápidos de @Exitus.
+Para ponerse al día con las actualizaciones de Decrediton, consulte los tutoriales rápidos en vídeo de [mixing](https://youtu.be/QC65PBNwAK4)  y [staking](https://youtu.be/olWfTqw16OQ) de @Exitus.
+
+## ¡Vota por un nuevo consenso!
+La votación para activar la nueva tesorería descentralizada comenzó el 12 de marzo y se extenderá hasta el 9 de abril.
+
+Para informarse, lea la [propuesta](https://proposals.decred.org/proposals/c96290a) original, la [especificación](https://github.com/decred/dcps/blob/master/dcp-0006/dcp-0006.mediawiki) técnica o puede ver la [explicación](https://youtu.be/BdTLKAassvc) de @matheusd (comienza alrededor del minuto 14).
 
 ## Comunidad
 
