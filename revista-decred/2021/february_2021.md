@@ -17,9 +17,9 @@ La nueva [versión](https://twitter.com/decredproject/status/1364636813168693252
 
 Puede descargar y obtener las notas actualizadas [aquí](https://github.com/decred/decred-binaries/releases/tag/v1.6.1), o bien leer la descripción general comprimida de los cambios en las secciones siguientes. Como siempre, respete el ritual de [verificación de firmas](https://docs.decred.org/advanced/verifying-binaries/) para asegurarse de ejecutar exactamente lo que empaquetaron los desarrolladores.
 
-Todavía hay algunas asperezas en el nuevo combo de mezcla VSP +, consulte esta publicación de u / mowmowbeans para conocer las soluciones.
+Todavía hay algunas asperezas en el nuevo VSP + combo mixing, consulte esta [publicación](https://www.reddit.com/r/decred/comments/m3k31o/161_things_ive_learned/) de u / mowmowbeans para conocer las soluciones.
 
-Para ponerse al día con las actualizaciones de Decrediton, consulte los tutoriales en vídeo de mezcla y replanteo rápidos de @Salirus.
+Para ponerse al día con las actualizaciones de Decrediton, consulte los tutoriales en vídeo de [mixing](https://youtu.be/QC65PBNwAK4)  y [staking](https://youtu.be/olWfTqw16OQ)  rápidos de @Exitus.
 
 ## Comunidad
 
