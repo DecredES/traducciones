@@ -15,6 +15,12 @@ Lo más destacado de febrero:
 
 La nueva [versión](https://twitter.com/decredproject/status/1364636813168693252?s=21) incluye correcciones de errores y mejoras de UX para dcrd, dcrwallet, Decrediton y dcrdex. La mayoría de los cambios han abordado problemas con la nueva participación de VSP y cómo funciona junto con la mezcla. Es importante destacar que permite a los usuarios de Decrediton establecer opciones de voto por consenso con VSP tanto heredado como nuevo.
 
+Puede descargar y obtener las notas actualizadas [aquí](https://github.com/decred/decred-binaries/releases/tag/v1.6.1), o bien leer la descripción general comprimida de los cambios en las secciones siguientes. Como siempre, respete el ritual de [verificación de firmas](https://docs.decred.org/advanced/verifying-binaries/) para asegurarse de ejecutar exactamente lo que empaquetaron los desarrolladores.
+
+Todavía hay algunas asperezas en el nuevo combo de mezcla VSP +, consulte esta publicación de u / mowmowbeans para conocer las soluciones.
+
+Para ponerse al día con las actualizaciones de Decrediton, consulte los tutoriales en vídeo de mezcla y replanteo rápidos de @Salirus.
+
 ## Comunidad
 
 Damos la bienvenida a los nuevos colaboradores con código fusionado en la rama master @bochinero ([dcrlnd](https://github.com/decred/dcrlnd/commits?author=bochinchero)) y @fintechtrades ([dcrdocs](https://github.com/decred/dcrdocs/pull/1150))
