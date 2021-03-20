@@ -57,3 +57,53 @@ Hashrate: el hashrate de [febrero](https://explorer.dcrdata.org/charts?chart=has
 
 [Distribución](https://miningpoolstats.stream/decred) del hashrate en los pools a partir del 1 de febrero:
 
+- Poolin 36% 
+- Antpool 34% 
+- F2Pool 8% 
+- Luxor 2% 
+- BTC.com 1.5%
+- Huobipool 0.8%
+- Coinmine 0.08%
+- UUPool 0.03%
+- unknown 18%.
+
+Las instantáneas son demasiado volátiles, así que compárelo en cómo se han distribuido 1.000 bloques (3,5 días) extraídos antes del 1 de marzo: 
+- Antpool 41%
+- Poolin 29% 
+- easy2mine 11%
+- F2Pool 6% 
+- Luxor 1,5% 
+- Huobipool 0,4%
+- unknown 11%.
+
+El hashrate informado de UUPool ha caído desde el punto superior al inferior y parece que sus mineros han migrado a Antpool y F2Pool. También aparecen nuevas direcciones no identificadas.
+
+Staking: el [precio medio del ticket](https://explorer.dcrdata.org/charts?chart=ticket-price&zoom=kkf13di6-kltwy2po&bin=window&axis=time&visibility=true-true) a 30 días fue de 181.7 DCR (+8.5). El precio varió entre  154.3 a 220.4 DCR. El [monto bloqueado](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&zoom=kkf13di6-kltwy2po&scale=linear&bin=block&axis=time) por [participación](https://explorer.dcrdata.org/charts?chart=stake-participation&zoom=kkf13di6-kltwy2po&scale=linear&bin=block&axis=time) fue de 6.74 a 7.30 millones de DCR, lo que correspondió al 53.6 a 57.7% del suministro disponible en PoS.
+
+¡Parece que estamos [batiendo](https://twitter.com/michae2xl/status/1359609723541213186) un récord cada mes en términos de precio de tickets y participación!
+
+Nodos: a lo largo de febrero hubo un promedio de 220 nodos accesibles según dcrextdata. 
+
+Distribución de versiones promedio de dcr.farm:
+- 35% dcrd v1.6.0 
+- 10% dcrd v1.6.1 
+- 10% dcrd v1.5.2 
+- 7% dcrd v1.5.1 
+- 5% dcrd v1.6 dev y RC builds
+- 4% dcrd v1.7 dev builds 
+- 2% dcrd v1.5.0 
+- 1.5% dcrd v1.5 dev y RC builds 
+- 9% dcrwallet v1.6.0 
+- 4% dcrwallet v1.6.1 
+- 3% dcrwallet v1.5.1 
+- ~9% otros.
+
+[charts.dcr.farm](https://charts.dcr.farm/) se ha cerrado debido a la baja demanda y los altos costos operativos para mantener su funcionamiento de manera sostenible. Agradecemos a los operadores por todos los conocimientos de red compartidos a lo largo de los años. El legado de dcr.farm y el nuevo VSP aún están operativos.
+
+La proporción de [monedas mixtas](https://explorer.dcrdata.org/charts?chart=coin-supply&zoom=jzk7rn6n-kmfblq6m&bin=day&axis=time&visibility=true-true-true) ha crecido del 31% al 38% solo en febrero, posiblemente gracias a la GUI que se agregó en la v1.6. [@CoinShuffle_BOT](https://twitter.com/CoinShuffle_BOT) publica estadísticas de la mezcla diariamente.
+
+[Lightning Network](https://ln-map.jholdstock.uk/) de Decred ha visto 30 nodos (+2), 56 canales (+9) con una capacidad total de 16.8 DCR (+8.5), al 1 de marzo.
+
+@matheusd compartió algunas [estadísticas](https://www.reddit.com/r/decred/comments/lj2her/og_ticket/gnj3zqq/) de tickets splitting: durante casi 3 años, se compraron 2.679 tickets splitting a una tasa promedio de 81 / mes, lo que significa que aproximadamente el 0,2% de los tickets se están dividiendo. Esto se discutió en el contexto de v1.6 y el nuevo replanteo vspd donde no se admite tickets splitting. Se requiere un nuevo protocolo de división / coincidencia y una reescritura tanto del servidor como del cliente para que funcione con vspd, lo que es poco probable que suceda en este momento dada la baja demanda.
+
+
