@@ -194,4 +194,67 @@ La proporción de [monedas mixtas](https://explorer.dcrdata.org/charts?chart=coi
 
 @matheusd compartió algunas [estadísticas](https://www.reddit.com/r/decred/comments/lj2her/og_ticket/gnj3zqq/) de tickets splitting: durante casi 3 años, se compraron 2.679 tickets splitting a una tasa promedio de 81 / mes, lo que significa que aproximadamente el 0,2% de los tickets se están dividiendo. Esto se discutió en el contexto de v1.6 y el nuevo replanteo vspd donde no se admite tickets splitting. Se requiere un nuevo protocolo de división / coincidencia y una reescritura tanto del servidor como del cliente para que funcione con vspd, lo que es poco probable que suceda en este momento dada la baja demanda.
 
+## Integraciones
+Tres VSP han habilitado el soporte para el nuevo staking vspd: [decredvoting.com](https://decredvoting.com/), [ibitlin.com](https://dcrpool.ibitlin.com/) y [coinmine.pl](https://vsp.coinmine.pl/). Ahora tenemos un total de 11 instancias vspd y 17 instancias VSP heredadas.
+
+La [lista de VSP](https://decred.org/vsp/) se actualizó para mostrar los tickets de vspd junto con los anteriores. A partir del 1 de marzo, los servidores de vspd tenían 4 400 tickets en vivo, o el 11% del grupo de tickets objetivo. Los servidores VSP heredados tenían 6 500 tickets en vivo, o el 16% del objetivo.
+
+La plataforma de intercambio [SwapSwop.io](https://swapswop.io/) vino a [saludar](https://www.reddit.com/r/decred/comments/lfgr64/buy_dcr_at_swapswopio_a_crypto_exchange_platform/) en r / decred y respondió algunas preguntas sobre fuentes de liquidez, jurisdicción y sus procesos KYC. DCR se [listo](https://twitter.com/swapswopio/status/1308107303032369152) en septiembre de 2020.
+
+Una nueva sala de chat pública llamada [#services](https://chat.decred.org/#/room/#services:decred.org) da la bienvenida a todos para recopilar información sobre el creciente ecosistema de Decred (intercambios, procesadores de pago, VSP, cualquier cosa).
+
+Advertencia: los autores de la Revista Decred no tienen idea de la confiabilidad de alguno de los servicios anteriores. Haga su propia investigación antes de confiar su información personal o activos.
+
+## Alcance
+Varios colaboradores de Decred respondieron todo tipo de preguntas en Decred AMA en [r / CryptoCurrency](https://www.reddit.com/r/CryptoCurrency/comments/lqlone/decred_ama_ask_us_about_privacy_daos_lightning/). El hilo obtuvo 171 comentarios y 140 votos a favor.
+
+@elima_iii ha comenzado la segunda temporada de la serie Decred in Depth, con nuevos invitados y más participación de la comunidad. Las preguntas a los invitados se recopilan en [Twitter](https://twitter.com/elima_iii/status/1363280047059132417) (aún más para el episodio de [@matheusd](https://twitter.com/elima_iii/status/1365424755906670595)), el video tanto del anfitrión como del invitado está disponible y YouTube es la ubicación principal ahora.
+
+@pavel compartió una [actualización](https://github.com/decredcommunity/proposals/blob/master/proposals/2bf72e/updates/20210208.md) para la [propuesta](https://proposals.decred.org/proposals/2bf72e6) withDecred:
+
+> Debido a la acción masiva del precio en las últimas semanas, suspendí los sorteos, ya que parece que ya no es necesario generar entusiasmo en las redes sociales. En el momento de la actividad, la cuenta de Twitter [@withDecred](https://twitter.com/withdecred) tenía alrededor de 100 000 impresiones mensuales y generó algunas buenas conversaciones (y también algo de chelín). (…) Ahora estoy pensando en cómo avanzar desde aquí con las actividades de WithDecred (web + Twitter), por el momento estoy apoyando el contenido creado por la comunidad. Si tiene algunas sugerencias, no dude en enviarme un ping [aquí](https://chat.decred.org/#/room/#proposals:decred.org) o en [Twitter](https://twitter.com/paveldcr).
+
+Cobertura de noticias por parte de Monde PR:
+- creó / lanzó 3 historias para las publicaciones financieras y criptográficas
+- respondió a 3 solicitudes de comentarios
+- aseguró 2 entrevistas con los medios
+
+## Eventos
+
+- 3 de febrero - [Giveaway de 5 años de Decred](https://decredcommunity.github.io/events/index/20210203.1) - Internet. El equipo de Decred en español organizó un sorteo sofisticado para conmemorar el quinto aniversario de Decred. Se otorgó un total de $ 130 en DCR para varias tareas como retweets, responder preguntas (después de buscar algunos datos de [dcrdata](https://explorer.dcrdata.org/)), responder “¿qué te gusta de Decred?” O competir en la creación de memes. Esta actividad involucró a más de 60 personas, generó más de 57 mil impresiones en Twitter, e incorporó a más de 100 seguidores en Twitter y a más de 40 usuarios de [Telegram](https://t.me/DecredES). Detalles del [reporte](https://decredcommunity.github.io/events/index/20210203.1).
+- 6 de febrero - [Blockchain, IA y Big Data](https://decredcommunity.github.io/events/index/20210206.1) - Casablanca, Marruecos. @arij y OMJD organizaron un evento para conmemorar el quinto aniversario de Decred. Hubo 3 charlas sobre aprendizaje automático, big data y blockchain. En este último, @arij habló sobre cómo se usó Decred blockchain en las elecciones municipales de Brasil. Se esperaban 20 personas, pero 40 se presentaron y ~ 500 lo vieron en vivo. Al final, hubo una pequeña celebración del aniversario (que involucró… espera, espera).
+- 9 de febrero - [Introducción y características de Decred](https://decredcommunity.github.io/events/index/20210209.1) - Internet. @ michae2xl fue invitado por Monnos (intercambio brasileño que incluyó a DCR en [enero](https://xaur.github.io/decred-news/journal/202101.html#integrations)) para presentar a Decred en un en vivo en Instagram. Junto con Rodrigo Soeiro (CEO), se dirigieron a nuevas personas en el espacio, mostraron los productos de Decred y discutieron su potencial.
+- 20 de febrero - [Consenso alternativo: Hablemos de PoS](https://decredcommunity.github.io/events/index/20210220.1) - Internet. @elian habló de todo lo relacionado con Decred con [Criptodemia](https://twitter.com/criptodemia) y [Kevin Negocios](https://twitter.com/KevinNegocios) de [Veinte Exchange](https://twitter.com/Veinte_ven) de Venezuela en una transmisión en vivo de más de una hora.
+
+Próximamente:
+
+12-14 de marzo - [Hackathon Nayarit 2021](https://www.facebook.com/EduNayarit/posts/2982126628674008) - Internet. Decred en español patrocinará el hackathon organizado por el Ministerio de Educación de Nayarit. Para preparar a los participantes, el equipo español organizó la semana de capacitación sobre Blockchain Education, que consta de 5 seminarios web.
+
+## Media
+Artículos seleccionados:
+
+- Decred v1.6 con el cofundador y líder del proyecto, Jake Yocom-Piatt ([coinscrum.com](https://www.coinscrum.com/decred-with-jake-yocom-piatt/)): un video de enero reelaborado en un artículo, compara el nuevo código del fondo de tesorería con un "contacto inteligente cableado mínimamente complejo" y explica las características clave de la v1. 6 en términos simples
+- DCRDEX fue incluido entre los mejores DEX para ver en 2021 en el [reporte](https://xangle.io/research/600a3251b7cb8c849dfa26b9) de investigación de enero de Xangle.
+
+### Videos:
+
+- Actualización de Decred News - 14 de febrero - ¡Lanzamiento masivo de 1.6, vote por $ 75M DAO, LN, privacidad y más! por @Salirus (youtube)
+- Tutorial de privacidad de Decred: mezcla tus monedas con @Salirus (youtube)
+- Entrevista de Insaf Nori Decred in Depth (en vivo) por @elima_iii (youtube)
+- Ser tu propio banco por Society Decentralized (youtube)
+- Análisis de precios de Decred - 24 de febrero de 2021 por Brave New Coin (youtube)
+
+### Audio:
+- Consenso bruto 17: Reunión de Spidey. El coanfitrión perdido hace mucho tiempo @ mr.black vuelve a unirse al grupo para hablar sobre cripto y finanzas. (libsyn)
+- Los episodios anteriores de Decred in Depth (hasta el 33) se han subido al canal principal de YouTube.
+
+### Arte y diversión:
+- Clip de anuncio digital Decred v1.6 de @karamble (¡prueba a detectar "taco"!)
+- Clip glitchy y ruidoso del quinto aniversario por @New_Copernicus
+- la última explicación de cómo funcionan los intercambios atómicos por @richardred
+- Las recompensas de @ AGNFAB1
+- "¡Deseo ser irrisistible para los hombres!" 
+- presentando Decred Pączki (donas)
+
+
 
