@@ -238,23 +238,88 @@ Artículos seleccionados:
 
 ### Videos:
 
-- Actualización de Decred News - 14 de febrero - ¡Lanzamiento masivo de 1.6, vote por $ 75M DAO, LN, privacidad y más! por @Salirus (youtube)
-- Tutorial de privacidad de Decred: mezcla tus monedas con @Salirus (youtube)
-- Entrevista de Insaf Nori Decred in Depth (en vivo) por @elima_iii (youtube)
-- Ser tu propio banco por Society Decentralized (youtube)
-- Análisis de precios de Decred - 24 de febrero de 2021 por Brave New Coin (youtube)
+- Actualización de Decred News - 14 de febrero - ¡Lanzamiento masivo de 1.6, vote por $ 75M DAO, LN, privacidad y más! por @Exitus ([youtube](https://www.youtube.com/watch?v=f2ooNJXpR7I))
+- Tutorial de privacidad de Decred: mezcla tus monedas con @Exitus ([youtube](https://www.youtube.com/watch?v=QC65PBNwAK4))
+- Entrevista de Insaf Nori en Decred in Depth (en vivo) por @elima_iii ([youtube](https://www.youtube.com/watch?v=hUXk1GWhE-0))
+- Ser tu propio banco por Society Decentralized ([youtube](https://www.youtube.com/watch?v=Vb-9vvU0fDU))
+- Análisis de precios de Decred - 24 de febrero de 2021 por Brave New Coin ([youtube](https://www.youtube.com/watch?v=O6iTIABl2Lw))
 
 ### Audio:
-- Consenso bruto 17: Reunión de Spidey. El coanfitrión perdido hace mucho tiempo @ mr.black vuelve a unirse al grupo para hablar sobre cripto y finanzas. (libsyn)
-- Los episodios anteriores de Decred in Depth (hasta el 33) se han subido al canal principal de YouTube.
+- Rough Consensus 17: Reunión de Spidey. El coanfitrión perdido hace mucho tiempo @ mr.black vuelve a unirse al grupo para hablar sobre cripto y finanzas. ([libsyn](https://roughconsensus.libsyn.com/episode-17-spidey-reunion))
+- Los episodios anteriores de Decred in Depth (hasta el 33) se han subido al [canal](https://www.youtube.com/decredchannel) principal de YouTube.
 
 ### Arte y diversión:
-- Clip de anuncio digital Decred v1.6 de @karamble (¡prueba a detectar "taco"!)
-- Clip glitchy y ruidoso del quinto aniversario por @New_Copernicus
-- la última explicación de cómo funcionan los intercambios atómicos por @richardred
-- Las recompensas de @ AGNFAB1
-- "¡Deseo ser irrisistible para los hombres!" 
-- presentando Decred Pączki (donas)
+- [Clip](https://twitter.com/karamblez/status/1356921573647745024) de anuncio digital Decred v1.6 de @karamble (¡prueba detectar al "taco"!)
+- [Clip](https://twitter.com/New_Copernicus/status/1357574854535487488) glitchy y ruidoso del quinto aniversario por @New_Copernicus
+- la última explicación de cómo funcionan los [atomic swaps](https://twitter.com/RichardRed0x/status/1356719226724220930) por @richardred
+- ["The Rewards"](https://www.reddit.com/r/decred/comments/lfxqef/the_rewards/) de @ AGNFAB1
+- "I wish to be [irrisistible](https://twitter.com/Decred_ES/status/1358855083396653062) to men!!" 
+- Presentando a [Decred Pączki](https://twitter.com/LolekBolek74/status/1359866192538787843) (donas).
+
+### Traducciones:
+
+- Actualización de Decred News 24 de enero - con subtítulos en [español](https://www.youtube.com/watch?v=Quf8u1Ksm4M) por @francov_
+- Construyendo un futuro transparente con la cadena de bloques Decred, en [árabe](https://insaf01.github.io/decred-arabic/articles/building-a-transparent-future-with-decred-blockchain.html) por @arij y @ abdulrahman4
+- Revista Decred de enero del 2021 se [tradujo](https://xaur.github.io/decred-news/) al árabe (@arij, @ abdulrahman4), chino (@Dominic) y español (@francov_). ¡Gracias a todos por difundir las novedades de Decred!
+
+## Discusiones de la comunidad
+Recientemente, ha habido más intentos de estafar a la gente. Recuerde que los desarrolladores y administradores reales nunca le enviarán mensajes de correo electrónico con ofertas de dinero gratis o asistencia técnica. Preste mucha atención al nombre para mostrar del usuario y al ID de usuario con el que chatea para evitar formas inteligentes de [suplantar](https://twitter.com/GrapheneOS/status/1365881076229488641) la identidad. Dile a tus amigos que también estén atentos.
+
+Publicaciones seleccionadas de Reddit:
+
+- una idea para cambiar el nombre de los tickets a ["OG Tickets"](https://www.reddit.com/r/decred/comments/lj2her/og_ticket/) y llamar a su décima parte un "ticket" normal
+- una de las discusiones sobre [precios](https://www.reddit.com/r/decred/comments/llnzvu/dcr_breaking_through_all_time_high_price_usd/) se volvió inusualmente inteligente y tocó el tema del reclutamiento (lo seguimos diciendo: no solo se [buscan](https://www.reddit.com/r/decred/comments/llnzvu/dcr_breaking_through_all_time_high_price_usd/gnr3kpf/) desarrolladores)
+- DCRDEX VS [Bisq](https://www.reddit.com/r/decred/comments/ln7co5/dcrdex_vs_bisq/)
+- algunos datos interesantes sobre las [frases semillas](https://www.reddit.com/r/decred/comments/lo72lf/discussion_around_33_word_seed_vs_bip_39/) y wallets metálicas
+
+Debates seleccionados de Twitter:
+- @ jy-p recuerda el [por qué](https://twitter.com/behindtext/status/1363118198749597698) todavía estamos aquí
+- otro [gran hilo](https://twitter.com/cburniske/status/1362146220123201536) de @cburniske
+
+> Como alguien que ha seguido a @decredproject desde 2016, la fuerza de su comunidad, los fundamentos y la tracción del mercado hasta ahora en 2021 me ha sorprendido incluso a mí. ([@cburniske](https://twitter.com/cburniske/status/1362146231116460032))
+
+## Mercados
+En febrero, DCR cotizaba entre 66.95 y 169,90 USD / 0.0018–0.0030 BTC. El promedio de tarifa diaria fue de $113.76.
+
+@Checkmate publicó un [mega](https://twitter.com/_Checkmatey_/status/1358968202898755584) hilo en on-chain con muchos (¿todos?) Indicadores en ATH. Predicción del 9 de febrero "Me sorprendería que el tren se ralentizara desde aquí, ¡simplemente no está en su carácter!" era correcto.
+
+Se han [observado](https://twitter.com/_Checkmatey_/status/1363709306885922826) ofertas inusualmente grandes en Binance.
+
+[DCRDEX](https://dex.decred.org/) ha negociado 390 000 DCR y 1 000 en BTC en febrero, con un promedio de 14 000 DCR y 36 BTC diarios. El precio varió entre 0.0019 y 0.0030 con un promedio de 0.0026.
+
+## Noticias Relevantes
+Yearn Finance fue el [fracaso](https://cryptobriefing.com/hacker-spends-8-3-million-fees-attack-yearn-finance/) DeFi más grande de febrero, con un ataque de préstamo flash que explotó a sus usuarios por $ 11 millones. En un desarrollo interesante para este tipo de ataque, la mayoría de los fondos explotados se pagaron en [tarifas](https://twitter.com/FrankResearcher/status/1357639434380992512) a varios pools de liquidez y servicios de staking, con solo $ 2.7 millones terminando en la wallet del atacante, y el resto presumiblemente alimentando la economía de DeFi. Las víctimas del ataque han sido [compensadas](https://twitter.com/iearnfinance/status/1359108691677614080) con el nuevo pool de fondos del la tesorería de YFI que se acuñaron recientemente: dentro de los 4 días posteriores al ataque, el equipo de Yearn pudo movilizar 9,7 millones de DAI para distribuir, y no se requirió una votación simbólica. YFI y Hacienda están actualmente bajo el control directo de los forks Multifirma, y ​​ese “empoderamiento” se [extiende](https://gov.yearn.finance/t/yip-59-temporarily-extend-multisig-empowerment/9746) hasta el 24 de mayo.
+
+Yearn Finance también está [modificando](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929) [significativamente](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929) su modelo de financiación de su tesorería y la gobernanza, los cambios importantes incluyen eliminar el staking de YFI debido a su rendimiento no competitivo y, en su lugar, cambiar a un modelo de recompra y permitir que los forks de YFI que han implementado sus tokens en un pool de liquidez también los utilicen al votar.
+
+Los desarrolladores de Bitcoin están en el [proceso](https://twitter.com/AndreCronjeTech/status/1359934584612212738) de decidir cómo se debe activar la actualización de [Taproot](https://bitcoinmagazine.com/technical/taproot-coming-what-it-and-how-it-will-benefit-bitcoin), y el punto de discusión es si la actualización de Bitcoin Core debe enviarse con una configuración que la active al final del período de señalización, independientemente de si el umbral de supermayoría es conocido (como el Soft Fork activado por el usuario) o adopte un enfoque más cauteloso y evite forzar el problema inicialmente. La señalización de mineros para el mes hasta el 2 de marzo mostró un 89% de apoyo para Taproot de los pools de acuerdo con su tasa de hash. Además, Poolin contribuyó con un esfuerzo de consenso [compilando](https://taprootactivation.com/) el sentimiento de los pools y los métodos de activación preferidos.
+
+El Fiscal General de Nueva York llegó a un acuerdo sobre los cargos contra Tether y Bitfinex, en el que la empresa [pagó]((https://www.reuters.com/article/new-york-ifinex-settlement/bitfinex-tether-owner-pays-18-5-mln-fine-to-settle-nyag-cryptocurrency-cover-up-charges-idUSL1N2KT16E)) una multa de 18,5 millones de dólares, así evitó tener que admitir cualquier irregularidad.
+
+El Banco Central de Nigeria se ha movido para recordar a los bancos que “está prohibido comerciar con criptomonedas o facilitar pagos para intercambios de criptomonedas” y les [ordenó](https://www.coindesk.com/nigerias-central-bank-orders-banks-to-close-accounts-of-all-crypto-users) cerrar las cuentas de todas las personas y entidades que comercien con criptomonedas.
+
+La Reserva Federal de EE. UU. Experimentó un problema con su sistema de transferencia interbancaria que afectó el servicio durante horas. Esto sucedió poco después de que la secretaria del Tesoro de Estados Unidos, Janet Yellen, [advirtiera](https://www.cnbc.com/2021/02/22/yellen-sounds-warning-about-extremely-inefficient-bitcoin.html) que Bitcoin es "extremadamente ineficiente" y representa un riesgo para los inversores.
+
+@notsofast pide con insistencia a todos a aprender de sus [errores](https://cryptonews.com/news/trader-s-lesson-why-you-shouldn-t-keep-large-amounts-of-cry-9302.htm) que lo han llevado a perder ~ $ 100 000 en criptomonedas en una brecha de seguridad: obtenga un buen administrador de contraseñas, use una wallet de hardware, aísle extensiones de navegador peligrosas como Metamask en perfiles o dispositivos de navegador separados.
+
+## Sobre esta edición
+Este es la edición #35 de la Revista Decred, un índice de todos los números originales y traducciones se encuentran disponibles [aquí](https://xaur.github.io/decred-news/).
+
+La mayoría de la información de terceros se transmite directamente desde la fuente después de un control de fiabilidad mínimo. Los autores de la Revista Decred no tienen la capacidad de verificar todas las reclamaciones. Tenga cuidado con las estafas y haga su propia investigación.
+
+Puedes enviar una historia [aquí](https://github.com/xaur/decred-news/labels/next%20release) para ser considerada para el próximo número. Los [comentarios](https://github.com/xaur/decred-news/blob/docs/contributing.md#feedback) y las [contribuciones](https://github.com/xaur/decred-news/blob/docs/contributing.md) siempre son bienvenidas.
+
+Créditos:
+
+Redacción y edición: bee, degeri, l1ndseymm, richardred
+
+Revisión y comentarios: davecgh, jholdstock, peter_zen
+
+Imagen de portada: saender.
+
+Fondeado por: los stakeholders de Decred 
+
+
 
 
 
