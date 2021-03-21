@@ -26,6 +26,65 @@ La votación para activar la nueva tesorería descentralizada comenzó el 12 de 
 
 Para informarse, lea la [propuesta](https://proposals.decred.org/proposals/c96290a) original, la [especificación](https://github.com/decred/dcps/blob/master/dcp-0006/dcp-0006.mediawiki) técnica o puede ver la [explicación](https://youtu.be/BdTLKAassvc) de @matheusd (comienza alrededor del minuto 14).
 
+Si aún no ha establecido sus preferencias de voto, porfavor [hágalo ahora](https://www.reddit.com/r/decred/comments/lu1af0/psa_upcoming_decentralized_treasury_consensus/) para que se emita el voto que desee cuando cualquiera de sus tickets vote. La identificación correcta para el nuevo voto es `tesorería`.
+
+Para ver cómo se [desarrolla](https://voting.decred.org/) la votación, vea el panel de votación o la [visualizarlo](https://explorer.dcrdata.org/agenda/treasury) en dcrdata.
+
+## Desarrollo
+
+El trabajo que se informa a continuación tiene el estado "fusionado con el maestro" a menos que se indique lo contrario. Significa que el trabajo se completa, revisa e integra en el código fuente para que los usuarios avanzados puedan [construir y correr](https://medium.com/@artikozel/the-decred-node-back-to-the-source-part-one-27d4576e7e1c), pero aún no está disponible en binarios para usuarios regulares.
+
+### dcrd
+La versión del patch v1.6.1 incluyó los siguientes cambios:
+
+- Se [modificó](https://github.com/decred/dcrd/pull/2597) la lógica de notificación para obligar a los mineros de prueba de PoW a actualizar para que pueda comenzar la votación sobre los nuevos cambios de consenso.
+- Se solucionó un [problema](https://github.com/decred/dcrd/pull/2582) poco común en el que las conexiones podrían no restablecerse después de una interrupción de la red.
+
+En desarrollo para la [próxima actualización](https://github.com/decred/dcrd/milestone/26), lo más destacado de este mes es la adición de un [caché UTXO](https://github.com/decred/dcrd/pull/2591) que reduce el tiempo de sincronización inicial de blockchain en ~ 33% a costa de algo de memoria adicional. También acelera significativamente el procesamiento de bloques durante el funcionamiento normal y reduce el desgaste del medio de almacenamiento al permitir que las entradas que se crean y gastan entre intervalos de descarga para evitar que se escriban en absoluto. La caché UTXO es un paso necesario hacia la descarga de bloques paralelos de [múltiples pares](https://github.com/decred/dcrd/issues/1145).
+
+Otro punto a destacar es la [introducción](https://github.com/decred/dcrd/pull/2579)*** de los filtros Age-Partitioned Bloom. APBF es un dispositivo de búsqueda que puede saber rápidamente si contiene un elemento. Puede rastrear una gran cantidad de datos con poca memoria, a costa de una tasa controlada de falsos positivos. A diferencia de los filtros Bloom clásicos, puede manejar una cantidad ilimitada de datos envejeciendo y descartando elementos antiguos. La motivación para agregar APBF a Decred es reemplazar la caché LRU (menos utilizada recientemente) que se usa para rastrear continuamente qué datos se sabe que tienen otros pares. Un ejemplo concreto es la memoria para rastrear direcciones conocidas por 125 pares se reduce de ~ 200 a ~ 5 MiB cuando se utilizan APBF. Además, el paquete será [útil](https://matrix.to/#/!zefvTnlxYHPKvJMThI:decred.org/$ulmCeMPuDSSmt3KTB09fJpypa4fpooFILTXKtQNWUCg) para otros proyectos como wallets, DEX, wallets móviles, etc. Lea los detalles en todo su esplendor en [PR](https://github.com/decred/dcrd/pull/2579) y el archivo [README](https://github.com/decred/dcrd/tree/master/container/apbf).
+
+Otro trabajo fusionado:
+
+- Las operaciones primarias en el paquete `apbf` se hace dos veces [más rápido](https://github.com/decred/dcrd/pull/2584) con matemáticas inteligentes a nivel de bits (smart bit-level math).
+- [seguimiento](https://github.com/decred/dcrd/pull/2580) de recientes confirmaciones en transacciones y [direcciones](https://github.com/decred/dcrd/pull/2583) conocidas por pares cambiados para usar APBF
+- el seguimiento de transacciones recientemente [rechazadas](https://github.com/decred/dcrd/pull/2590) también se cambiaron a APBF, con los beneficios adicionales de reducir el uso de ancho de banda en escenarios de alto rechazo y al mismo tiempo aumentar la solidez contra pares maliciosos
+- `rechazar` el mensaje en [desuso](https://github.com/decred/dcrd/pull/2586) para su eventual eliminación en futuras versiones (lea [esto](https://github.com/decred/dcrd/issues/2546) para obtener una lista de problemas de privacidad y corrección con este mensaje).
+
+### dcrwallet
+
+Cambios realizados para al patch v1.6.1:
+
+- nuevo método gRPC para establecer la [opción de voto](https://github.com/decred/dcrwallet/pull/1981) por tickets en el VSP asociado a través del nuevo protocolo vspd (utilizado por Decrediton)
+- cuando la cuenta solo tiene una salida, cree una transacción adicional para generar suficientes [salidas](https://github.com/decred/dcrwallet/pull/1980) para la compra de un ticket de VSP y use la salida de [tarifa](https://github.com/decred/dcrwallet/pull/2005) resultante (corrige el [error](https://www.reddit.com/r/decred/comments/lebx71/error_when_trying_to_purchase_tickets_with/) "no hay suficientes utxos")
+- [omitir](https://github.com/decred/dcrwallet/pull/1985) transacciones no publicadas al seleccionar salidas y borrar el estado no publicado cuando se extrae el tx (corrige ciertos casos de doble gasto)
+- considere las [tarifas de tx](https://github.com/decred/dcrwallet/pull/1992) al mezclar para evitar salidas no mezclables
+- productos fijos de transacciones no publicadas que se incluyen en el saldo [gastable](https://github.com/decred/dcrwallet/pull/2002)
+- se corrigió la posibilidad de pagar una [tarifa alta](https://github.com/decred/dcrwallet/pull/2002) durante la mezcla (esto fue una regresión entre la v1.6.0 y la v1.6.1, es decir, no afectó a ninguna versión)
+- Se actualizaron las [dependencias](https://github.com/decred/dcrwallet/pull/1998) salsa20 y blake2b para evitar posibles daños en la memoria.
+- Devuelve el [error](https://github.com/decred/dcrwallet/pull/1990) de `signrawtransaction` si la transacción no tiene entradas.
+- [guarda](https://github.com/decred/dcrwallet/pull/1989) transacciones de salida mixtas y salidas vistas.
+
+### Decrediton
+
+Cambios realizados para el patch v1.6.1:
+
+- configuración de la [elección](https://github.com/decred/decrediton/pull/3200) de voto por consenso implementada para tickets vspd
+- [deshabilitación](https://github.com/decred/decrediton/pull/3231) de algunos botones mientras se ejecutan al mezclador, como la compra automátizada o la compra de tickets para evitar posibles problemas futuros
+- deshabilitación de la [compra automatica](https://github.com/decred/decrediton/pull/3182) al cambiar entre los modos heredado y vspd para evitar compras inesperadas de tickets
+- la agregación de comprobaciones de [sanidad](https://github.com/decred/decrediton/pull/3230) para la compra de tickets y así evitar que los tickets VSP heredados estén mal formados
+- soporte para filtrar transacciones por múltiples [criterios](https://github.com/decred/decrediton/pull/3194)
+- diseño mejorado de [estadísticas](https://github.com/decred/decrediton/pull/3205) de staking e [historial de tx](https://github.com/decred/decrediton/pull/3195) para pantallas pequeñas
+- mostrar diferentes iconos para [cuentas](https://github.com/decred/decrediton/pull/3225) mixtas y no mezcladas
+- mostrar un [mensaje](https://github.com/decred/decrediton/pull/3252) significativo que explique por qué a veces se compran menos tickets de los solicitados
+- muestra un error de [tiempo de espera](https://github.com/decred/decrediton/pull/3199) cuando no se recibe la respuesta de estado de VSP en 5 segundos
+- mostrar saldos [no confirmados](https://github.com/decred/decrediton/pull/3254) en Resumen y Cuentas
+- mejoramiento en [nombres](https://github.com/decred/decrediton/pull/3219) para pestañas y etiquetas
+- añadida la [traducción](https://github.com/decred/decrediton/pull/3086) al chino tradicional
+- migración continua a componentes funcionales mediante ganchos y módulos CSS
+- mayor cobertura de pruebas automatizadas
+- 22 correcciones de errores
+
 ## Comunidad
 
 Damos la bienvenida a los nuevos colaboradores con código fusionado en la rama master @bochinero ([dcrlnd](https://github.com/decred/dcrlnd/commits?author=bochinchero)) y @fintechtrades ([dcrdocs](https://github.com/decred/dcrdocs/pull/1150))
