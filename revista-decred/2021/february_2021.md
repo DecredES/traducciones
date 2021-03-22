@@ -145,9 +145,9 @@ Después de la participación récord de dos propuestas a principios de febrero 
 
 ## Red
 
-Hashrate: el hashrate de [febrero](https://explorer.dcrdata.org/charts?chart=hashrate&zoom=kkf13di6-kltwy2po&scale=linear&bin=block&axis=time9) se abrió a ~348 Ph/s y cerró ~ 406 Ph/s, tocando fondo en 283 Ph/s alcanzando un máximo de 545 Ph/s durante todo el mes.
+Hashrate: el hashrate de [febrero](https://explorer.dcrdata.org/charts?chart=hashrate&zoom=kkf13di6-kltwy2po&scale=linear&bin=block&axis=time9) se abrió a ~428 Ph/s y cerró ~ 420 Ph/s, tocando fondo en 278 Ph/s alcanzando un máximo de 537 Ph/s durante todo el mes.
 
-[Distribución](https://miningpoolstats.stream/decred) del hashrate en los pools a partir del 1 de febrero:
+[Distribución](https://miningpoolstats.stream/decred) del hashrate en los pools a partir del 1 de Marzo:
 
 - Poolin 36% 
 - Antpool 34% 
@@ -157,25 +157,25 @@ Hashrate: el hashrate de [febrero](https://explorer.dcrdata.org/charts?chart=has
 - Huobipool 0.8%
 - Coinmine 0.08%
 - UUPool 0.03%
-- unknown 18%.
+- otros 18%.
 
-Las instantáneas son demasiado volátiles, así que compárelo en cómo se han distribuido 1.000 bloques (3,5 días) extraídos antes del 1 de marzo: 
+Las instantáneas son demasiado volátiles, así que compára en cómo se han distribuido los 1 000 bloques (3.5 días) extraídos antes del 1 de marzo: 
 - Antpool 41%
 - Poolin 29% 
 - easy2mine 11%
 - F2Pool 6% 
-- Luxor 1,5% 
-- Huobipool 0,4%
+- Luxor 1.5% 
+- Huobipool 0.4%
 - unknown 11%.
 
 El hashrate informado de UUPool ha caído desde el punto superior al inferior y parece que sus mineros han migrado a Antpool y F2Pool. También aparecen nuevas direcciones no identificadas.
 
-Staking: el [precio medio del ticket](https://explorer.dcrdata.org/charts?chart=ticket-price&zoom=kkf13di6-kltwy2po&bin=window&axis=time&visibility=true-true) a 30 días fue de 181.7 DCR (+8.5). El precio varió entre  154.3 a 220.4 DCR. El [monto bloqueado](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&zoom=kkf13di6-kltwy2po&scale=linear&bin=block&axis=time) por [participación](https://explorer.dcrdata.org/charts?chart=stake-participation&zoom=kkf13di6-kltwy2po&scale=linear&bin=block&axis=time) fue de 6.74 a 7.30 millones de DCR, lo que correspondió al 53.6 a 57.7% del suministro disponible en PoS.
+Staking: el precio del ticket varió entre 154.3 y 220.4 DCR, con un [precio medio del ticket](https://explorer.dcrdata.org/charts?chart=ticket-price&zoom=kkf13di6-kltwy2po&bin=window&axis=time&visibility=true-true) a 30 días de 181.7 DCR (+8.5). El [monto bloqueado](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&zoom=kkf13di6-kltwy2po&scale=linear&bin=block&axis=time) por [participación](https://explorer.dcrdata.org/charts?chart=stake-participation&zoom=kkf13di6-kltwy2po&scale=linear&bin=block&axis=time) fue de 6.74 a 7.30 millones de DCR, lo que correspondió al 53.6 a 57.7% del suministro disponible en PoS.
 
 
 ¡Parece que estamos [batiendo](https://twitter.com/michae2xl/status/1359609723541213186) un récord cada mes en términos de precio de tickets y participación!
 
-Nodos: a lo largo de febrero hubo un promedio de 220 nodos accesibles según dcrextdata. 
+Nodos: a lo largo de febrero hubo un promedio de 220 nodos accesibles según [dcrextdata](https://dcrextdata.planetdecred.org/nodes). 
 
 Distribución de versiones promedio de dcr.farm:
 - 35% dcrd v1.6.0 
@@ -197,14 +197,14 @@ La proporción de [monedas mixtas](https://explorer.dcrdata.org/charts?chart=coi
 
 [Lightning Network](https://ln-map.jholdstock.uk/) de Decred ha visto 30 nodos (+2), 56 canales (+9) con una capacidad total de 16.8 DCR (+8.5), al 1 de marzo.
 
-@matheusd compartió algunas [estadísticas](https://www.reddit.com/r/decred/comments/lj2her/og_ticket/gnj3zqq/) de tickets splitting: durante casi 3 años, se compraron 2.679 tickets splitting a una tasa promedio de 81 / mes, lo que significa que aproximadamente el 0,2% de los tickets se están dividiendo. Esto se discutió en el contexto de v1.6 y el nuevo replanteo vspd donde no se admite tickets splitting. Se requiere un nuevo protocolo de división / coincidencia y una reescritura tanto del servidor como del cliente para que funcione con vspd, lo que es poco probable que suceda en este momento dada la baja demanda.
+@matheusd compartió algunas [estadísticas](https://www.reddit.com/r/decred/comments/lj2her/og_ticket/gnj3zqq/) de tickets splitting: durante casi 3 años, se compraron 2 679 tickets splitting a una tasa promedio de 81/mes, lo que significa que aproximadamente el 0.2% de los tickets se están dividiendo. Esto se discutió en el contexto de v1.6 y el nuevo staking vspd donde no se admite tickets splitting. Se requiere un nuevo protocolo de división / emparejamiento y una reescritura tanto del servidor como del cliente para que funcione con vspd, lo que es poco probable que suceda en este momento dada la baja demanda.
 
 ## Integraciones
 Tres VSP han habilitado el soporte para el nuevo staking vspd: [decredvoting.com](https://decredvoting.com/), [ibitlin.com](https://dcrpool.ibitlin.com/) y [coinmine.pl](https://vsp.coinmine.pl/). Ahora tenemos un total de 11 instancias vspd y 17 instancias VSP heredadas.
 
 La [lista de VSP](https://decred.org/vsp/) se actualizó para mostrar los tickets de vspd junto con los anteriores. A partir del 1 de marzo, los servidores de vspd tenían 4 400 tickets en vivo, o el 11% del grupo de tickets objetivo. Los servidores VSP heredados tenían 6 500 tickets en vivo, o el 16% del objetivo.
 
-La plataforma de intercambio [SwapSwop.io](https://swapswop.io/) vino a [saludar](https://www.reddit.com/r/decred/comments/lfgr64/buy_dcr_at_swapswopio_a_crypto_exchange_platform/) en r / decred y respondió algunas preguntas sobre fuentes de liquidez, jurisdicción y sus procesos KYC. DCR se [listo](https://twitter.com/swapswopio/status/1308107303032369152) en septiembre de 2020.
+La plataforma de intercambio [SwapSwop.io](https://swapswop.io/) vino a [saludar](https://www.reddit.com/r/decred/comments/lfgr64/buy_dcr_at_swapswopio_a_crypto_exchange_platform/) en r/decred y respondió algunas preguntas sobre fuentes de liquidez, jurisdicción y sus procesos KYC. DCR se [listó](https://twitter.com/swapswopio/status/1308107303032369152) en septiembre de 2020.
 
 Una nueva sala de chat pública llamada [#services](https://chat.decred.org/#/room/#services:decred.org) da la bienvenida a todos para recopilar información sobre el creciente ecosistema de Decred (intercambios, procesadores de pago, VSP, cualquier cosa).
 
@@ -220,51 +220,58 @@ Varios colaboradores de Decred respondieron todo tipo de preguntas en Decred AMA
 > Debido a la acción masiva del precio en las últimas semanas, suspendí los sorteos, ya que parece que ya no es necesario generar entusiasmo en las redes sociales. En el momento de la actividad, la cuenta de Twitter [@withDecred](https://twitter.com/withdecred) tenía alrededor de 100 000 impresiones mensuales y generó algunas buenas conversaciones (y también algo de chelín). (…) Ahora estoy pensando en cómo avanzar desde aquí con las actividades de WithDecred (web + Twitter), por el momento estoy apoyando el contenido creado por la comunidad. Si tiene algunas sugerencias, no dude en enviarme un ping [aquí](https://chat.decred.org/#/room/#proposals:decred.org) o en [Twitter](https://twitter.com/paveldcr).
 
 Cobertura de noticias por parte de Monde PR:
-- creó / lanzó 3 historias para las publicaciones financieras y criptográficas
-- respondió a 3 solicitudes de comentarios
-- aseguró 2 entrevistas con los medios
+- Creó / lanzó 3 historias para blogs criptográficos y financieros.
+- Respondió a 3 solicitudes de comentarios.
+- Aseguró 2 entrevistas con los medios.
 
 ## Eventos
 
-- 3 de febrero - [Giveaway de 5 años de Decred](https://decredcommunity.github.io/events/index/20210203.1) - Internet. El equipo de Decred en español organizó un sorteo sofisticado para conmemorar el quinto aniversario de Decred. Se otorgó un total de $ 130 en DCR para varias tareas como retweets, responder preguntas (después de buscar algunos datos de [dcrdata](https://explorer.dcrdata.org/)), responder “¿qué te gusta de Decred?” O competir en la creación de memes. Esta actividad involucró a más de 60 personas, generó más de 57 mil impresiones en Twitter, e incorporó a más de 100 seguidores en Twitter y a más de 40 usuarios de [Telegram](https://t.me/DecredES). Detalles del [reporte](https://decredcommunity.github.io/events/index/20210203.1).
-- 6 de febrero - [Blockchain, IA y Big Data](https://decredcommunity.github.io/events/index/20210206.1) - Casablanca, Marruecos. @arij y OMJD organizaron un evento para conmemorar el quinto aniversario de Decred. Hubo 3 charlas sobre aprendizaje automático, big data y blockchain. En este último, @arij habló sobre cómo se usó Decred blockchain en las elecciones municipales de Brasil. Se esperaban 20 personas, pero 40 se presentaron y ~ 500 lo vieron en vivo. Al final, hubo una pequeña celebración del aniversario (que involucró… espera, espera).
-- 9 de febrero - [Introducción y características de Decred](https://decredcommunity.github.io/events/index/20210209.1) - Internet. @ michae2xl fue invitado por Monnos (intercambio brasileño que incluyó a DCR en [enero](https://xaur.github.io/decred-news/journal/202101.html#integrations)) para presentar a Decred en un en vivo en Instagram. Junto con Rodrigo Soeiro (CEO), se dirigieron a nuevas personas en el espacio, mostraron los productos de Decred y discutieron su potencial.
-- 20 de febrero - [Consenso alternativo: Hablemos de PoS](https://decredcommunity.github.io/events/index/20210220.1) - Internet. @elian habló de todo lo relacionado con Decred con [Criptodemia](https://twitter.com/criptodemia) y [Kevin Negocios](https://twitter.com/KevinNegocios) de [Veinte Exchange](https://twitter.com/Veinte_ven) de Venezuela en una transmisión en vivo de más de una hora.
+- 3 de febrero - [Giveaway de 5 años de Decred](https://decredcommunity.github.io/events/index/20210203.1) - Internet. El equipo de Decred en español organizó un sorteo sofisticado para conmemorar el quinto aniversario de Decred. Se otorgó un total de $130 en DCR para varias tareas como retweets, responder preguntas (después de buscar algunos datos de [dcrdata](https://explorer.dcrdata.org/)), responder “¿qué te gusta de Decred?” O competir en la creación de memes. Esta actividad involucró a más de 60 personas, generó más de 57 mil impresiones en Twitter, e incorporó a más de 100 seguidores en Twitter y a más de 40 usuarios de [Telegram](https://t.me/DecredES). Detalles del [reporte](https://decredcommunity.github.io/events/index/20210203.1).
+- 6 de febrero - [Blockchain, IA y Big Data](https://decredcommunity.github.io/events/index/20210206.1) - Casablanca, Marruecos. @arij y OMJD organizaron un evento para conmemorar el quinto aniversario de Decred. Hubo 3 charlas sobre aprendizaje automático, big data y blockchain. En este último, @arij habló sobre cómo se usó Decred blockchain en las elecciones municipales de Brasil. Se esperaban 20 personas, pero 40 se presentaron y ~ 500 lo vieron en vivo. Al final, hubo una pequeña celebración del aniversario (que involucró… hold!).
+- 9 de febrero - [Introducción y características de Decred](https://decredcommunity.github.io/events/index/20210209.1) - Internet. @michae2xl fue invitado por Monnos (intercambio brasileño que incluyó a DCR en [enero](https://xaur.github.io/decred-news/journal/202101.html#integrations) para presentar a Decred en un en vivo en Instagram. Junto con Rodrigo Soeiro (CEO), se dirigieron a nuevas personas en el espacio, mostraron los productos de Decred y discutieron su potencial.
+- 20 de febrero - [Consenso alternativo: Hablemos de PoS](https://decredcommunity.github.io/events/index/20210220.1) - Internet. @elian habló de todo lo relacionado con Decred con [Criptodemia](https://twitter.com/criptodemia) y [Kevin Negocios](https://twitter.com/KevinNegocios) del exchange [Veinte](https://twitter.com/Veinte_ven) de Venezuela en una transmisión en vivo de más de una hora.
+
+![arij-aniversario-decred](../../assets/arij-decred-anniversary-2021.jpg)
 
 Próximamente:
 
-12-14 de marzo - [Hackathon Nayarit 2021](https://www.facebook.com/EduNayarit/posts/2982126628674008) - Internet. Decred en español patrocinará el hackathon organizado por el Ministerio de Educación de Nayarit. Para preparar a los participantes, el equipo español organizó la semana de capacitación sobre Blockchain Education, que consta de 5 seminarios web.
+12-14 de marzo - [Hackathon Nayarit 2021](https://www.facebook.com/EduNayarit/posts/2982126628674008) - Internet. Decred en español patrocinará el hackathon organizado por la Secretaría de Educación de Nayarit. Para preparar a los participantes, el equipo español organizó la semana de capacitación sobre Blockchain, que consta de 5 seminarios web.
 
 ## Media
 Artículos seleccionados:
 
-- Decred v1.6 con el cofundador y líder del proyecto, Jake Yocom-Piatt ([coinscrum.com](https://www.coinscrum.com/decred-with-jake-yocom-piatt/)): un video de enero reelaborado en un artículo, compara el nuevo código del fondo de tesorería con un "contacto inteligente cableado mínimamente complejo" y explica las características clave de la v1. 6 en términos simples
+- Decred v1.6 con el cofundador y líder del proyecto, Jake Yocom-Piatt ([coinscrum.com](https://www.coinscrum.com/decred-with-jake-yocom-piatt/)): un video de enero reelaborado en un artículo, compara el nuevo código del fondo de tesorería con un "contacto inteligente cableado mínimamente complejo" y explica las características clave de la v1.6 en términos simples.
 - DCRDEX fue incluido entre los mejores DEX para ver en 2021 en el [reporte](https://xangle.io/research/600a3251b7cb8c849dfa26b9) de investigación de enero de Xangle.
+
 
 ### Videos:
 
-- Actualización de Decred News - 14 de febrero - ¡Lanzamiento masivo de 1.6, vote por $ 75M DAO, LN, privacidad y más! por @Exitus ([youtube](https://www.youtube.com/watch?v=f2ooNJXpR7I))
+- Actualización de Decred News - 14 de febrero - ¡Lanzamiento masivo de 1.6, vote por $75M DAO, LN, privacidad y más! por @Exitus ([youtube](https://www.youtube.com/watch?v=f2ooNJXpR7I))
 - Tutorial de privacidad de Decred: mezcla tus monedas con @Exitus ([youtube](https://www.youtube.com/watch?v=QC65PBNwAK4))
 - Entrevista de Insaf Nori en Decred in Depth (en vivo) por @elima_iii ([youtube](https://www.youtube.com/watch?v=hUXk1GWhE-0))
-- Ser tu propio banco por Society Decentralized ([youtube](https://www.youtube.com/watch?v=Vb-9vvU0fDU))
+- Se tu propio banco por Society Decentralized ([youtube](https://www.youtube.com/watch?v=Vb-9vvU0fDU))
 - Análisis de precios de Decred - 24 de febrero de 2021 por Brave New Coin ([youtube](https://www.youtube.com/watch?v=O6iTIABl2Lw))
 
 ### Audio:
-- Rough Consensus 17: Reunión de Spidey. El coanfitrión perdido hace mucho tiempo @ mr.black vuelve a unirse al grupo para hablar sobre cripto y finanzas. ([libsyn](https://roughconsensus.libsyn.com/episode-17-spidey-reunion))
+
+- Rough Consensus 17: Reunión de Spidey. El coanfitrión perdido hace mucho tiempo @mr.black vuelve a unirse al grupo para hablar sobre cripto y finanzas. ([libsyn](https://roughconsensus.libsyn.com/episode-17-spidey-reunion))
 - Los episodios anteriores de Decred in Depth (hasta el 33) se han subido al [canal](https://www.youtube.com/decredchannel) principal de YouTube.
 
 ### Arte y diversión:
+
 - [Clip](https://twitter.com/karamblez/status/1356921573647745024) de anuncio digital Decred v1.6 de @karamble (¡prueba detectar al "taco"!)
-- [Clip](https://twitter.com/New_Copernicus/status/1357574854535487488) glitchy y ruidoso del quinto aniversario por @New_Copernicus
-- la última explicación de cómo funcionan los [atomic swaps](https://twitter.com/RichardRed0x/status/1356719226724220930) por @richardred
-- ["The Rewards"](https://www.reddit.com/r/decred/comments/lfxqef/the_rewards/) de @ AGNFAB1
+- [Clip](https://twitter.com/New_Copernicus/status/1357574854535487488) glitchy y ruidoso del quinto aniversario por @New_Copernicus.
+- la última explicación de cómo funcionan los [atomic swaps](https://twitter.com/RichardRed0x/status/1356719226724220930) por @richardred.
+- ["The Rewards"](https://www.reddit.com/r/decred/comments/lfxqef/the_rewards/) de @AGNFAB1
 - "I wish to be [irrisistible](https://twitter.com/Decred_ES/status/1358855083396653062) to men!!" 
 - Presentando a [Decred Pączki](https://twitter.com/LolekBolek74/status/1359866192538787843) (donas).
 
+![donas-decred](../../assets/donas-decred.jpg)
+
 ### Traducciones:
 
-- Actualización de Decred News 24 de enero - con subtítulos en [español](https://www.youtube.com/watch?v=Quf8u1Ksm4M) por @francov_
-- Construyendo un futuro transparente con la cadena de bloques Decred, en [árabe](https://insaf01.github.io/decred-arabic/articles/building-a-transparent-future-with-decred-blockchain.html) por @arij y @ abdulrahman4
+- Actualización de Decred News 24 de enero - con subtítulos en [español](https://www.youtube.com/watch?v=Quf8u1Ksm4M) por @francov_.
+- Construyendo un futuro transparente con la blockchain de Decred, en [árabe](https://insaf01.github.io/decred-arabic/articles/building-a-transparent-future-with-decred-blockchain.html) por @arij y @ abdulrahman4.
 - Revista Decred de enero del 2021 se [tradujo](https://xaur.github.io/decred-news/) al árabe (@arij, @ abdulrahman4), chino (@Dominic) y español (@francov_). ¡Gracias a todos por difundir las novedades de Decred!
 
 ## Discusiones de la comunidad
@@ -272,19 +279,19 @@ Recientemente, ha habido más intentos de estafar a la gente. Recuerde que los d
 
 Publicaciones seleccionadas de Reddit:
 
-- una idea para cambiar el nombre de los tickets a ["OG Tickets"](https://www.reddit.com/r/decred/comments/lj2her/og_ticket/) y llamar a su décima parte un "ticket" normal
-- una de las discusiones sobre [precios](https://www.reddit.com/r/decred/comments/llnzvu/dcr_breaking_through_all_time_high_price_usd/) se volvió inusualmente inteligente y tocó el tema del reclutamiento (lo seguimos diciendo: no solo se [buscan](https://www.reddit.com/r/decred/comments/llnzvu/dcr_breaking_through_all_time_high_price_usd/gnr3kpf/) desarrolladores)
-- DCRDEX VS [Bisq](https://www.reddit.com/r/decred/comments/ln7co5/dcrdex_vs_bisq/)
-- algunos datos interesantes sobre las [frases semillas](https://www.reddit.com/r/decred/comments/lo72lf/discussion_around_33_word_seed_vs_bip_39/) y wallets metálicas
+- una idea para cambiar el nombre de los tickets a ["OG Tickets"](https://www.reddit.com/r/decred/comments/lj2her/og_ticket/) y llamar a su décima parte un "ticket" normal.
+- una de las discusiones sobre [precios](https://www.reddit.com/r/decred/comments/llnzvu/dcr_breaking_through_all_time_high_price_usd/) se volvió inusualmente inteligente y tocó el tema del reclutamiento (lo seguimos diciendo: no solo se [buscan](https://www.reddit.com/r/decred/comments/llnzvu/dcr_breaking_through_all_time_high_price_usd/gnr3kpf/) desarrolladores).
+- DCRDEX VS [Bisq](https://www.reddit.com/r/decred/comments/ln7co5/dcrdex_vs_bisq/).
+- algunos datos interesantes sobre las [frases semillas](https://www.reddit.com/r/decred/comments/lo72lf/discussion_around_33_word_seed_vs_bip_39/) y wallets metálicas.
 
 Debates seleccionados de Twitter:
-- @ jy-p recuerda el [por qué](https://twitter.com/behindtext/status/1363118198749597698) todavía estamos aquí
-- otro [gran hilo](https://twitter.com/cburniske/status/1362146220123201536) de @cburniske
+- @jy-p recuerda el [por qué](https://twitter.com/behindtext/status/1363118198749597698) todavía estamos aquí.
+- otro [gran hilo](https://twitter.com/cburniske/status/1362146220123201536) de @cburniske.
 
-> Como alguien que ha seguido a @decredproject desde 2016, la fuerza de su comunidad, los fundamentos y la tracción del mercado hasta ahora en 2021 me ha sorprendido incluso a mí. ([@cburniske](https://twitter.com/cburniske/status/1362146231116460032))
+> Como alguien que ha seguido a @decredproject desde 2016, la fuerza de su comunidad, los fundamentos y la tracción del mercado hasta ahora en 2021 me ha sorprendido incluso a mí. ([@cburniske](https://twitter.com/cburniske/status/1362146231116460032)).
 
 ## Mercados
-En febrero, DCR cotizaba entre 66.95 y 169,90 USD / 0.0018–0.0030 BTC. El promedio de tarifa diaria fue de $113.76.
+En febrero, DCR cotizaba entre 66.95 y 169.90 USD / 0.0018–0.0030 BTC. El promedio de tarifa diaria fue de $113.76.
 
 @Checkmate publicó un [mega](https://twitter.com/_Checkmatey_/status/1358968202898755584) hilo en on-chain con muchos (¿todos?) Indicadores en ATH. Predicción del 9 de febrero "Me sorprendería que el tren se ralentizara desde aquí, ¡simplemente no está en su carácter!" era correcto.
 
@@ -293,19 +300,19 @@ Se han [observado](https://twitter.com/_Checkmatey_/status/1363709306885922826) 
 [DCRDEX](https://dex.decred.org/) ha negociado 390 000 DCR y 1 000 en BTC en febrero, con un promedio de 14 000 DCR y 36 BTC diarios. El precio varió entre 0.0019 y 0.0030 con un promedio de 0.0026.
 
 ## Noticias Relevantes
-Yearn Finance fue el [fracaso](https://cryptobriefing.com/hacker-spends-8-3-million-fees-attack-yearn-finance/) DeFi más grande de febrero, con un ataque de préstamo flash que explotó a sus usuarios por $ 11 millones. En un desarrollo interesante para este tipo de ataque, la mayoría de los fondos explotados se pagaron en [tarifas](https://twitter.com/FrankResearcher/status/1357639434380992512) a varios pools de liquidez y servicios de staking, con solo $ 2.7 millones terminando en la wallet del atacante, y el resto presumiblemente alimentando la economía de DeFi. Las víctimas del ataque han sido [compensadas](https://twitter.com/iearnfinance/status/1359108691677614080) con el nuevo pool de fondos del la tesorería de YFI que se acuñaron recientemente: dentro de los 4 días posteriores al ataque, el equipo de Yearn pudo movilizar 9,7 millones de DAI para distribuir, y no se requirió una votación simbólica. YFI y Hacienda están actualmente bajo el control directo de los forks Multifirma, y ​​ese “empoderamiento” se [extiende](https://gov.yearn.finance/t/yip-59-temporarily-extend-multisig-empowerment/9746) hasta el 24 de mayo.
+Yearn Finance fue el [fracaso](https://cryptobriefing.com/hacker-spends-8-3-million-fees-attack-yearn-finance/) DeFi más grande de febrero, con un ataque de préstamo flash que explotó a sus usuarios por $11 millones. En un desarrollo interesante para este tipo de ataque, la mayoría de los fondos explotados se pagaron en [tarifas](https://twitter.com/FrankResearcher/status/1357639434380992512) a varios pools de liquidez y servicios de staking, con solo $2.7 millones terminando en la wallet del atacante, y el resto presumiblemente alimentando la economía de DeFi. Las víctimas del ataque han sido [compensadas](https://twitter.com/iearnfinance/status/1359108691677614080) con el nuevo pool de fondos del la tesorería de YFI que se acuñaron recientemente: dentro de los 4 días posteriores al ataque, el equipo de Yearn pudo movilizar 9,7 millones de DAI para distribuir, y no se requirió una votación simbólica. YFI y Hacienda están actualmente bajo el control directo de los forks Multifirma, y ​​ese “empoderamiento” se [extiende](https://gov.yearn.finance/t/yip-59-temporarily-extend-multisig-empowerment/9746) hasta el 24 de mayo.
 
 Yearn Finance también está [modificando](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929) [significativamente](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929) su modelo de financiación de su tesorería y la gobernanza, los cambios importantes incluyen eliminar el staking de YFI debido a su rendimiento no competitivo y, en su lugar, cambiar a un modelo de recompra y permitir que los forks de YFI que han implementado sus tokens en un pool de liquidez también los utilicen al votar.
 
 Los desarrolladores de Bitcoin están en el [proceso](https://twitter.com/AndreCronjeTech/status/1359934584612212738) de decidir cómo se debe activar la actualización de [Taproot](https://bitcoinmagazine.com/technical/taproot-coming-what-it-and-how-it-will-benefit-bitcoin), y el punto de discusión es si la actualización de Bitcoin Core debe enviarse con una configuración que la active al final del período de señalización, independientemente de si el umbral de supermayoría es conocido (como el Soft Fork activado por el usuario) o adopte un enfoque más cauteloso y evite forzar el problema inicialmente. La señalización de mineros para el mes hasta el 2 de marzo mostró un 89% de apoyo para Taproot de los pools de acuerdo con su tasa de hash. Además, Poolin contribuyó con un esfuerzo de consenso [compilando](https://taprootactivation.com/) el sentimiento de los pools y los métodos de activación preferidos.
 
-El Fiscal General de Nueva York llegó a un acuerdo sobre los cargos contra Tether y Bitfinex, en el que la empresa [pagó]((https://www.reuters.com/article/new-york-ifinex-settlement/bitfinex-tether-owner-pays-18-5-mln-fine-to-settle-nyag-cryptocurrency-cover-up-charges-idUSL1N2KT16E)) una multa de 18,5 millones de dólares, así evitó tener que admitir cualquier irregularidad.
+El Fiscal General de Nueva York llegó a un acuerdo sobre los cargos contra Tether y Bitfinex, en el que la empresa [pagó]((https://www.reuters.com/article/new-york-ifinex-settlement/bitfinex-tether-owner-pays-18-5-mln-fine-to-settle-nyag-cryptocurrency-cover-up-charges-idUSL1N2KT16E)) una multa de 18.5 millones de dólares, así evitó tener que admitir cualquier irregularidad.
 
 El Banco Central de Nigeria se ha movido para recordar a los bancos que “está prohibido comerciar con criptomonedas o facilitar pagos para intercambios de criptomonedas” y les [ordenó](https://www.coindesk.com/nigerias-central-bank-orders-banks-to-close-accounts-of-all-crypto-users) cerrar las cuentas de todas las personas y entidades que comercien con criptomonedas.
 
 La Reserva Federal de EE. UU. Experimentó un problema con su sistema de transferencia interbancaria que afectó el servicio durante horas. Esto sucedió poco después de que la secretaria del Tesoro de Estados Unidos, Janet Yellen, [advirtiera](https://www.cnbc.com/2021/02/22/yellen-sounds-warning-about-extremely-inefficient-bitcoin.html) que Bitcoin es "extremadamente ineficiente" y representa un riesgo para los inversores.
 
-@notsofast pide con insistencia a todos a aprender de sus [errores](https://cryptonews.com/news/trader-s-lesson-why-you-shouldn-t-keep-large-amounts-of-cry-9302.htm) que lo han llevado a perder ~ $ 100 000 en criptomonedas en una brecha de seguridad: obtenga un buen administrador de contraseñas, use una wallet de hardware, aísle extensiones de navegador peligrosas como Metamask en perfiles o dispositivos de navegador separados.
+@notsofast pide con insistencia a todos a aprender de sus [errores](https://cryptonews.com/news/trader-s-lesson-why-you-shouldn-t-keep-large-amounts-of-cry-9302.htm) que lo han llevado a perder ~ $100 000 en criptomonedas en una brecha de seguridad: obtenga un buen administrador de contraseñas, use una wallet de hardware, aísle extensiones de navegador peligrosas como Metamask en perfiles o dispositivos de navegador separados.
 
 ## Sobre esta edición
 Este es la edición #35 de la Revista Decred, un índice de todos los números originales y traducciones se encuentran disponibles [aquí](https://xaur.github.io/decred-news/).
@@ -314,15 +321,12 @@ La mayoría de la información de terceros se transmite directamente desde la fu
 
 Puedes enviar una historia [aquí](https://github.com/xaur/decred-news/labels/next%20release) para ser considerada para el próximo número. Los [comentarios](https://github.com/xaur/decred-news/blob/docs/contributing.md#feedback) y las [contribuciones](https://github.com/xaur/decred-news/blob/docs/contributing.md) siempre son bienvenidas.
 
-Créditos:
+## Créditos:
 
-Redacción y edición: bee, degeri, l1ndseymm, richardred
-
-Revisión y comentarios: davecgh, jholdstock, peter_zen
-
-Imagen de portada: saender.
-
-Fondeado por: los stakeholders de Decred 
+- Redacción y edición: bee, degeri, l1ndseymm, richardred
+- Revisión y comentarios: davecgh, jholdstock, peter_zen
+- Imagen de portada: saender.
+- Fondeado por: los stakeholders de Decred 
 
 
 
