@@ -27,13 +27,13 @@ Todavía hay algunas asperezas en el nuevo VSP + combo mixing, consulta esta [pu
 Para ponerte al día con las actualizaciones de Decrediton, consulta los tutoriales rápidos en vídeo de [mixing](https://youtu.be/QC65PBNwAK4)  y [staking](https://youtu.be/olWfTqw16OQ) de @Exitus.
 
 ## ¡Vota por un nuevo consenso!
-La votación para activar la nueva tesorería descentralizada comenzó el 12 de marzo y se extenderá hasta el 9 de abril.
+La votación para activar la descentralización del fondo de tesorería comenzó el 12 de marzo y se extenderá hasta el 9 de abril.
 
-Para informarse, lea la [propuesta](https://proposals.decred.org/proposals/c96290a) original, la [especificación](https://github.com/decred/dcps/blob/master/dcp-0006/dcp-0006.mediawiki) técnica o puede ver la [explicación](https://youtu.be/BdTLKAassvc) de @matheusd (comienza alrededor del minuto 14).
+Para informarte, lee la [propuesta](https://proposals.decred.org/proposals/c96290a) original, la [especificación](https://github.com/decred/dcps/blob/master/dcp-0006/dcp-0006.mediawiki) técnica o puedes ver la [explicación](https://youtu.be/BdTLKAassvc) de @matheusd (comienza alrededor del minuto 14).
 
-Si aún no ha establecido sus preferencias de voto, porfavor [hágalo ahora](https://www.reddit.com/r/decred/comments/lu1af0/psa_upcoming_decentralized_treasury_consensus/) para que se emita el voto que desee cuando cualquiera de sus tickets vote. La identificación correcta para el nuevo voto es `tesorería`.
+Si aún no has establecido tus preferencias de voto, porfavor [házlo ahora](https://www.reddit.com/r/decred/comments/lu1af0/psa_upcoming_decentralized_treasury_consensus/) para que se emita el voto que desese cuando cualquiera de sus tickets vote. La identificación correcta para el nuevo voto es `treasury`.
 
-Para ver cómo se [desarrolla](https://voting.decred.org/) la votación, vea el panel de votación o la [visualizarlo](https://explorer.dcrdata.org/agenda/treasury) en dcrdata.
+Para ver cómo se [desarrolla](https://voting.decred.org/) la votación, visita el [panel de votación](https://voting.decred.org/) o la [visualización en dcrdata](https://explorer.dcrdata.org/agenda/treasury) en dcrdata.
 
 ## Desarrollo
 
