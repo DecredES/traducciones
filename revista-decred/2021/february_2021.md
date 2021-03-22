@@ -1,15 +1,20 @@
-Lo más destacado de febrero:
+# Revista Decred — Febrero 2021
 
+![l2](../../assets/revista-02-2021.png)
+L2 by @saender
 
-- Se lanzó el software v1.6.1, agrega correcciones de errores y mejoras de UX a la versión 1.6
+## Lo más destacado de febrero:
 
-- Se alcanzaron los umbrales de actualización de PoW y PoS, pero no antes de que se lanzara una política de votación de tickets que obliga a los mineros a actualizar
+- Se lanzó el software v1.6.1, agrega correcciones de errores y mejoras de UX.
 
-- La participación de PoS alcanzó nuevas alturas y el porcentaje de DCR mixto aumentó del 31% al 38%
+- Se alcanzaron los umbrales de actualización de PoW y PoS, pero no antes de que se lanzara una política de votación de tickets que obliga a los mineros a actualizar.
 
-- Kohola, un front-end para dcrwallet dirigido a usuarios expertos, fue introducido y lanzado
+- La participación de PoS alcanzó nuevas alturas y el porcentaje de DCR mixto aumentó del 31% al 38%.
 
-- Las propuestas de La revista Decred y Open Source Research 2021 fueron aprobadas por votación de los stakeholders
+- Kohola, un front-end para dcrwallet dirigido a usuarios expertos, fue introducido y lanzado.
+
+- Las propuestas de La revista Decred e Investigación abierta para el 2021 fueron aprobadas por votación de los stakeholders
+
 
 ## Versión del patch v1.6.1
 
