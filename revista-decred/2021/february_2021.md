@@ -31,9 +31,9 @@ La votación para activar la descentralización del fondo de tesorería comenzó
 
 Para informarte, lee la [propuesta](https://proposals.decred.org/proposals/c96290a) original, la [especificación](https://github.com/decred/dcps/blob/master/dcp-0006/dcp-0006.mediawiki) técnica o puedes ver la [explicación](https://youtu.be/BdTLKAassvc) de @matheusd (comienza alrededor del minuto 14).
 
-Si aún no has establecido tus preferencias de voto, porfavor [házlo ahora](https://www.reddit.com/r/decred/comments/lu1af0/psa_upcoming_decentralized_treasury_consensus/) para que se emita el voto que desese cuando cualquiera de sus tickets vote. La identificación correcta para el nuevo voto es `treasury`.
+Si aún no has establecido tus preferencias de voto, porfavor [házlo ahora](https://www.reddit.com/r/decred/comments/lu1af0/psa_upcoming_decentralized_treasury_consensus/) para que se emita el voto que desees cuando cualquiera de sus tickets vote. La identificación correcta para el nuevo voto es `treasury`.
 
-Para ver cómo se [desarrolla](https://voting.decred.org/) la votación, visita el [panel de votación](https://voting.decred.org/) o la [visualización en dcrdata](https://explorer.dcrdata.org/agenda/treasury) en dcrdata.
+Para ver cómo se [desarrolla](https://voting.decred.org/) la votación, visita el [panel de votación](https://voting.decred.org/) o la [visualización](https://explorer.dcrdata.org/agenda/treasury) en dcrdata.
 
 ## Desarrollo
 
