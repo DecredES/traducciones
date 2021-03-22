@@ -16,15 +16,15 @@ L2 by @saender
 - Las propuestas de La revista Decred e Investigación abierta para el 2021 fueron aprobadas por votación de los stakeholders
 
 
-## Versión del patch v1.6.1
+## Lanzamiento del parche para v1.6.1
 
 La nueva [versión](https://twitter.com/decredproject/status/1364636813168693252?s=21) incluye correcciones de errores y mejoras de UX para dcrd, dcrwallet, Decrediton y dcrdex. La mayoría de los cambios han abordado problemas con la nueva participación de VSP y cómo funciona junto con la mezcla. Es importante destacar que permite a los usuarios de Decrediton establecer opciones de voto por consenso con VSP tanto heredado como nuevo.
 
-Puede descargar y obtener las notas actualizadas [aquí](https://github.com/decred/decred-binaries/releases/tag/v1.6.1), o bien leer la descripción general comprimida de los cambios en las secciones siguientes. Como siempre, respete el ritual de [verificación de firmas](https://docs.decred.org/advanced/verifying-binaries/) para asegurarse de ejecutar exactamente lo que empaquetaron los desarrolladores.
+Puedes descargar y obtener las notas actualizadas [aquí](https://github.com/decred/decred-binaries/releases/tag/v1.6.1), o bien leer la descripción general comprimida de los cambios en las secciones siguientes. Como siempre, respeta el ritual de [verificación de firmas](https://docs.decred.org/advanced/verifying-binaries/) para asegurarte de ejecutar exactamente lo que empaquetaron los desarrolladores.
 
-Todavía hay algunas asperezas en el nuevo VSP + combo mixing, consulte esta [publicación](https://www.reddit.com/r/decred/comments/m3k31o/161_things_ive_learned/) de u / mowmowbeans para conocer las soluciones.
+Todavía hay algunas asperezas en el nuevo VSP + combo mixing, consulta esta [publicación](https://www.reddit.com/r/decred/comments/m3k31o/161_things_ive_learned/) de u/mowmowbeans para conocer las soluciones.
 
-Para ponerse al día con las actualizaciones de Decrediton, consulte los tutoriales rápidos en vídeo de [mixing](https://youtu.be/QC65PBNwAK4)  y [staking](https://youtu.be/olWfTqw16OQ) de @Exitus.
+Para ponerte al día con las actualizaciones de Decrediton, consulta los tutoriales rápidos en vídeo de [mixing](https://youtu.be/QC65PBNwAK4)  y [staking](https://youtu.be/olWfTqw16OQ) de @Exitus.
 
 ## ¡Vota por un nuevo consenso!
 La votación para activar la nueva tesorería descentralizada comenzó el 12 de marzo y se extenderá hasta el 9 de abril.
