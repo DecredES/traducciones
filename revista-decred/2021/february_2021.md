@@ -1,7 +1,7 @@
 # Revista Decred — Febrero 2021
 
 ![l2](../../assets/revista-02-2021.png)
-L2 by @saender
+L2 por @saender
 
 ## Lo más destacado de febrero:
 
@@ -166,7 +166,7 @@ Las instantáneas son demasiado volátiles, así que compára en cómo se han di
 - F2Pool 6% 
 - Luxor 1.5% 
 - Huobipool 0.4%
-- unknown 11%.
+- otros 11%.
 
 El hashrate informado de UUPool ha caído desde el punto superior al inferior y parece que sus mineros han migrado a Antpool y F2Pool. También aparecen nuevas direcciones no identificadas.
 
