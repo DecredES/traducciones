@@ -68,24 +68,25 @@ También podemos ver hacia dónde fluye ese DCR, y en este caso hay dos direccio
 ### Visualización de red para clúster DsiD
 
 ## 2 - Dsnx
-Este clúster se inició en julio de 2019 y todavía está activo, ha recibido 695 000 DCR en recompensas mineras por la extracción de 38,923 bloques. Este pool controla 19 direcciones, un número mucho menor que el pool considerado anteriormente, probablemente porque este mismo tiene un propósito diferente.
+Este clúster se inició en julio de 2019 y todavía está activo, ha recibido 695 000 DCR en recompensas mineras por la extracción de 38 923 bloques. Este pool controla 19 direcciones, un número mucho menor que el pool considerado anteriormente, probablemente porque este mismo tiene un propósito diferente.
 
-*Tabla
+![balance-de-Dsnx](./assets/analisis-blockchain-decred-2-balance-Dsnx.png)
 
-### Equilibrio DCR del clúster Dsnx
+### Balance en DCR del clúster Dsnx
 
-*Tabla
+![balance-cluster-Dsnx-en-dcr](./assets/analisis-blockchain-decred-2-flows-Dsnx.png)
 
 ### DCR que fluye hacia / desde el clúster Dsnx
 
-*Tabla
+![distribucion-del-gasto-dsnx](./assets/analisis-blockchain-decred-2-outputs-distribution-Dsnx.png)
 
 ### Distribución de salidas DCR entre direcciones externas
 El DCR se mueve de manera constante a través de lo que parece una infraestructura de pool, con pagos a 32 direcciones, pero casi todo (~ 97%) va directamente a una dirección (DsUb). Las otras direcciones parecen direcciones de cambio (exchange), por lo que el propósito de este clúster es simplemente pasar el DCR extraído a DsUb (que se considera a continuación).
 
-*Tabla
+![red-cluster-dsnx](./assets/analisis-blockchain-decred-2-cluster-Dsnx-using-layout-stress-rows-5000.png)
 
 ### Visualización de red para clúster Dsnx
+
 ## 3 - DsSW
 El pool alrededor de esta dirección, que comenzó a minar a mediados de 2018, es bastante diferente, porque este minero apuesta algo de DCR. Más específicamente, este minero extrajo 45,960 bloques y compró 622 tickets, a partir de junio de 2019 y continúa presentando.
 
