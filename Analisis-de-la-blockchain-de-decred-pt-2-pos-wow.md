@@ -21,6 +21,15 @@ Para empezar, tomé todas las recompensas de PoW para este período y rastreé s
 Hubo 192 direcciones que recibieron las recompensas de PoW directamente del coinbase, y estas a su vez enviaron DCR recién acuñado a 242 226 direcciones. El el proceso típico sería que la transacción del coinbase acuñe DCR a una dirección que el grupo siempre usa (las 192 mencionadas), luego el grupo realiza las transacciones que envían este DCR a los participantes del grupo, pero existe una variación considerable en cómo los grupos gestionan este proceso.
 
 ![histograma-direcciones](./assets/analisis-blockchain-decred-2-pow-address-histogram.png)
+Histograma que muestra la distribución de recompensas de PoW hacia las direcciones
+
+Ejecuté mi código de agrupación en este conjunto de direcciones que recibieron recompensas de PoW en la etapa 0 o 1, los pasos son: tomar una dirección, buscar todas sus entradas comunes a las transacciones, compras de tickets y cualquier dirección adicional, repitir durante algunos ciclos hasta que deje de buscar nuevas direcciones y lo almacene todo en la base de datos.
+
+He seleccionado los grupos para ver con más detalle según la cantidad de recompensas de PoW obtenidas desde 2019, los 5 primeros en términos de destinatarios directos del coinbase (¡no creerá el número 3!), que debería cubrir los grupos de minería, y el top 5 en términos de DCR recibido de las transacciones de coinbase (debería cubrir a los mineros que usan grupos).
+
+Inicialmente, busqué separar los grupos y los mineros desde el principio, pero la presencia de mineros en solitario y algunas variaciones en la forma en que los grupos administran los pagos hizo que fuera un poco complicado diferenciarlos con solo mirar las métricas básicas. Entonces, el plan es hablar sobre el proceso de cómo averiguar cuál es cuál usando los datos, ya que eso también debería ser más instructivo para los lectores.
+
+> Importante: Los clústeres se seleccionan en función de las recompensas mineras a partir del 2019, pero una vez que se identificaron los clústeres, utilicé los datos históricos completos para compilar su información resumida.
 
 ## Vista de la red
 Mirar tablas de direcciones y hashes de transacciones y tratar de seguir un flujo entre estos es difícil para la mente, por lo que en algunas ocasiones he buscado métodos para visualizar estas redes. Los métodos convencionales para extraer los nodos y los bordes de una red no se adaptan bien al tamaño de estos grupos. La mayoría de las veces, cuando pruebo uno de estos, golpea mi máquina durante horas antes de fallar o me rindo y lo dejo. Cuando los gráficos se dibujan, generalmente son incomprensibles.
