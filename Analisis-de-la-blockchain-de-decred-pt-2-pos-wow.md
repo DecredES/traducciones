@@ -104,7 +104,7 @@ Poniendo esto junto al balance, parece que el clúster se ha convertido en un mi
 ![red-dssw](./assets/analisis-blockchain-decred-2-cluster-DsSW-layout-kk-rows-20000.png)
 
 ### Visualización de red para clúster DsSW
-El período cubierto por este gráfico es antes de que el clúster comenzara a replantear, pero consulte el final del informe para ver un gráfico que muestra un clúster de apuestas y votaciones.
+El período cubierto por este gráfico es antes de que el clúster comenzara a participar en staking, pero consulta el final del informe para ver un gráfico que muestra un clúster de staking y votaciones.
 
 Este clúster tiene muchas salidas que llegan a direcciones de exchanges conocidas y, a diferencia de los clústeres anteriores, suman cantidades significativas de DCR (45 000 a Binance, 34 000 a Bittrex, 19 000 a Poloniex).
 
