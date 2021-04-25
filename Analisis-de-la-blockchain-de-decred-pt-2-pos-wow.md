@@ -88,17 +88,20 @@ El DCR se mueve de manera constante a través de lo que parece una infraestructu
 ### Visualización de red para clúster Dsnx
 
 ## 3 - DsSW
-El pool alrededor de esta dirección, que comenzó a minar a mediados de 2018, es bastante diferente, porque este minero apuesta algo de DCR. Más específicamente, este minero extrajo 45,960 bloques y compró 622 tickets, a partir de junio de 2019 y continúa presentando.
+El pool alrededor de esta dirección, que comenzó a minar a mediados de 2018, es bastante diferente, porque este minero participa en la votación de DCR. Más específicamente, este minero extrajo 45 960 bloques y compró 622 tickets, a partir de junio de 2019 y continúa presente.
 
-*Tabla
+![balance-dcr-votacion-cluster-dssw](./assets/analisis-blockchain-decred-2-DsSW-plot.png)
 
-### Saldo DCR y votación del clúster DsSW
+### Balance en DCR y votación del clúster DsSW
+
 He creado un conjunto de scripts que recopilan datos de votación para cualquier ticket asociado con un pool. En este caso, el segundo panel no es interesante porque el stakeholder no votó sobre las propuestas de Politeia, y el tercero muestra que no configuraron su billetera para votar en ninguna de las propuestas de la agenda de DCP para implementar reglas de consenso que cambian las actualizaciones de la red. 
 
-*Tabla
+![dcr-entradas-salidas-dcr-dssw](./assets/analisis-blockchain-decred-2-flows-DsSW.png)
 
-### DCR que fluye hacia / desde el clúster DsSW
-Poniendo esto junto al saldo, parece que el clúster se ha convertido en un minero menos importante en 2020, pero siguen apostando algo de DCR.
+### Flujo de salidas y entradas de DCR en el clúster DsSW
+Poniendo esto junto al balance, parece que el clúster se ha convertido en un minero menos importante en 2020, pero siguen participando con algo en el staking de DCR.
+
+![red-dssw](./assets/analisis-blockchain-decred-2-cluster-DsSW-layout-kk-rows-20000.png)
 
 ### Visualización de red para clúster DsSW
 El período cubierto por este gráfico es antes de que el clúster comenzara a replantear, pero consulte el final del informe para ver un gráfico que muestra un clúster de apuestas y votaciones.
