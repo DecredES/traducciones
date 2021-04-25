@@ -48,24 +48,25 @@ La visualización de redes es una adición reciente a mi conjunto de herramienta
 ### 1 - DsiD
 Este clúster se vio por primera vez en enero de 2019 y todavía estaba activo en enero de 2021, recibió 987 000  de recompensas de PoW por la extracción de 53,766 bloques. El grupo controla 1.109 direcciones, hay la principal que recibe recompensas PoW y las otras son direcciones de cambio de transacciones de pago, el cambio se repite para usarse con pagos adicionales.
 
-*Tabla
+![balance-DsiD](./assets/analisis-blockchain-decred-2-balance-DsiD.png)
 
-### Equilibrio del clúster DsiD
-El saldo de las direcciones de este clúster nunca es demasiado grande. Otro indicador útil de lo que está haciendo el clúster es observar la regularidad de su comportamiento. Los comportamientos muy regulares que se repiten durante meses o años son un signo de automatización.
+### Balance en DCR del clúster DsiD
+El balance de las direcciones de este clúster nunca fué demasiado grande. Otro indicador útil de lo que está haciendo el clúster es observar la regularidad de su comportamiento. Los comportamientos muy regulares que se repiten durante meses o años son un signo de automatización.
 
-*Tabla
+![flujo-entrada-salida-DsiD](./assets/analisis-blockchain-decred-2-flows-DsiD.png)
 
-### DCR fluyendo hacia / desde el cluster DsiD
+### Flujo de entrada y salid de DCR para el cluster DsiD
 La cantidad de DCR que se extrae y se mueve fuera del clúster cada día es similar, lo que sugiere que se trata de un pool de minería, el más grande que opera actualmente en la red de DCR.
 
-*Tabla
+![distribucion-salidas-drc](./assets/analisis-blockchain-decred-2-outputs-distribution-DsiD.png)
 
-### Distribución de salidas DCR entre direcciones externas
+### Distribución de las salidas (gasto) de DCR hacia direcciones externas
 También podemos ver hacia dónde fluye ese DCR, y en este caso hay dos direcciones que han recibido alrededor de 200 000 DCR del pool, con otras dos que han recibido 40 000-50 000 DCR. El destinatario más grande (DsgK) aparece a continuación en el número 3 en la lista de los 5 principales mineros de pools.
 
-*Tabla
+![cluster-DsiD](./assets/analisis-blockchain-decred-2-cluster-DsiD-layout-stress-rows-20000.png)
 
 ### Visualización de red para clúster DsiD
+
 ## 2 - Dsnx
 Este clúster se inició en julio de 2019 y todavía está activo, ha recibido 695 000 DCR en recompensas mineras por la extracción de 38,923 bloques. Este pool controla 19 direcciones, un número mucho menor que el pool considerado anteriormente, probablemente porque este mismo tiene un propósito diferente.
 
