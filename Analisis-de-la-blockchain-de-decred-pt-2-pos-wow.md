@@ -16,11 +16,11 @@ Si bien todavía planeo escribir este tipo de historiales detallados, hay un lar
 El primero de estos informes analiza a los principales mineros de 2019-2020 (firmemente la era ASIC), para demostrar algunas de las herramientas que he desarrollado y ver qué tipo de imagen podemos dibujar con los análisis disponibles. Detuve la recopilación de datos para este informe el 9 de enero del 2021.
 
 ## Conociendo a los mineros
-Para empezar, tomé todas las recompensas de PoW para este período y rastreé su flujo durante 2 saltos, esto debería cubrir el salto 0 (recompensa de bloque) al salto 1 (para grupos, a menudo un pago de grupo o movimiento interno antes), en el salto 2.
+Para empezar, tomé todas las recompensas de PoW para este período y rastreé su flujo durante 2 estapas, esto debería cubrir la etapa 0 (recompensa de bloque) a la etapa 1 (para grupos, a menudo un pago de grupo o movimiento interno predecesor), en la etapa 2.
 
-Ha habido 192 direcciones que recibieron recompensas de PoW directamente de la base de monedas, y estas a su vez enviaron DCR recién acuñado a 242,226 direcciones. El arreglo típico sería que la transacción de coinbase acuñe DCR a una dirección que el grupo siempre usa (la 192), luego el grupo realiza transacciones que envían este DCR a los participantes, pero existe una variación considerable en cómo los grupos gestionan este proceso, ya que veremos.
+Hubo 192 direcciones que recibieron las recompensas de PoW directamente del coinbase, y estas a su vez enviaron DCR recién acuñado a 242 226 direcciones. El el proceso típico sería que la transacción del coinbase acuñe DCR a una dirección que el grupo siempre usa (las 192 mencionadas), luego el grupo realiza las transacciones que envían este DCR a los participantes del grupo, pero existe una variación considerable en cómo los grupos gestionan este proceso.
 
-*Tabla
+![histograma-direcciones](./assets/analisis-blockchain-decred-2-pow-address-histogram.png)
 
 ## Vista de la red
 Mirar tablas de direcciones y hashes de transacciones y tratar de seguir un flujo entre estos es difícil para la mente, por lo que en algunas ocasiones he buscado métodos para visualizar estas redes. Los métodos convencionales para extraer los nodos y los bordes de una red no se adaptan bien al tamaño de estos grupos. La mayoría de las veces, cuando pruebo uno de estos, golpea mi máquina durante horas antes de fallar o me rindo y lo dejo. Cuando los gráficos se dibujan, generalmente son incomprensibles.
