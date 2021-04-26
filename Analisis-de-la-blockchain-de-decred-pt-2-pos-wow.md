@@ -150,6 +150,7 @@ Grandes picos en el flujo de entrada indican que alguien envió DCR al clúster 
 Este grupo tiene visitas en los 3 exchanges, pero tiene una preferencia por Binance, con 11 000 DCR yendo allí, y menos de 2 000 para los otros dos.
 
 ## Hop 1 Top 5 - Mineros en la piscina
+
 ### 1 - DsUb
 Este clúster comenzó a mediados de 2018, todavía está activo y hasta ahora ha recibido 526 000 DCR un salto de la transacción de coinbase (la fuente es el segundo clúster anterior: 2 - Dsnx).
 
