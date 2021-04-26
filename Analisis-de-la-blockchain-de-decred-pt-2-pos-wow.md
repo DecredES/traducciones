@@ -131,20 +131,20 @@ Esto parece ser un minero en solitario que usa la infraestructura del pool, solo
 ## 5 - DscM
 Este clúster recibió 160 000 DCR, a partir de septiembre de 2019 y aún está activo. Aunque el clúster compró 22 tickets, también parece funcionar como un pool de minería, con salidas bastante consistentes a un rango de direcciones.
 
-*Tabla
+![balance-en-dcr-del-cluster-dscm](./assets/analisis-blockchain-decred-2-DscM-plot.png)
 
-### Saldo DCR y votación del clúster DscM
+### Balance en DCR y votación del clúster DscM
 
-*Tabla
+![flujo-de-dcr-entradas-salidas](./assets/analisis-blockchain-decred-2-flows-DscM.png)
 
-## DCR que fluye hacia / desde el clúster DscM
+## Flujo de entradas y salidas de DCR para el clúster de DscM
 Grandes picos en el flujo de entrada indican que alguien envió DCR al clúster más allá del que estaba extrayendo.
 
-*Tabla
+![distribucion-salidas-del-cluster-dscm](./assets/analisis-blockchain-decred-2-outputs-distribution-DscM.png)
 
-## Distribución de productos para el clúster DscM
+## Distribución de las salidas (gasto) para el clúster DscM
 
-*Tabla
+![red-cluster-dscm](./assets/analisis-blockchain-decred-2-cluster-DscM-using-layout-fr-rows-2000.png)
 
 ### Visualización de red para clúster DscM
 Este grupo tiene visitas en los 3 exchanges, pero tiene una preferencia por Binance, con 11 000 DCR yendo allí, y menos de 2 000 para los otros dos.
