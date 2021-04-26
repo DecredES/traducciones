@@ -2,6 +2,8 @@
 
 ![portada]()
 
+> Artículo original (inglés): [Decred Blockchain Analysis - Part 2 PoW wow](https://blockcommons.org/post/dcr-on-chain-2/)
+
 ## Enredandonos en la blockchain de Decred
 Desde [el primer informe](https://blockcommons.org/post/dcr-on-chain-1/) sobre los datos de la blockchain de Decred, hemos descendido a sus profundidades en un esfuerzo por comprender lo que podemos aprender más sobre la red. Este trabajo ha progresado en tres direcciones que se superponen de la siguiente manera:
 
