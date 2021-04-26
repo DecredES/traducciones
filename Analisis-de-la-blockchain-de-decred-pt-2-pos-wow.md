@@ -111,22 +111,23 @@ Este clúster tiene muchas salidas que llegan a direcciones de exchanges conocid
 ## 4 - Dsju
 Este clúster recibió 202 000 DCR en recompensas de minería de la etapa 0, a partir de marzo de 2019 y aún continúa.
 
-![balance-cluster-dsju](./assets/analisis-blockchain-decred-2-balance-Dsju)
+![balance-cluster-dsju](./assets/analisis-blockchain-decred-2-balance-Dsju.png)
 
 ### Balance de DCR en el clúster Dsju
 
-![dcr-](./assets/analisis-blockchain-decred-2-flows-Dsju.png)
+![dcr-flujo-entrada-salida-cluster-dsju](./assets/analisis-blockchain-decred-2-flows-Dsju.png)
 
 ### Flujo de entradas y salidas de DCR en el clúster Dsju
 
-*Tabla
+![distribucion-salidas-cluster-dsju](./assets/analisis-blockchain-decred-2-outputs-distribution-Dsju.png)
 
-### Distribución de productos para el clúster Dsju
-Esto parece un minero en solitario que usa la infraestructura del pool, solo hay una dirección que ha recibido DCR de este clúster (DsVy): el minero realiza retiros periódicos cuando el saldo alcanza unos pocos miles.
+### Distribución de salidas para el clúster Dsju
+Esto parece ser un minero en solitario que usa la infraestructura del pool, solo hay una dirección que ha recibido DCR de este clúster (DsVy): el minero realiza retiros periódicos cuando el saldo alcanza unos pocos miles.
 
-*Tabla
+![red-cluster-dsju](./assets/analisis-blockchain-decred-2-cluster-Dsju-using-layout-kk-rows-2000.png)
 
 ### Visualización de red para clúster Dsju
+
 ## 5 - DscM
 Este clúster recibió 160 000 DCR, a partir de septiembre de 2019 y aún está activo. Aunque el clúster compró 22 tickets, también parece funcionar como un pool de minería, con salidas bastante consistentes a un rango de direcciones.
 
