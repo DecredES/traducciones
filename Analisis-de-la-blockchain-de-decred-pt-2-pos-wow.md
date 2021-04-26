@@ -109,15 +109,15 @@ El período cubierto por este gráfico es antes de que el clúster comenzara a p
 Este clúster tiene muchas salidas que llegan a direcciones de exchanges conocidas y, a diferencia de los clústeres anteriores, suman cantidades significativas de DCR (45 000 a Binance, 34 000 a Bittrex, 19 000 a Poloniex).
 
 ## 4 - Dsju
-Este clúster recibió 202 000 DCR en recompensas de minería del salto 0, a partir de marzo de 2019 y aún continúa.
+Este clúster recibió 202 000 DCR en recompensas de minería de la etapa 0, a partir de marzo de 2019 y aún continúa.
 
-*Tabla
+![balance-cluster-dsju](./assets/analisis-blockchain-decred-2-balance-Dsju)
 
-### Equilibrio DCR del clúster Dsju
+### Balance de DCR en el clúster Dsju
 
-*Tabla 
+![dcr-](./assets/analisis-blockchain-decred-2-flows-Dsju.png)
 
-### DCR que fluye hacia / desde el clúster Dsju
+### Flujo de entradas y salidas de DCR en el clúster Dsju
 
 *Tabla
 
